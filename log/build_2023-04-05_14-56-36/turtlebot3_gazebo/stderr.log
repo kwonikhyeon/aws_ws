@@ -1,0 +1,6 @@
+CMake Error at cmake_install.cmake:61 (file):
+  file INSTALL cannot make directory
+  "/home/ik/aws_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/test_sim":
+  Operation not supported.
+
+

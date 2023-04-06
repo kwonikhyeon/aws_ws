@@ -1,0 +1,431 @@
+[0.270s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.270s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f84830990d0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f84830990d0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f8483099610>)
+[0.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.297s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ik/aws_ws'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/aws-robomaker-small-warehouse-world) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/aws-robomaker-small-warehouse-world) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/aws-robomaker-small-warehouse-world) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/aws-robomaker-small-warehouse-world) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/aws-robomaker-small-warehouse-world) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/aws-robomaker-small-warehouse-world) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/aws-robomaker-small-warehouse-world) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/aws-robomaker-small-warehouse-world) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/aws-robomaker-small-warehouse-world) by extension 'ros'
+[0.323s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aws-robomaker-small-warehouse-world' with type 'ros.ament_cmake' and name 'aws_robomaker_small_warehouse_world'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'colcon_pkg'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extensions ['colcon_meta']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'ros'
+[0.326s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam_toolbox' with type 'ros.ament_cmake' and name 'slam_toolbox'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'ros'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['cmake', 'python']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'cmake'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'python'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['python_setup_py']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'python_setup_py'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ignore_ament_install'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['colcon_pkg']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'colcon_pkg'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['colcon_meta']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'colcon_meta'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['ros']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ros'
+[0.332s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_simulations/turtlebot3_fake_node' with type 'ros.ament_cmake' and name 'turtlebot3_fake_node'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore_ament_install'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_pkg']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_pkg'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_meta']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_meta'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ros']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ros'
+[0.334s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_simulations/turtlebot3_gazebo' with type 'ros.ament_cmake' and name 'turtlebot3_gazebo'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore_ament_install'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_pkg']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_pkg'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_meta']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_meta'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['ros']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ros'
+[0.335s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_simulations/turtlebot3_simulations' with type 'ros.ament_cmake' and name 'turtlebot3_simulations'
+[0.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.358s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 314 installed packages in /opt/ros/foxy
+[0.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.424s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'slam_toolbox' is in: /opt/ros/foxy
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding slam_toolbox
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_warehouse_world' build argument 'cmake_args' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_warehouse_world' build argument 'cmake_target' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_warehouse_world' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_warehouse_world' build argument 'cmake_clean_cache' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_warehouse_world' build argument 'cmake_clean_first' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_warehouse_world' build argument 'cmake_force_configure' from command line to 'False'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_warehouse_world' build argument 'ament_cmake_args' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_warehouse_world' build argument 'catkin_cmake_args' from command line to 'None'
+[0.426s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_warehouse_world' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.426s] DEBUG:colcon.colcon_core.verb:Building package 'aws_robomaker_small_warehouse_world' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ik/aws_ws/build/aws_robomaker_small_warehouse_world', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world', 'merge_install': False, 'path': '/home/ik/aws_ws/src/aws-robomaker-small-warehouse-world', 'symlink_install': False, 'test_result_base': None}
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_args' from command line to 'None'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_target' from command line to 'None'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_clean_cache' from command line to 'False'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_clean_first' from command line to 'False'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_force_configure' from command line to 'False'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'ament_cmake_args' from command line to 'None'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'catkin_cmake_args' from command line to 'None'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.427s] DEBUG:colcon.colcon_core.verb:Building package 'slam_toolbox' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ik/aws_ws/build/slam_toolbox', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ik/aws_ws/install/slam_toolbox', 'merge_install': False, 'path': '/home/ik/aws_ws/src/slam_toolbox', 'symlink_install': False, 'test_result_base': None}
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_args' from command line to 'None'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_target' from command line to 'None'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.428s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_fake_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ik/aws_ws/build/turtlebot3_fake_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ik/aws_ws/install/turtlebot3_fake_node', 'merge_install': False, 'path': '/home/ik/aws_ws/src/turtlebot3_simulations/turtlebot3_fake_node', 'symlink_install': False, 'test_result_base': None}
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.429s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ik/aws_ws/build/turtlebot3_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ik/aws_ws/install/turtlebot3_gazebo', 'merge_install': False, 'path': '/home/ik/aws_ws/src/turtlebot3_simulations/turtlebot3_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_args' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_target' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_clean_cache' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_clean_first' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_force_configure' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'ament_cmake_args' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'catkin_cmake_args' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.430s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_simulations' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ik/aws_ws/build/turtlebot3_simulations', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ik/aws_ws/install/turtlebot3_simulations', 'merge_install': False, 'path': '/home/ik/aws_ws/src/turtlebot3_simulations/turtlebot3_simulations', 'symlink_install': False, 'test_result_base': None}
+[0.430s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.433s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.433s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ik/aws_ws/src/turtlebot3_simulations/turtlebot3_fake_node' with build type 'ament_cmake'
+[0.433s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ik/aws_ws/src/turtlebot3_simulations/turtlebot3_fake_node'
+[0.438s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.439s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.439s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.444s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ik/aws_ws/src/turtlebot3_simulations/turtlebot3_gazebo' with build type 'ament_cmake'
+[0.445s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ik/aws_ws/src/turtlebot3_simulations/turtlebot3_gazebo'
+[0.447s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.448s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.457s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ik/aws_ws/src/aws-robomaker-small-warehouse-world' with build type 'ament_cmake'
+[0.458s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ik/aws_ws/src/aws-robomaker-small-warehouse-world'
+[0.461s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.461s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.470s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ik/aws_ws/src/slam_toolbox' with build type 'ament_cmake'
+[0.470s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ik/aws_ws/src/slam_toolbox'
+[0.472s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.472s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.489s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ik/aws_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ik/aws_ws/build/turtlebot3_fake_node -- -j8 -l8
+[0.497s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ik/aws_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ik/aws_ws/build/turtlebot3_gazebo -- -j8 -l8
+[0.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ik/aws_ws/build/aws_robomaker_small_warehouse_world': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ik/aws_ws/build/aws_robomaker_small_warehouse_world -- -j8 -l8
+[0.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ik/aws_ws/build/slam_toolbox': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ik/aws_ws/build/slam_toolbox -- -j8 -l8
+[0.584s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ik/aws_ws/build/aws_robomaker_small_warehouse_world' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ik/aws_ws/build/aws_robomaker_small_warehouse_world -- -j8 -l8
+[0.641s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ik/aws_ws/build/aws_robomaker_small_warehouse_world': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ik/aws_ws/build/aws_robomaker_small_warehouse_world
+[0.643s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ik/aws_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ik/aws_ws/build/turtlebot3_fake_node -- -j8 -l8
+[0.647s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ik/aws_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ik/aws_ws/build/turtlebot3_gazebo -- -j8 -l8
+[0.675s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ik/aws_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ik/aws_ws/build/turtlebot3_fake_node
+[0.686s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aws_robomaker_small_warehouse_world)
+[0.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ik/aws_ws/build/aws_robomaker_small_warehouse_world' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ik/aws_ws/build/aws_robomaker_small_warehouse_world
+[0.698s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world' for CMake module files
+[0.699s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world' for CMake config files
+[0.702s] Level 1:colcon.colcon_core.shell:create_environment_hook('aws_robomaker_small_warehouse_world', 'cmake_prefix_path')
+[0.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/hook/cmake_prefix_path.ps1'
+[0.704s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/hook/cmake_prefix_path.dsv'
+[0.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/hook/cmake_prefix_path.sh'
+[0.705s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world/bin'
+[0.705s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world/lib/pkgconfig/aws_robomaker_small_warehouse_world.pc'
+[0.705s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world/lib/python3.8/site-packages'
+[0.705s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world/bin'
+[0.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.ps1'
+[0.707s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.dsv'
+[0.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.sh'
+[0.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.bash'
+[0.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.zsh'
+[0.710s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world/share/colcon-core/packages/aws_robomaker_small_warehouse_world)
+[0.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ik/aws_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ik/aws_ws/build/turtlebot3_gazebo
+[0.720s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_fake_node)
+[0.724s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/turtlebot3_fake_node' for CMake module files
+[0.724s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ik/aws_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ik/aws_ws/build/turtlebot3_fake_node
+[0.726s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/turtlebot3_fake_node' for CMake config files
+[0.727s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_fake_node', 'cmake_prefix_path')
+[0.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ik/aws_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.ps1'
+[0.730s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ik/aws_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.dsv'
+[0.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ik/aws_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.sh'
+[0.732s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/turtlebot3_fake_node/lib'
+[0.733s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/turtlebot3_fake_node/bin'
+[0.733s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/turtlebot3_fake_node/lib/pkgconfig/turtlebot3_fake_node.pc'
+[0.733s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/turtlebot3_fake_node/lib/python3.8/site-packages'
+[0.733s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/turtlebot3_fake_node/bin'
+[0.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/ik/aws_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.ps1'
+[0.736s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ik/aws_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv'
+[0.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/ik/aws_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.sh'
+[0.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/ik/aws_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.bash'
+[0.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/ik/aws_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.zsh'
+[0.739s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ik/aws_ws/install/turtlebot3_fake_node/share/colcon-core/packages/turtlebot3_fake_node)
+[0.747s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aws_robomaker_small_warehouse_world)
+[0.751s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world' for CMake module files
+[0.753s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world' for CMake config files
+[0.758s] Level 1:colcon.colcon_core.shell:create_environment_hook('aws_robomaker_small_warehouse_world', 'cmake_prefix_path')
+[0.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/hook/cmake_prefix_path.ps1'
+[0.763s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/hook/cmake_prefix_path.dsv'
+[0.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/hook/cmake_prefix_path.sh'
+[0.763s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world/bin'
+[0.764s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world/lib/pkgconfig/aws_robomaker_small_warehouse_world.pc'
+[0.764s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world/lib/python3.8/site-packages'
+[0.764s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world/bin'
+[0.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.ps1'
+[0.766s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.dsv'
+[0.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.sh'
+[0.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.bash'
+[0.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.zsh'
+[0.768s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world/share/colcon-core/packages/aws_robomaker_small_warehouse_world)
+[0.776s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_fake_node)
+[0.777s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/turtlebot3_fake_node' for CMake module files
+[0.781s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/turtlebot3_fake_node' for CMake config files
+[0.785s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_fake_node', 'cmake_prefix_path')
+[0.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ik/aws_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.ps1'
+[0.789s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ik/aws_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.dsv'
+[0.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ik/aws_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.sh'
+[0.794s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/turtlebot3_fake_node/lib'
+[0.794s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/turtlebot3_fake_node/bin'
+[0.795s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/turtlebot3_fake_node/lib/pkgconfig/turtlebot3_fake_node.pc'
+[0.796s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/turtlebot3_fake_node/lib/python3.8/site-packages'
+[0.796s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/turtlebot3_fake_node/bin'
+[0.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/ik/aws_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.ps1'
+[0.800s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ik/aws_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv'
+[0.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/ik/aws_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.sh'
+[0.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/ik/aws_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.bash'
+[0.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/ik/aws_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.zsh'
+[0.802s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ik/aws_ws/install/turtlebot3_fake_node/share/colcon-core/packages/turtlebot3_fake_node)
+[0.802s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[0.804s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/turtlebot3_gazebo' for CMake module files
+[0.810s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/turtlebot3_gazebo' for CMake config files
+[0.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ik/aws_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ik/aws_ws/build/turtlebot3_gazebo
+[0.816s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[0.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ik/aws_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[0.819s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ik/aws_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[0.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ik/aws_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[0.820s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/turtlebot3_gazebo/lib'
+[0.821s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/turtlebot3_gazebo/bin'
+[0.821s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[0.821s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/turtlebot3_gazebo/lib/python3.8/site-packages'
+[0.822s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/turtlebot3_gazebo/bin'
+[0.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/ik/aws_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[0.826s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ik/aws_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[0.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/ik/aws_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[0.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/ik/aws_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[0.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/ik/aws_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[0.827s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ik/aws_ws/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[0.882s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[0.884s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/turtlebot3_gazebo' for CMake module files
+[0.885s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/turtlebot3_gazebo' for CMake config files
+[0.887s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[0.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ik/aws_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[0.891s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ik/aws_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[0.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ik/aws_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[0.897s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/turtlebot3_gazebo/lib'
+[0.897s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/turtlebot3_gazebo/bin'
+[0.897s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[0.897s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/turtlebot3_gazebo/lib/python3.8/site-packages'
+[0.897s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/turtlebot3_gazebo/bin'
+[0.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/ik/aws_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[0.899s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ik/aws_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[0.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/ik/aws_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[0.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/ik/aws_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[0.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/ik/aws_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[0.901s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ik/aws_ws/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[0.901s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ik/aws_ws/src/turtlebot3_simulations/turtlebot3_simulations' with build type 'ament_cmake'
+[0.901s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ik/aws_ws/src/turtlebot3_simulations/turtlebot3_simulations'
+[0.903s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.903s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.922s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ik/aws_ws/build/turtlebot3_simulations': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake --build /home/ik/aws_ws/build/turtlebot3_simulations -- -j8 -l8
+[0.957s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ik/aws_ws/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ik/aws_ws/build/slam_toolbox -- -j8 -l8
+[0.978s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ik/aws_ws/build/turtlebot3_simulations' returned '0': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake --build /home/ik/aws_ws/build/turtlebot3_simulations -- -j8 -l8
+[1.015s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ik/aws_ws/build/turtlebot3_simulations': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake --install /home/ik/aws_ws/build/turtlebot3_simulations
+[1.031s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_simulations)
+[1.035s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/turtlebot3_simulations' for CMake module files
+[1.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ik/aws_ws/build/turtlebot3_simulations' returned '0': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake --install /home/ik/aws_ws/build/turtlebot3_simulations
+[1.037s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/turtlebot3_simulations' for CMake config files
+[1.038s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_simulations', 'cmake_prefix_path')
+[1.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ik/aws_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.ps1'
+[1.042s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ik/aws_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.dsv'
+[1.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ik/aws_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.sh'
+[1.044s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/turtlebot3_simulations/bin'
+[1.044s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/turtlebot3_simulations/lib/pkgconfig/turtlebot3_simulations.pc'
+[1.045s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/turtlebot3_simulations/lib/python3.8/site-packages'
+[1.045s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/turtlebot3_simulations/bin'
+[1.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/ik/aws_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.ps1'
+[1.047s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ik/aws_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv'
+[1.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/ik/aws_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.sh'
+[1.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/ik/aws_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.bash'
+[1.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/ik/aws_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.zsh'
+[1.048s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ik/aws_ws/install/turtlebot3_simulations/share/colcon-core/packages/turtlebot3_simulations)
+[1.082s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_simulations)
+[1.085s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/turtlebot3_simulations' for CMake module files
+[1.086s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/turtlebot3_simulations' for CMake config files
+[1.086s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_simulations', 'cmake_prefix_path')
+[1.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ik/aws_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.ps1'
+[1.088s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ik/aws_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.dsv'
+[1.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ik/aws_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.sh'
+[1.089s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/turtlebot3_simulations/bin'
+[1.089s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/turtlebot3_simulations/lib/pkgconfig/turtlebot3_simulations.pc'
+[1.089s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/turtlebot3_simulations/lib/python3.8/site-packages'
+[1.089s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/turtlebot3_simulations/bin'
+[1.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/ik/aws_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.ps1'
+[1.091s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ik/aws_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv'
+[1.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/ik/aws_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.sh'
+[1.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/ik/aws_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.bash'
+[1.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/ik/aws_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.zsh'
+[1.093s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ik/aws_ws/install/turtlebot3_simulations/share/colcon-core/packages/turtlebot3_simulations)
+[1.266s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ik/aws_ws/build/slam_toolbox': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ik/aws_ws/build/slam_toolbox
+[1.373s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_toolbox)
+[1.378s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/slam_toolbox' for CMake module files
+[1.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ik/aws_ws/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ik/aws_ws/build/slam_toolbox
+[1.380s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/slam_toolbox' for CMake config files
+[1.382s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_toolbox', 'cmake_prefix_path')
+[1.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.ps1'
+[1.385s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.dsv'
+[1.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.sh'
+[1.386s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/slam_toolbox/lib'
+[1.386s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_toolbox', 'ld_library_path_lib')
+[1.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.ps1'
+[1.389s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.dsv'
+[1.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.sh'
+[1.390s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/slam_toolbox/bin'
+[1.391s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/slam_toolbox/lib/pkgconfig/slam_toolbox.pc'
+[1.391s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/slam_toolbox/lib/python3.8/site-packages'
+[1.391s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_toolbox', 'pythonpath')
+[1.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/hook/pythonpath.ps1'
+[1.393s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/hook/pythonpath.dsv'
+[1.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/hook/pythonpath.sh'
+[1.393s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/slam_toolbox/bin'
+[1.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/package.ps1'
+[1.395s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/package.dsv'
+[1.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/package.sh'
+[1.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/package.bash'
+[1.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/package.zsh'
+[1.396s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ik/aws_ws/install/slam_toolbox/share/colcon-core/packages/slam_toolbox)
+[1.736s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_toolbox)
+[1.740s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/slam_toolbox' for CMake module files
+[1.741s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/slam_toolbox' for CMake config files
+[1.742s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_toolbox', 'cmake_prefix_path')
+[1.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.ps1'
+[1.745s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.dsv'
+[1.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.sh'
+[1.746s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/slam_toolbox/lib'
+[1.746s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_toolbox', 'ld_library_path_lib')
+[1.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.ps1'
+[1.747s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.dsv'
+[1.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.sh'
+[1.748s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/slam_toolbox/bin'
+[1.748s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/slam_toolbox/lib/pkgconfig/slam_toolbox.pc'
+[1.748s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/slam_toolbox/lib/python3.8/site-packages'
+[1.748s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_toolbox', 'pythonpath')
+[1.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/hook/pythonpath.ps1'
+[1.749s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/hook/pythonpath.dsv'
+[1.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/hook/pythonpath.sh'
+[1.750s] Level 1:colcon.colcon_core.environment:checking '/home/ik/aws_ws/install/slam_toolbox/bin'
+[1.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/package.ps1'
+[1.752s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/package.dsv'
+[1.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/package.sh'
+[1.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/package.bash'
+[1.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/package.zsh'
+[1.753s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ik/aws_ws/install/slam_toolbox/share/colcon-core/packages/slam_toolbox)
+[1.753s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.753s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.753s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.753s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.766s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.767s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.767s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.793s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.796s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ik/aws_ws/install/local_setup.ps1'
+[1.798s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ik/aws_ws/install/_local_setup_util_ps1.py'
+[1.800s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ik/aws_ws/install/setup.ps1'
+[1.801s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ik/aws_ws/install/local_setup.sh'
+[1.802s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ik/aws_ws/install/_local_setup_util_sh.py'
+[1.802s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ik/aws_ws/install/setup.sh'
+[1.803s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ik/aws_ws/install/local_setup.bash'
+[1.803s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ik/aws_ws/install/setup.bash'
+[1.804s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ik/aws_ws/install/local_setup.zsh'
+[1.805s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ik/aws_ws/install/setup.zsh'
