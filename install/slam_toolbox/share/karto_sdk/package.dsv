@@ -1,4 +1,1 @@
-source;share/slam_toolbox/local_setup.bash
-source;share/slam_toolbox/local_setup.dsv
-source;share/slam_toolbox/local_setup.sh
-source;share/slam_toolbox/local_setup.zsh
+/home/ik/aws_ws/build/slam_toolbox/ament_cmake_environment_hooks/package.dsv

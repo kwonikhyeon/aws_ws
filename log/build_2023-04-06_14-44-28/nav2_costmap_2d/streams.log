@@ -1,0 +1,204 @@
+[0.323s] Invoking command in '/home/ik/aws_ws/build/nav2_costmap_2d': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_map_server:/home/ik/aws_ws/install/nav2_lifecycle_manager:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_map_server:/home/ik/aws_ws/install/nav2_lifecycle_manager:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/home/ik/aws_ws/install/turtlebot3_simulations:/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:/home/ik/aws_ws/install/slam_toolbox:/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_map_server/lib:/home/ik/aws_ws/install/nav2_lifecycle_manager/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_msgs/lib:/home/ik/aws_ws/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ik/aws_ws/src/navigation2/nav2_costmap_2d -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ik/aws_ws/install/nav2_costmap_2d
+[0.585s] -- The C compiler identification is GNU 9.4.0
+[0.773s] -- The CXX compiler identification is GNU 9.4.0
+[0.780s] -- Check for working C compiler: /usr/bin/cc
+[1.073s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.074s] -- Detecting C compiler ABI info
+[1.383s] -- Detecting C compiler ABI info - done
+[1.397s] -- Detecting C compile features
+[1.407s] -- Detecting C compile features - done
+[1.410s] -- Check for working CXX compiler: /usr/bin/c++
+[1.765s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.766s] -- Detecting CXX compiler ABI info
+[2.129s] -- Detecting CXX compiler ABI info - done
+[2.154s] -- Detecting CXX compile features
+[2.155s] -- Detecting CXX compile features - done
+[2.160s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.243s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.243s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.708s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.801s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[2.885s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.911s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.334s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.416s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.625s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.780s] -- Found laser_geometry: 2.2.0 (/opt/ros/foxy/share/laser_geometry/cmake)
+[3.817s] -- Found map_msgs: 2.0.2 (/opt/ros/foxy/share/map_msgs/cmake)
+[4.417s] -- Found message_filters: 3.2.5 (/opt/ros/foxy/share/message_filters/cmake)
+[4.428s] -- Found nav2_common: 0.4.7 (/home/ik/aws_ws/install/nav2_common/share/nav2_common/cmake)
+[4.430s] -- Found nav2_msgs: 0.4.7 (/home/ik/aws_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[5.121s] -- Found nav2_util: 0.4.7 (/home/ik/aws_ws/install/nav2_util/share/nav2_util/cmake)
+[5.345s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.360s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.361s] -- Looking for pthread.h
+[5.694s] -- Looking for pthread.h - found
+[5.694s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.057s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.058s] -- Looking for pthread_create in pthreads
+[6.409s] -- Looking for pthread_create in pthreads - not found
+[6.413s] -- Looking for pthread_create in pthread
+[6.738s] -- Looking for pthread_create in pthread - found
+[6.739s] -- Found Threads: TRUE  
+[7.393s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[7.608s] -- Found nav2_voxel_grid: 0.4.7 (/home/ik/aws_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake)
+[7.616s] -- Found pluginlib: 2.5.4 (/opt/ros/foxy/share/pluginlib/cmake)
+[7.648s] -- Found tf2_sensor_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_sensor_msgs/cmake)
+[7.672s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[7.763s] -- Found angles: 1.12.6 (/opt/ros/foxy/share/angles/cmake)
+[7.766s] -- Setting build type to Release as none was specified.
+[8.734s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[9.115s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[9.118s] -- Check if compiler accepts -pthread
+[9.240s] -- Check if compiler accepts -pthread - yes
+[9.251s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[10.118s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.119s] -- Configured cppcheck include dirs: /home/ik/aws_ws/src/navigation2/nav2_costmap_2d/include
+[10.119s] -- Configured cppcheck exclude dirs and/or files: 
+[10.120s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.121s] -- Added test 'lint_cmake' to check CMake code style
+[10.123s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[10.125s] -- Added test 'uncrustify' to check C / C++ code style
+[10.126s] -- Configured uncrustify additional arguments: 
+[10.126s] -- Added test 'xmllint' to check XML markup files
+[10.136s] -- Configuring done
+[10.630s] -- Generating done
+[10.632s] -- Build files have been written to: /home/ik/aws_ws/build/nav2_costmap_2d
+[10.658s] Invoked command in '/home/ik/aws_ws/build/nav2_costmap_2d' returned '0': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_map_server:/home/ik/aws_ws/install/nav2_lifecycle_manager:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_map_server:/home/ik/aws_ws/install/nav2_lifecycle_manager:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/home/ik/aws_ws/install/turtlebot3_simulations:/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:/home/ik/aws_ws/install/slam_toolbox:/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_map_server/lib:/home/ik/aws_ws/install/nav2_lifecycle_manager/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_msgs/lib:/home/ik/aws_ws/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ik/aws_ws/src/navigation2/nav2_costmap_2d -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ik/aws_ws/install/nav2_costmap_2d
+[10.664s] Invoking command in '/home/ik/aws_ws/build/nav2_costmap_2d': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_map_server:/home/ik/aws_ws/install/nav2_lifecycle_manager:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_map_server:/home/ik/aws_ws/install/nav2_lifecycle_manager:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/home/ik/aws_ws/install/turtlebot3_simulations:/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:/home/ik/aws_ws/install/slam_toolbox:/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_map_server/lib:/home/ik/aws_ws/install/nav2_lifecycle_manager/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_msgs/lib:/home/ik/aws_ws/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ik/aws_ws/build/nav2_costmap_2d -- -j8 -l8
+[10.742s] [35m[1mScanning dependencies of target nav2_costmap_2d_core[0m
+[10.948s] [  2%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/array_parser.cpp.o[0m
+[11.468s] [  4%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_2d_publisher.cpp.o[0m
+[17.590s] [  6%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_math.cpp.o[0m
+[17.980s] [  8%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/footprint.cpp.o[0m
+[19.997s] [ 12%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_layer.cpp.o[0m
+[19.997s] [ 12%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_2d_ros.cpp.o[0m
+[20.310s] [ 14%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/layered_costmap.cpp.o[0m
+[21.325s] [ 16%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/observation_buffer.cpp.o[0m
+[22.372s] [ 18%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/layer.cpp.o[0m
+[22.503s] [ 20%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_2d.cpp.o[0m
+[23.319s] [ 22%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/clear_costmap_service.cpp.o[0m
+[23.333s] [ 25%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/footprint_collision_checker.cpp.o[0m
+[38.303s] [ 27%] [32m[1mLinking CXX shared library libnav2_costmap_2d_core.so[0m
+[38.750s] [ 27%] Built target nav2_costmap_2d_core
+[38.769s] [35m[1mScanning dependencies of target gtest[0m
+[38.769s] [35m[1mScanning dependencies of target gtest_main[0m
+[38.790s] [ 29%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[38.793s] [ 31%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[39.666s] [ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[39.708s] [ 33%] Built target gtest_main
+[39.722s] [35m[1mScanning dependencies of target nav2_costmap_2d_cloud[0m
+[39.858s] [ 35%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_cloud.dir/src/costmap_2d_cloud.cpp.o[0m
+[47.804s] [ 37%] [32m[1mLinking CXX static library libgtest.a[0m
+[47.857s] [ 37%] Built target gtest
+[47.871s] [35m[1mScanning dependencies of target nav2_costmap_2d_markers[0m
+[47.931s] [ 39%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_markers.dir/src/costmap_2d_markers.cpp.o[0m
+[49.891s] [ 41%] [32m[1mLinking CXX executable nav2_costmap_2d_cloud[0m
+[50.423s] [ 41%] Built target nav2_costmap_2d_cloud
+[50.501s] [35m[1mScanning dependencies of target array_parser_test[0m
+[50.592s] [ 43%] [32mBuilding CXX object test/unit/CMakeFiles/array_parser_test.dir/array_parser_test.cpp.o[0m
+[52.795s] [ 45%] [32m[1mLinking CXX executable array_parser_test[0m
+[53.380s] [ 45%] Built target array_parser_test
+[53.444s] [35m[1mScanning dependencies of target collision_footprint_test[0m
+[53.594s] [ 47%] [32mBuilding CXX object test/unit/CMakeFiles/collision_footprint_test.dir/footprint_collision_checker_test.cpp.o[0m
+[57.772s] [ 50%] [32m[1mLinking CXX executable collision_footprint_test[0m
+[58.037s] [ 50%] Built target collision_footprint_test
+[59.117s] [ 52%] [32m[1mLinking CXX executable nav2_costmap_2d_markers[0m
+[59.330s] [ 52%] Built target nav2_costmap_2d_markers
+[59.349s] [35m[1mScanning dependencies of target nav2_costmap_2d_client[0m
+[59.411s] [ 54%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_client.dir/src/footprint_subscriber.cpp.o[0m
+[64.970s] [ 56%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_client.dir/src/costmap_subscriber.cpp.o[0m
+[64.973s] [ 58%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_client.dir/src/costmap_topic_collision_checker.cpp.o[0m
+[71.368s] [ 60%] [32m[1mLinking CXX shared library libnav2_costmap_2d_client.so[0m
+[71.692s] [ 60%] Built target nav2_costmap_2d_client
+[71.709s] [35m[1mScanning dependencies of target layers[0m
+[71.819s] [ 62%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/static_layer.cpp.o[0m
+[71.820s] [ 64%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/inflation_layer.cpp.o[0m
+[71.827s] [ 68%] [32mBuilding CXX object CMakeFiles/layers.dir/src/observation_buffer.cpp.o[0m
+[71.827s] [ 68%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/obstacle_layer.cpp.o[0m
+[71.828s] [ 70%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/range_sensor_layer.cpp.o[0m
+[71.832s] [ 72%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/voxel_layer.cpp.o[0m
+[88.120s] [ 75%] [32m[1mLinking CXX shared library liblayers.so[0m
+[88.510s] [ 75%] Built target layers
+[88.521s] [35m[1mScanning dependencies of target inflation_tests_exec[0m
+[88.526s] [35m[1mScanning dependencies of target nav2_costmap_2d[0m
+[88.527s] [35m[1mScanning dependencies of target test_collision_checker_exec[0m
+[88.527s] [35m[1mScanning dependencies of target footprint_tests_exec[0m
+[88.529s] [35m[1mScanning dependencies of target range_tests_exec[0m
+[88.529s] [35m[1mScanning dependencies of target obstacle_tests_exec[0m
+[88.586s] [ 77%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d.dir/src/costmap_2d_node.cpp.o[0m
+[88.586s] [ 79%] [32mBuilding CXX object test/integration/CMakeFiles/footprint_tests_exec.dir/footprint_tests.cpp.o[0m
+[88.629s] [ 81%] [32mBuilding CXX object test/integration/CMakeFiles/inflation_tests_exec.dir/inflation_tests.cpp.o[0m
+[88.631s] [ 83%] [32mBuilding CXX object test/integration/CMakeFiles/obstacle_tests_exec.dir/obstacle_tests.cpp.o[0m
+[88.634s] [ 85%] [32mBuilding CXX object test/integration/CMakeFiles/test_collision_checker_exec.dir/test_costmap_topic_collision_checker.cpp.o[0m
+[88.642s] [ 87%] [32mBuilding CXX object test/integration/CMakeFiles/range_tests_exec.dir/range_tests.cpp.o[0m
+[92.790s] [ 89%] [32m[1mLinking CXX executable nav2_costmap_2d[0m
+[92.890s] [ 91%] [32m[1mLinking CXX executable footprint_tests_exec[0m
+[93.213s] [ 91%] Built target nav2_costmap_2d
+[93.417s] [ 91%] Built target footprint_tests_exec
+[95.794s] [ 93%] [32m[1mLinking CXX executable obstacle_tests_exec[0m
+[95.878s] [ 95%] [32m[1mLinking CXX executable range_tests_exec[0m
+[96.370s] [ 95%] Built target obstacle_tests_exec
+[96.450s] [ 95%] Built target range_tests_exec
+[96.565s] [ 97%] [32m[1mLinking CXX executable inflation_tests_exec[0m
+[96.975s] [ 97%] Built target inflation_tests_exec
+[97.390s] [100%] [32m[1mLinking CXX executable test_collision_checker_exec[0m
+[97.814s] [100%] Built target test_collision_checker_exec
+[97.835s] Invoked command in '/home/ik/aws_ws/build/nav2_costmap_2d' returned '0': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_map_server:/home/ik/aws_ws/install/nav2_lifecycle_manager:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_map_server:/home/ik/aws_ws/install/nav2_lifecycle_manager:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/home/ik/aws_ws/install/turtlebot3_simulations:/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:/home/ik/aws_ws/install/slam_toolbox:/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_map_server/lib:/home/ik/aws_ws/install/nav2_lifecycle_manager/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_msgs/lib:/home/ik/aws_ws/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ik/aws_ws/build/nav2_costmap_2d -- -j8 -l8
+[97.913s] Invoking command in '/home/ik/aws_ws/build/nav2_costmap_2d': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_map_server:/home/ik/aws_ws/install/nav2_lifecycle_manager:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_map_server:/home/ik/aws_ws/install/nav2_lifecycle_manager:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/home/ik/aws_ws/install/turtlebot3_simulations:/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:/home/ik/aws_ws/install/slam_toolbox:/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_map_server/lib:/home/ik/aws_ws/install/nav2_lifecycle_manager/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_msgs/lib:/home/ik/aws_ws/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ik/aws_ws/build/nav2_costmap_2d
+[97.925s] -- Install configuration: "Release"
+[97.926s] -- Execute custom install script
+[97.926s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so
+[97.941s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/lib/liblayers.so
+[97.951s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so
+[97.966s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d
+[97.974s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_markers
+[97.983s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_cloud
+[97.998s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/costmap_plugins.xml
+[98.007s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/array_parser.hpp
+[98.016s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/clear_costmap_service.hpp
+[98.024s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/cost_values.hpp
+[98.032s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d.hpp
+[98.045s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d_publisher.hpp
+[98.054s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d_ros.hpp
+[98.069s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_layer.hpp
+[98.082s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_math.hpp
+[98.098s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_subscriber.hpp
+[98.113s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_topic_collision_checker.hpp
+[98.126s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/exceptions.hpp
+[98.141s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint.hpp
+[98.154s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint_collision_checker.hpp
+[98.171s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint_subscriber.hpp
+[98.185s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/inflation_layer.hpp
+[98.201s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/layer.hpp
+[98.209s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/layered_costmap.hpp
+[98.217s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/observation.hpp
+[98.225s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/observation_buffer.hpp
+[98.239s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/obstacle_layer.hpp
+[98.253s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/range_sensor_layer.hpp
+[98.261s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/static_layer.hpp
+[98.269s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/voxel_layer.hpp
+[98.277s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.sh
+[98.285s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.dsv
+[98.294s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d//costmap_plugins.xml
+[98.294s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/share/ament_index/resource_index/package_run_dependencies/nav2_costmap_2d
+[98.303s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/share/ament_index/resource_index/parent_prefix_path/nav2_costmap_2d
+[98.318s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.sh
+[98.334s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.dsv
+[98.351s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.sh
+[98.359s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.dsv
+[98.376s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.bash
+[98.390s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.sh
+[98.406s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.zsh
+[98.414s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.dsv
+[98.429s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/package.dsv
+[98.443s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/share/ament_index/resource_index/packages/nav2_costmap_2d
+[98.458s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/nav2_costmap_2d
+[98.467s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_include_directories-extras.cmake
+[98.476s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_libraries-extras.cmake
+[98.484s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_dependencies-extras.cmake
+[98.492s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_definitions-extras.cmake
+[98.501s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig.cmake
+[98.509s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig-version.cmake
+[98.522s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/package.xml
+[98.545s] Invoked command in '/home/ik/aws_ws/build/nav2_costmap_2d' returned '0': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_map_server:/home/ik/aws_ws/install/nav2_lifecycle_manager:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_map_server:/home/ik/aws_ws/install/nav2_lifecycle_manager:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/home/ik/aws_ws/install/turtlebot3_simulations:/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:/home/ik/aws_ws/install/slam_toolbox:/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_map_server/lib:/home/ik/aws_ws/install/nav2_lifecycle_manager/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_msgs/lib:/home/ik/aws_ws/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ik/aws_ws/build/nav2_costmap_2d

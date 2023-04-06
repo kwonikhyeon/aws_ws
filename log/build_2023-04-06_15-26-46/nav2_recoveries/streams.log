@@ -1,0 +1,87 @@
+[0.079s] Invoking command in '/home/ik/aws_ws/build/nav2_recoveries': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_behavior_tree:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_behavior_tree:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_costmap_2d/lib:/home/ik/aws_ws/install/nav2_behavior_tree/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ik/aws_ws/build/nav2_recoveries -- -j8 -l8
+[0.131s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.159s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.416s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.428s] -- Found nav2_common: 0.4.7 (/home/ik/aws_ws/install/nav2_common/share/nav2_common/cmake)
+[0.428s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.476s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.481s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.707s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.783s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.786s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.082s] -- Found rclcpp_action: 2.4.2 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[1.227s] -- Found rclcpp_lifecycle: 2.4.2 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[1.278s] -- Found nav2_behavior_tree: 0.4.7 (/home/ik/aws_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake)
+[3.122s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[3.815s] -- Found nav2_costmap_2d: 0.4.7 (/home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake)
+[4.831s] -- Found nav2_core: 0.4.7 (/home/ik/aws_ws/install/nav2_core/share/nav2_core/cmake)
+[29.801s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[29.918s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[34.075s] -- Added test 'copyright' to check source files copyright and LICENSE
+[34.076s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[34.077s] -- Configured cppcheck include dirs: /home/ik/aws_ws/src/navigation2/nav2_recoveries/include
+[34.077s] -- Configured cppcheck exclude dirs and/or files: 
+[34.078s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[34.078s] -- Configured cpplint exclude dirs and/or files: 
+[34.079s] -- Added test 'lint_cmake' to check CMake code style
+[34.080s] -- Added test 'uncrustify' to check C / C++ code style
+[34.081s] -- Configured uncrustify additional arguments: 
+[34.081s] -- Added test 'xmllint' to check XML markup files
+[34.088s] -- Configuring done
+[34.436s] -- Generating done
+[34.449s] -- Build files have been written to: /home/ik/aws_ws/build/nav2_recoveries
+[34.527s] [  6%] [32mBuilding CXX object CMakeFiles/nav2_wait_recovery.dir/plugins/wait.cpp.o[0m
+[34.527s] [ 12%] [32mBuilding CXX object CMakeFiles/nav2_backup_recovery.dir/plugins/back_up.cpp.o[0m
+[34.533s] [ 18%] [32mBuilding CXX object CMakeFiles/recoveries_server_core.dir/src/recovery_server.cpp.o[0m
+[47.833s] [ 25%] [32m[1mLinking CXX shared library libnav2_backup_recovery.so[0m
+[48.648s] [ 31%] [32m[1mLinking CXX shared library libnav2_wait_recovery.so[0m
+[48.693s] [ 31%] Built target nav2_backup_recovery
+[49.414s] [ 31%] Built target nav2_wait_recovery
+[51.874s] [ 37%] [32m[1mLinking CXX static library librecoveries_server_core.a[0m
+[51.937s] [ 37%] Built target recoveries_server_core
+[51.973s] [ 50%] Built target gtest_main
+[52.022s] [ 56%] [32mBuilding CXX object CMakeFiles/recoveries_server.dir/src/main.cpp.o[0m
+[56.155s] [ 62%] [32m[1mLinking CXX executable recoveries_server[0m
+[56.707s] [ 62%] Built target recoveries_server
+[56.739s] [ 75%] Built target gtest
+[56.788s] [ 81%] [32mBuilding CXX object CMakeFiles/nav2_spin_recovery.dir/plugins/spin.cpp.o[0m
+[65.184s] [ 87%] [32m[1mLinking CXX shared library libnav2_spin_recovery.so[0m
+[65.533s] [ 87%] Built target nav2_spin_recovery
+[65.590s] [ 93%] [32mBuilding CXX object test/CMakeFiles/test_recoveries.dir/test_recoveries.cpp.o[0m
+[77.637s] [100%] [32m[1mLinking CXX executable test_recoveries[0m
+[78.058s] [100%] Built target test_recoveries
+[78.077s] Invoked command in '/home/ik/aws_ws/build/nav2_recoveries' returned '0': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_behavior_tree:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_behavior_tree:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_costmap_2d/lib:/home/ik/aws_ws/install/nav2_behavior_tree/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ik/aws_ws/build/nav2_recoveries -- -j8 -l8
+[78.141s] Invoking command in '/home/ik/aws_ws/build/nav2_recoveries': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_behavior_tree:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_behavior_tree:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_costmap_2d/lib:/home/ik/aws_ws/install/nav2_behavior_tree/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ik/aws_ws/build/nav2_recoveries
+[78.154s] -- Install configuration: "Release"
+[78.154s] -- Execute custom install script
+[78.154s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_recoveries/share/nav2_recoveries//recovery_plugin.xml
+[78.155s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_recoveries/lib/librecoveries_server_core.a
+[78.155s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_recoveries/lib/libnav2_backup_recovery.so
+[78.155s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_recoveries/lib/libnav2_spin_recovery.so
+[78.156s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_recoveries/lib/libnav2_wait_recovery.so
+[78.156s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_recoveries/lib/nav2_recoveries/recoveries_server
+[78.156s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_recoveries/include//nav2_recoveries/recovery.hpp
+[78.156s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_recoveries/include//nav2_recoveries/recovery_server.hpp
+[78.157s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_recoveries/share/nav2_recoveries/recovery_plugin.xml
+[78.157s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_recoveries/share/nav2_recoveries/environment/library_path.sh
+[78.157s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_recoveries/share/nav2_recoveries/environment/library_path.dsv
+[78.158s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_recoveries/share/ament_index/resource_index/package_run_dependencies/nav2_recoveries
+[78.162s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_recoveries/share/ament_index/resource_index/parent_prefix_path/nav2_recoveries
+[78.162s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_recoveries/share/nav2_recoveries/environment/ament_prefix_path.sh
+[78.162s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_recoveries/share/nav2_recoveries/environment/ament_prefix_path.dsv
+[78.163s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_recoveries/share/nav2_recoveries/environment/path.sh
+[78.163s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_recoveries/share/nav2_recoveries/environment/path.dsv
+[78.163s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_recoveries/share/nav2_recoveries/local_setup.bash
+[78.163s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_recoveries/share/nav2_recoveries/local_setup.sh
+[78.163s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_recoveries/share/nav2_recoveries/local_setup.zsh
+[78.163s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_recoveries/share/nav2_recoveries/local_setup.dsv
+[78.164s] -- Symlinking: /home/ik/aws_ws/install/nav2_recoveries/share/nav2_recoveries/package.dsv
+[78.177s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_recoveries/share/ament_index/resource_index/packages/nav2_recoveries
+[78.177s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_recoveries/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_recoveries
+[78.178s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_recoveries/share/nav2_recoveries/cmake/ament_cmake_export_include_directories-extras.cmake
+[78.178s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_recoveries/share/nav2_recoveries/cmake/ament_cmake_export_libraries-extras.cmake
+[78.179s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_recoveries/share/nav2_recoveries/cmake/ament_cmake_export_definitions-extras.cmake
+[78.179s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_recoveries/share/nav2_recoveries/cmake/nav2_recoveriesConfig.cmake
+[78.180s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_recoveries/share/nav2_recoveries/cmake/nav2_recoveriesConfig-version.cmake
+[78.180s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_recoveries/share/nav2_recoveries/package.xml
+[78.189s] Invoked command in '/home/ik/aws_ws/build/nav2_recoveries' returned '0': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_behavior_tree:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_behavior_tree:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_costmap_2d/lib:/home/ik/aws_ws/install/nav2_behavior_tree/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ik/aws_ws/build/nav2_recoveries

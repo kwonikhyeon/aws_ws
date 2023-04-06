@@ -1,14 +1,1 @@
-material course
-{
-  technique
-  {
-    pass
-    {
-      texture_unit
-      {
-        texture course.png
-      }
-    }
-  }
-}
-
+/home/ik/aws_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/turtlebot3_autorace/course/materials/scripts/course.material

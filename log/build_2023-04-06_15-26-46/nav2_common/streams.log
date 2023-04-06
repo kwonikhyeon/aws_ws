@@ -1,0 +1,41 @@
+[0.065s] Invoking command in '/home/ik/aws_ws/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ik/aws_ws/src/navigation2/nav2_common -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ik/aws_ws/install/nav2_common
+[0.099s] -- Found ament_cmake_core: 0.9.11 (/opt/ros/foxy/share/ament_cmake_core/cmake)
+[0.104s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.277s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.277s] -- Found ament_cmake_python: 0.9.11 (/opt/ros/foxy/share/ament_cmake_python/cmake)
+[0.348s] -- Configuring done
+[0.350s] -- Generating done
+[0.351s] -- Build files have been written to: /home/ik/aws_ws/build/nav2_common
+[0.354s] Invoked command in '/home/ik/aws_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ik/aws_ws/src/navigation2/nav2_common -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ik/aws_ws/install/nav2_common
+[0.359s] Invoking command in '/home/ik/aws_ws/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ik/aws_ws/build/nav2_common -- -j8 -l8
+[0.404s] Invoked command in '/home/ik/aws_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ik/aws_ws/build/nav2_common -- -j8 -l8
+[0.443s] Invoking command in '/home/ik/aws_ws/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ik/aws_ws/build/nav2_common
+[0.460s] -- Install configuration: ""
+[0.460s] -- Execute custom install script
+[0.460s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_common/share/nav2_common/environment/pythonpath.sh
+[0.460s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_common/share/nav2_common/environment/pythonpath.dsv
+[0.461s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/__init__.py
+[0.461s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/__init__.py
+[0.461s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/has_node_params.py
+[0.461s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/replace_string.py
+[0.461s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/rewritten_yaml.py
+[0.462s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_common/share/ament_index/resource_index/package_run_dependencies/nav2_common
+[0.462s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_common/share/ament_index/resource_index/parent_prefix_path/nav2_common
+[0.462s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_common/share/nav2_common/environment/ament_prefix_path.sh
+[0.462s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_common/share/nav2_common/environment/ament_prefix_path.dsv
+[0.462s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_common/share/nav2_common/environment/path.sh
+[0.463s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_common/share/nav2_common/environment/path.dsv
+[0.463s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_common/share/nav2_common/local_setup.bash
+[0.463s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_common/share/nav2_common/local_setup.sh
+[0.463s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_common/share/nav2_common/local_setup.zsh
+[0.463s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_common/share/nav2_common/local_setup.dsv
+[0.464s] -- Symlinking: /home/ik/aws_ws/install/nav2_common/share/nav2_common/package.dsv
+[0.477s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_common/share/ament_index/resource_index/packages/nav2_common
+[0.477s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_common/share/nav2_common/cmake/nav2_common-extras.cmake
+[0.478s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig.cmake
+[0.478s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig-version.cmake
+[0.479s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_common/share/nav2_common/package.xml
+[0.480s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_common/share/nav2_common/cmake/nav2_package.cmake
+[0.510s] Listing '/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common'...
+[0.510s] Listing '/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch'...
+[0.519s] Invoked command in '/home/ik/aws_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ik/aws_ws/build/nav2_common

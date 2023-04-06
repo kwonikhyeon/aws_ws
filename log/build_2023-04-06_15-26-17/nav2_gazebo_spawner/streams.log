@@ -1,0 +1,34 @@
+[0.720s] Invoking command in '/home/ik/aws_ws/build/nav2_gazebo_spawner': PYTHONPATH=/home/ik/aws_ws/build/nav2_gazebo_spawner/prefix_override:/home/ik/aws_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ik/aws_ws/build/nav2_gazebo_spawner/build
+[1.200s] running develop
+[1.201s] Removing /home/ik/aws_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages/nav2-gazebo-spawner.egg-link (link to .)
+[1.203s] Invoked command in '/home/ik/aws_ws/build/nav2_gazebo_spawner' returned '0': PYTHONPATH=/home/ik/aws_ws/build/nav2_gazebo_spawner/prefix_override:/home/ik/aws_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ik/aws_ws/build/nav2_gazebo_spawner/build
+[1.206s] Invoking command in '/home/ik/aws_ws/src/navigation2/nav2_bringup/nav2_gazebo_spawner': PYTHONPATH=/home/ik/aws_ws/build/nav2_gazebo_spawner/prefix_override:/home/ik/aws_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/nav2_gazebo_spawner build --build-base /home/ik/aws_ws/build/nav2_gazebo_spawner/build install --record /home/ik/aws_ws/build/nav2_gazebo_spawner/install.log --install-scripts $base/lib/nav2_gazebo_spawner --single-version-externally-managed
+[1.406s] running egg_info
+[1.408s] writing ../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/PKG-INFO
+[1.409s] writing dependency_links to ../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/dependency_links.txt
+[1.409s] writing entry points to ../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/entry_points.txt
+[1.410s] writing requirements to ../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/requires.txt
+[1.410s] writing top-level names to ../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/top_level.txt
+[1.447s] reading manifest file '../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/SOURCES.txt'
+[1.448s] writing manifest file '../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/SOURCES.txt'
+[1.449s] running build
+[1.449s] running build_py
+[1.449s] creating /home/ik/aws_ws/build/nav2_gazebo_spawner/build
+[1.449s] creating /home/ik/aws_ws/build/nav2_gazebo_spawner/build/lib
+[1.449s] creating /home/ik/aws_ws/build/nav2_gazebo_spawner/build/lib/nav2_gazebo_spawner
+[1.449s] copying nav2_gazebo_spawner/nav2_gazebo_spawner.py -> /home/ik/aws_ws/build/nav2_gazebo_spawner/build/lib/nav2_gazebo_spawner
+[1.449s] copying nav2_gazebo_spawner/__init__.py -> /home/ik/aws_ws/build/nav2_gazebo_spawner/build/lib/nav2_gazebo_spawner
+[1.449s] running install
+[1.450s] running install_lib
+[1.451s] creating /home/ik/aws_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages/nav2_gazebo_spawner
+[1.451s] copying /home/ik/aws_ws/build/nav2_gazebo_spawner/build/lib/nav2_gazebo_spawner/nav2_gazebo_spawner.py -> /home/ik/aws_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages/nav2_gazebo_spawner
+[1.451s] copying /home/ik/aws_ws/build/nav2_gazebo_spawner/build/lib/nav2_gazebo_spawner/__init__.py -> /home/ik/aws_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages/nav2_gazebo_spawner
+[1.452s] byte-compiling /home/ik/aws_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages/nav2_gazebo_spawner/nav2_gazebo_spawner.py to nav2_gazebo_spawner.cpython-38.pyc
+[1.453s] byte-compiling /home/ik/aws_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages/nav2_gazebo_spawner/__init__.py to __init__.cpython-38.pyc
+[1.454s] running install_data
+[1.454s] running install_egg_info
+[1.456s] Copying ../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info to /home/ik/aws_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages/nav2_gazebo_spawner-0.3.0-py3.8.egg-info
+[1.456s] running install_scripts
+[1.472s] Installing nav2_gazebo_spawner script to /home/ik/aws_ws/install/nav2_gazebo_spawner/lib/nav2_gazebo_spawner
+[1.473s] writing list of installed files to '/home/ik/aws_ws/build/nav2_gazebo_spawner/install.log'
+[1.517s] Invoked command in '/home/ik/aws_ws/src/navigation2/nav2_bringup/nav2_gazebo_spawner' returned '0': PYTHONPATH=/home/ik/aws_ws/build/nav2_gazebo_spawner/prefix_override:/home/ik/aws_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/nav2_gazebo_spawner build --build-base /home/ik/aws_ws/build/nav2_gazebo_spawner/build install --record /home/ik/aws_ws/build/nav2_gazebo_spawner/install.log --install-scripts $base/lib/nav2_gazebo_spawner --single-version-externally-managed

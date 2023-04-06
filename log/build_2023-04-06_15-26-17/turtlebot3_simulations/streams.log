@@ -1,0 +1,29 @@
+[0.016s] Invoking command in '/home/ik/aws_ws/build/turtlebot3_simulations': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake /home/ik/aws_ws/src/turtlebot3_simulations/turtlebot3_simulations -DCMAKE_INSTALL_PREFIX=/home/ik/aws_ws/install/turtlebot3_simulations
+[0.031s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.057s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.216s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.278s] -- Configuring done
+[0.282s] -- Generating done
+[0.282s] -- Build files have been written to: /home/ik/aws_ws/build/turtlebot3_simulations
+[0.288s] Invoked command in '/home/ik/aws_ws/build/turtlebot3_simulations' returned '0': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake /home/ik/aws_ws/src/turtlebot3_simulations/turtlebot3_simulations -DCMAKE_INSTALL_PREFIX=/home/ik/aws_ws/install/turtlebot3_simulations
+[0.289s] Invoking command in '/home/ik/aws_ws/build/turtlebot3_simulations': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake --build /home/ik/aws_ws/build/turtlebot3_simulations -- -j8 -l8
+[0.333s] Invoked command in '/home/ik/aws_ws/build/turtlebot3_simulations' returned '0': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake --build /home/ik/aws_ws/build/turtlebot3_simulations -- -j8 -l8
+[0.364s] Invoking command in '/home/ik/aws_ws/build/turtlebot3_simulations': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake --install /home/ik/aws_ws/build/turtlebot3_simulations
+[0.376s] -- Install configuration: ""
+[0.376s] -- Execute custom install script
+[0.376s] -- Up-to-date symlink: /home/ik/aws_ws/install/turtlebot3_simulations/share/ament_index/resource_index/package_run_dependencies/turtlebot3_simulations
+[0.377s] -- Up-to-date symlink: /home/ik/aws_ws/install/turtlebot3_simulations/share/ament_index/resource_index/parent_prefix_path/turtlebot3_simulations
+[0.377s] -- Up-to-date symlink: /home/ik/aws_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/ament_prefix_path.sh
+[0.377s] -- Up-to-date symlink: /home/ik/aws_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/ament_prefix_path.dsv
+[0.377s] -- Up-to-date symlink: /home/ik/aws_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/path.sh
+[0.377s] -- Up-to-date symlink: /home/ik/aws_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/path.dsv
+[0.378s] -- Up-to-date symlink: /home/ik/aws_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.bash
+[0.378s] -- Up-to-date symlink: /home/ik/aws_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.sh
+[0.378s] -- Up-to-date symlink: /home/ik/aws_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.zsh
+[0.378s] -- Up-to-date symlink: /home/ik/aws_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.dsv
+[0.378s] -- Symlinking: /home/ik/aws_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv
+[0.393s] -- Up-to-date symlink: /home/ik/aws_ws/install/turtlebot3_simulations/share/ament_index/resource_index/packages/turtlebot3_simulations
+[0.393s] -- Up-to-date symlink: /home/ik/aws_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig.cmake
+[0.394s] -- Up-to-date symlink: /home/ik/aws_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig-version.cmake
+[0.394s] -- Up-to-date symlink: /home/ik/aws_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.xml
+[0.401s] Invoked command in '/home/ik/aws_ws/build/turtlebot3_simulations' returned '0': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:/opt/ros/foxy /usr/bin/cmake --install /home/ik/aws_ws/build/turtlebot3_simulations

@@ -1,0 +1,63 @@
+[0.077s] Invoking command in '/home/ik/aws_ws/build/nav2_regulated_pure_pursuit_controller': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_costmap_2d/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ik/aws_ws/build/nav2_regulated_pure_pursuit_controller -- -j8 -l8
+[8.027s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[8.028s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.028s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[8.028s] -- Found nav2_common: 0.4.7 (/home/ik/aws_ws/install/nav2_common/share/nav2_common/cmake)
+[8.028s] -- Found nav2_core: 0.4.7 (/home/ik/aws_ws/install/nav2_core/share/nav2_core/cmake)
+[8.029s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.029s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[8.029s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.029s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[8.029s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.162s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[8.252s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[11.260s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.261s] -- Configured cppcheck include dirs: /home/ik/aws_ws/src/navigation2/nav2_regulated_pure_pursuit_controller/include
+[11.261s] -- Configured cppcheck exclude dirs and/or files: 
+[11.262s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[11.262s] -- Configured cpplint exclude dirs and/or files: 
+[11.263s] -- Added test 'lint_cmake' to check CMake code style
+[11.265s] -- Added test 'uncrustify' to check C / C++ code style
+[11.265s] -- Configured uncrustify additional arguments: 
+[11.265s] -- Added test 'xmllint' to check XML markup files
+[11.277s] -- Configuring done
+[11.422s] -- Generating done
+[11.426s] -- Build files have been written to: /home/ik/aws_ws/build/nav2_regulated_pure_pursuit_controller
+[11.523s] [ 12%] [32mBuilding CXX object CMakeFiles/nav2_regulated_pure_pursuit_controller.dir/src/regulated_pure_pursuit_controller.cpp.o[0m
+[11.545s] [ 37%] Built target gtest_main
+[11.589s] [ 62%] Built target gtest
+[22.118s] [ 75%] [32m[1mLinking CXX shared library libnav2_regulated_pure_pursuit_controller.so[0m
+[22.614s] [ 75%] Built target nav2_regulated_pure_pursuit_controller
+[22.672s] [ 87%] [32mBuilding CXX object test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o[0m
+[29.495s] [100%] [32m[1mLinking CXX executable test_regulated_pp[0m
+[30.049s] [100%] Built target test_regulated_pp
+[30.064s] Invoked command in '/home/ik/aws_ws/build/nav2_regulated_pure_pursuit_controller' returned '0': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_costmap_2d/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ik/aws_ws/build/nav2_regulated_pure_pursuit_controller -- -j8 -l8
+[30.113s] Invoking command in '/home/ik/aws_ws/build/nav2_regulated_pure_pursuit_controller': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_costmap_2d/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ik/aws_ws/build/nav2_regulated_pure_pursuit_controller
+[30.128s] -- Install configuration: "Release"
+[30.129s] -- Execute custom install script
+[30.129s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/lib/libnav2_regulated_pure_pursuit_controller.so
+[30.130s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/include//nav2_regulated_pure_pursuit_controller/regulated_pure_pursuit_controller.hpp
+[30.130s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/library_path.sh
+[30.130s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/library_path.dsv
+[30.131s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller//nav2_regulated_pure_pursuit_controller.xml
+[30.131s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/ament_index/resource_index/package_run_dependencies/nav2_regulated_pure_pursuit_controller
+[30.131s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/ament_index/resource_index/parent_prefix_path/nav2_regulated_pure_pursuit_controller
+[30.132s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/ament_prefix_path.sh
+[30.132s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/ament_prefix_path.dsv
+[30.132s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/path.sh
+[30.133s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/path.dsv
+[30.133s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/local_setup.bash
+[30.133s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/local_setup.sh
+[30.134s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/local_setup.zsh
+[30.134s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/local_setup.dsv
+[30.134s] -- Symlinking: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/package.dsv
+[30.151s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/ament_index/resource_index/packages/nav2_regulated_pure_pursuit_controller
+[30.152s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_regulated_pure_pursuit_controller
+[30.152s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[30.153s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[30.154s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[30.154s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/ament_cmake_export_definitions-extras.cmake
+[30.155s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/nav2_regulated_pure_pursuit_controllerConfig.cmake
+[30.156s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/nav2_regulated_pure_pursuit_controllerConfig-version.cmake
+[30.156s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/package.xml
+[30.166s] Invoked command in '/home/ik/aws_ws/build/nav2_regulated_pure_pursuit_controller' returned '0': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_costmap_2d/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ik/aws_ws/build/nav2_regulated_pure_pursuit_controller

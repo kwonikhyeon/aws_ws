@@ -1,0 +1,6 @@
+Invoking command in '/home/ik/aws_ws/build/aws_robomaker_small_warehouse_world': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ik/aws_ws/src/aws-robomaker-small-warehouse-world -DCMAKE_INSTALL_PREFIX=/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world
+Invoked command in '/home/ik/aws_ws/build/aws_robomaker_small_warehouse_world' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ik/aws_ws/src/aws-robomaker-small-warehouse-world -DCMAKE_INSTALL_PREFIX=/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world
+Invoking command in '/home/ik/aws_ws/build/aws_robomaker_small_warehouse_world': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ik/aws_ws/build/aws_robomaker_small_warehouse_world -- -j8 -l8
+Invoked command in '/home/ik/aws_ws/build/aws_robomaker_small_warehouse_world' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ik/aws_ws/build/aws_robomaker_small_warehouse_world -- -j8 -l8
+Invoking command in '/home/ik/aws_ws/build/aws_robomaker_small_warehouse_world': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ik/aws_ws/build/aws_robomaker_small_warehouse_world
+Invoked command in '/home/ik/aws_ws/build/aws_robomaker_small_warehouse_world' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ik/aws_ws/build/aws_robomaker_small_warehouse_world

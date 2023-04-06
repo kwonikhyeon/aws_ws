@@ -1,0 +1,103 @@
+[0.069s] Invoking command in '/home/ik/aws_ws/build/nav2_regulated_pure_pursuit_controller': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/home/ik/aws_ws/install/turtlebot3_simulations:/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:/home/ik/aws_ws/install/slam_toolbox:/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_costmap_2d/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_msgs/lib:/home/ik/aws_ws/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ik/aws_ws/src/navigation2/nav2_regulated_pure_pursuit_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller
+[0.850s] -- The C compiler identification is GNU 9.4.0
+[0.850s] -- The CXX compiler identification is GNU 9.4.0
+[0.850s] -- Check for working C compiler: /usr/bin/cc
+[0.850s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.850s] -- Detecting C compiler ABI info
+[0.850s] -- Detecting C compiler ABI info - done
+[0.850s] -- Detecting C compile features
+[0.850s] -- Detecting C compile features - done
+[0.850s] -- Check for working CXX compiler: /usr/bin/c++
+[0.851s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.851s] -- Detecting CXX compiler ABI info
+[0.851s] -- Detecting CXX compiler ABI info - done
+[0.856s] -- Detecting CXX compile features
+[0.856s] -- Detecting CXX compile features - done
+[0.859s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.896s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.896s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.159s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.244s] -- Found nav2_common: 0.4.7 (/home/ik/aws_ws/install/nav2_common/share/nav2_common/cmake)
+[1.244s] -- Found nav2_core: 0.4.7 (/home/ik/aws_ws/install/nav2_core/share/nav2_core/cmake)
+[1.354s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.366s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.582s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.694s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.924s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.042s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.045s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.047s] -- Looking for pthread.h
+[2.219s] -- Looking for pthread.h - found
+[2.219s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.399s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.399s] -- Looking for pthread_create in pthreads
+[2.522s] -- Looking for pthread_create in pthreads - not found
+[2.522s] -- Looking for pthread_create in pthread
+[2.696s] -- Looking for pthread_create in pthread - found
+[2.699s] -- Found Threads: TRUE  
+[4.660s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[6.120s] -- Setting build type to Release as none was specified.
+[9.162s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[9.283s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[9.287s] -- Check if compiler accepts -pthread
+[9.418s] -- Check if compiler accepts -pthread - yes
+[13.672s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[13.672s] -- Configured cppcheck include dirs: /home/ik/aws_ws/src/navigation2/nav2_regulated_pure_pursuit_controller/include
+[13.672s] -- Configured cppcheck exclude dirs and/or files: 
+[13.683s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[13.683s] -- Configured cpplint exclude dirs and/or files: 
+[13.683s] -- Added test 'lint_cmake' to check CMake code style
+[13.688s] -- Added test 'uncrustify' to check C / C++ code style
+[13.688s] -- Configured uncrustify additional arguments: 
+[13.693s] -- Added test 'xmllint' to check XML markup files
+[13.708s] -- Configuring done
+[13.917s] -- Generating done
+[13.921s] -- Build files have been written to: /home/ik/aws_ws/build/nav2_regulated_pure_pursuit_controller
+[13.947s] Invoked command in '/home/ik/aws_ws/build/nav2_regulated_pure_pursuit_controller' returned '0': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/home/ik/aws_ws/install/turtlebot3_simulations:/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:/home/ik/aws_ws/install/slam_toolbox:/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_costmap_2d/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_msgs/lib:/home/ik/aws_ws/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ik/aws_ws/src/navigation2/nav2_regulated_pure_pursuit_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller
+[13.949s] Invoking command in '/home/ik/aws_ws/build/nav2_regulated_pure_pursuit_controller': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/home/ik/aws_ws/install/turtlebot3_simulations:/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:/home/ik/aws_ws/install/slam_toolbox:/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_costmap_2d/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_msgs/lib:/home/ik/aws_ws/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ik/aws_ws/build/nav2_regulated_pure_pursuit_controller -- -j8 -l8
+[23.058s] [35m[1mScanning dependencies of target nav2_regulated_pure_pursuit_controller[0m
+[23.058s] [35m[1mScanning dependencies of target gtest[0m
+[23.059s] [35m[1mScanning dependencies of target gtest_main[0m
+[23.061s] [ 12%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[23.062s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[23.062s] [ 37%] [32mBuilding CXX object CMakeFiles/nav2_regulated_pure_pursuit_controller.dir/src/regulated_pure_pursuit_controller.cpp.o[0m
+[23.062s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[23.062s] [ 50%] Built target gtest_main
+[27.370s] [ 62%] [32m[1mLinking CXX shared library libnav2_regulated_pure_pursuit_controller.so[0m
+[27.866s] [ 62%] Built target nav2_regulated_pure_pursuit_controller
+[28.092s] [ 75%] [32m[1mLinking CXX static library libgtest.a[0m
+[28.152s] [ 75%] Built target gtest
+[28.172s] [35m[1mScanning dependencies of target test_regulated_pp[0m
+[28.269s] [ 87%] [32mBuilding CXX object test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o[0m
+[34.817s] [100%] [32m[1mLinking CXX executable test_regulated_pp[0m
+[35.404s] [100%] Built target test_regulated_pp
+[35.430s] Invoked command in '/home/ik/aws_ws/build/nav2_regulated_pure_pursuit_controller' returned '0': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/home/ik/aws_ws/install/turtlebot3_simulations:/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:/home/ik/aws_ws/install/slam_toolbox:/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_costmap_2d/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_msgs/lib:/home/ik/aws_ws/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ik/aws_ws/build/nav2_regulated_pure_pursuit_controller -- -j8 -l8
+[35.475s] Invoking command in '/home/ik/aws_ws/build/nav2_regulated_pure_pursuit_controller': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/home/ik/aws_ws/install/turtlebot3_simulations:/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:/home/ik/aws_ws/install/slam_toolbox:/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_costmap_2d/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_msgs/lib:/home/ik/aws_ws/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ik/aws_ws/build/nav2_regulated_pure_pursuit_controller
+[35.493s] -- Install configuration: "Release"
+[35.500s] -- Execute custom install script
+[35.500s] -- Symlinking: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/lib/libnav2_regulated_pure_pursuit_controller.so
+[35.515s] -- Symlinking: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/include//nav2_regulated_pure_pursuit_controller/regulated_pure_pursuit_controller.hpp
+[35.530s] -- Symlinking: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/library_path.sh
+[35.548s] -- Symlinking: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/library_path.dsv
+[35.565s] -- Symlinking: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller//nav2_regulated_pure_pursuit_controller.xml
+[35.580s] -- Symlinking: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/ament_index/resource_index/package_run_dependencies/nav2_regulated_pure_pursuit_controller
+[35.594s] -- Symlinking: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/ament_index/resource_index/parent_prefix_path/nav2_regulated_pure_pursuit_controller
+[35.611s] -- Symlinking: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/ament_prefix_path.sh
+[35.625s] -- Symlinking: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/ament_prefix_path.dsv
+[35.639s] -- Symlinking: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/path.sh
+[35.652s] -- Symlinking: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/path.dsv
+[35.665s] -- Symlinking: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/local_setup.bash
+[35.678s] -- Symlinking: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/local_setup.sh
+[35.695s] -- Symlinking: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/local_setup.zsh
+[35.710s] -- Symlinking: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/local_setup.dsv
+[35.727s] -- Symlinking: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/package.dsv
+[35.745s] -- Symlinking: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/ament_index/resource_index/packages/nav2_regulated_pure_pursuit_controller
+[35.759s] -- Symlinking: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_regulated_pure_pursuit_controller
+[35.773s] -- Symlinking: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[35.788s] -- Symlinking: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[35.801s] -- Symlinking: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[35.816s] -- Symlinking: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/ament_cmake_export_definitions-extras.cmake
+[35.833s] -- Symlinking: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/nav2_regulated_pure_pursuit_controllerConfig.cmake
+[35.852s] -- Symlinking: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/nav2_regulated_pure_pursuit_controllerConfig-version.cmake
+[35.864s] -- Symlinking: /home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/package.xml
+[35.884s] Invoked command in '/home/ik/aws_ws/build/nav2_regulated_pure_pursuit_controller' returned '0': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/home/ik/aws_ws/install/turtlebot3_simulations:/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:/home/ik/aws_ws/install/slam_toolbox:/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_costmap_2d/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_msgs/lib:/home/ik/aws_ws/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ik/aws_ws/build/nav2_regulated_pure_pursuit_controller

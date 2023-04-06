@@ -1,0 +1,27 @@
+{
+  "package_name": "nav2_msgs",
+  "non_idl_tuples": [
+    "/home/ik/aws_ws/src/navigation2/nav2_msgs:msg/Costmap.msg",
+    "/home/ik/aws_ws/src/navigation2/nav2_msgs:msg/CostmapMetaData.msg",
+    "/home/ik/aws_ws/src/navigation2/nav2_msgs:msg/VoxelGrid.msg",
+    "/home/ik/aws_ws/src/navigation2/nav2_msgs:msg/BehaviorTreeStatusChange.msg",
+    "/home/ik/aws_ws/src/navigation2/nav2_msgs:msg/BehaviorTreeLog.msg",
+    "/home/ik/aws_ws/src/navigation2/nav2_msgs:msg/Particle.msg",
+    "/home/ik/aws_ws/src/navigation2/nav2_msgs:msg/ParticleCloud.msg",
+    "/home/ik/aws_ws/src/navigation2/nav2_msgs:srv/GetCostmap.srv",
+    "/home/ik/aws_ws/src/navigation2/nav2_msgs:srv/ClearCostmapExceptRegion.srv",
+    "/home/ik/aws_ws/src/navigation2/nav2_msgs:srv/ClearCostmapAroundRobot.srv",
+    "/home/ik/aws_ws/src/navigation2/nav2_msgs:srv/ClearEntireCostmap.srv",
+    "/home/ik/aws_ws/src/navigation2/nav2_msgs:srv/ManageLifecycleNodes.srv",
+    "/home/ik/aws_ws/src/navigation2/nav2_msgs:srv/LoadMap.srv",
+    "/home/ik/aws_ws/src/navigation2/nav2_msgs:srv/SaveMap.srv",
+    "/home/ik/aws_ws/src/navigation2/nav2_msgs:action/BackUp.action",
+    "/home/ik/aws_ws/src/navigation2/nav2_msgs:action/ComputePathToPose.action",
+    "/home/ik/aws_ws/src/navigation2/nav2_msgs:action/FollowPath.action",
+    "/home/ik/aws_ws/src/navigation2/nav2_msgs:action/NavigateToPose.action",
+    "/home/ik/aws_ws/src/navigation2/nav2_msgs:action/Wait.action",
+    "/home/ik/aws_ws/src/navigation2/nav2_msgs:action/Spin.action",
+    "/home/ik/aws_ws/src/navigation2/nav2_msgs:action/DummyRecovery.action",
+    "/home/ik/aws_ws/src/navigation2/nav2_msgs:action/FollowWaypoints.action"
+  ]
+}

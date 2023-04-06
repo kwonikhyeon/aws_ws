@@ -1,0 +1,119 @@
+[0.096s] Invoking command in '/home/ik/aws_ws/build/dwb_core': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav_2d_utils:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/dwb_msgs:/home/ik/aws_ws/install/nav_2d_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav_2d_utils:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/dwb_msgs:/home/ik/aws_ws/install/nav_2d_msgs:/home/ik/aws_ws/install/nav2_common:/home/ik/aws_ws/install/turtlebot3_simulations:/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:/home/ik/aws_ws/install/slam_toolbox:/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_costmap_2d/lib:/home/ik/aws_ws/install/nav_2d_utils/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_msgs/lib:/home/ik/aws_ws/install/dwb_msgs/lib:/home/ik/aws_ws/install/nav_2d_msgs/lib:/home/ik/aws_ws/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/dwb_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ik/aws_ws/src/navigation2/nav2_dwb_controller/dwb_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ik/aws_ws/install/dwb_core
+[0.176s] -- The C compiler identification is GNU 9.4.0
+[0.268s] -- The CXX compiler identification is GNU 9.4.0
+[0.276s] -- Check for working C compiler: /usr/bin/cc
+[0.400s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.401s] -- Detecting C compiler ABI info
+[0.526s] -- Detecting C compiler ABI info - done
+[0.554s] -- Detecting C compile features
+[0.554s] -- Detecting C compile features - done
+[0.558s] -- Check for working CXX compiler: /usr/bin/c++
+[0.690s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.691s] -- Detecting CXX compiler ABI info
+[0.806s] -- Detecting CXX compiler ABI info - done
+[0.822s] -- Detecting CXX compile features
+[0.823s] -- Detecting CXX compile features - done
+[0.827s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.864s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.864s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.145s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.195s] -- Found nav2_common: 0.4.7 (/home/ik/aws_ws/install/nav2_common/share/nav2_common/cmake)
+[1.199s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.364s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.385s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.568s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.634s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.785s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.880s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.884s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.886s] -- Looking for pthread.h
+[2.062s] -- Looking for pthread.h - found
+[2.069s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.272s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.272s] -- Looking for pthread_create in pthreads
+[2.380s] -- Looking for pthread_create in pthreads - not found
+[2.381s] -- Looking for pthread_create in pthread
+[2.488s] -- Looking for pthread_create in pthread - found
+[2.493s] -- Found Threads: TRUE  
+[2.763s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[2.814s] -- Found nav_2d_msgs: 0.4.7 (/home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake)
+[2.917s] -- Found dwb_msgs: 0.4.7 (/home/ik/aws_ws/install/dwb_msgs/share/dwb_msgs/cmake)
+[3.327s] -- Found nav2_costmap_2d: 0.4.7 (/home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake)
+[4.789s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[5.493s] -- Found nav_2d_utils: 0.4.7 (/home/ik/aws_ws/install/nav_2d_utils/share/nav_2d_utils/cmake)
+[5.776s] -- Found nav2_core: 0.4.7 (/home/ik/aws_ws/install/nav2_core/share/nav2_core/cmake)
+[6.529s] -- Setting build type to Release as none was specified.
+[10.517s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[10.759s] -- Found ament_cmake_gtest: 0.9.11 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[10.766s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[10.769s] -- Check if compiler accepts -pthread
+[11.132s] -- Check if compiler accepts -pthread - yes
+[11.156s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.157s] -- Configured cppcheck include dirs: /home/ik/aws_ws/src/navigation2/nav2_dwb_controller/dwb_core/include
+[11.157s] -- Configured cppcheck exclude dirs and/or files: 
+[11.160s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[11.160s] -- Configured cpplint exclude dirs and/or files: 
+[11.162s] -- Added test 'lint_cmake' to check CMake code style
+[11.165s] -- Added test 'uncrustify' to check C / C++ code style
+[11.165s] -- Configured uncrustify additional arguments: 
+[11.167s] -- Added test 'xmllint' to check XML markup files
+[11.190s] -- Configuring done
+[11.330s] -- Generating done
+[11.341s] -- Build files have been written to: /home/ik/aws_ws/build/dwb_core
+[11.363s] Invoked command in '/home/ik/aws_ws/build/dwb_core' returned '0': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav_2d_utils:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/dwb_msgs:/home/ik/aws_ws/install/nav_2d_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav_2d_utils:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/dwb_msgs:/home/ik/aws_ws/install/nav_2d_msgs:/home/ik/aws_ws/install/nav2_common:/home/ik/aws_ws/install/turtlebot3_simulations:/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:/home/ik/aws_ws/install/slam_toolbox:/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_costmap_2d/lib:/home/ik/aws_ws/install/nav_2d_utils/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_msgs/lib:/home/ik/aws_ws/install/dwb_msgs/lib:/home/ik/aws_ws/install/nav_2d_msgs/lib:/home/ik/aws_ws/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/dwb_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ik/aws_ws/src/navigation2/nav2_dwb_controller/dwb_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ik/aws_ws/install/dwb_core
+[11.369s] Invoking command in '/home/ik/aws_ws/build/dwb_core': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav_2d_utils:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/dwb_msgs:/home/ik/aws_ws/install/nav_2d_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav_2d_utils:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/dwb_msgs:/home/ik/aws_ws/install/nav_2d_msgs:/home/ik/aws_ws/install/nav2_common:/home/ik/aws_ws/install/turtlebot3_simulations:/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:/home/ik/aws_ws/install/slam_toolbox:/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_costmap_2d/lib:/home/ik/aws_ws/install/nav_2d_utils/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_msgs/lib:/home/ik/aws_ws/install/dwb_msgs/lib:/home/ik/aws_ws/install/nav_2d_msgs/lib:/home/ik/aws_ws/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/dwb_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ik/aws_ws/build/dwb_core -- -j8 -l8
+[14.005s] [35m[1mScanning dependencies of target gtest[0m
+[14.006s] [35m[1mScanning dependencies of target dwb_core[0m
+[14.006s] [35m[1mScanning dependencies of target gtest_main[0m
+[14.006s] [  9%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[14.006s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[14.006s] [ 27%] [32mBuilding CXX object CMakeFiles/dwb_core.dir/src/dwb_local_planner.cpp.o[0m
+[14.006s] [ 36%] [32mBuilding CXX object CMakeFiles/dwb_core.dir/src/publisher.cpp.o[0m
+[14.006s] [ 45%] [32mBuilding CXX object CMakeFiles/dwb_core.dir/src/illegal_trajectory_tracker.cpp.o[0m
+[14.007s] [ 54%] [32mBuilding CXX object CMakeFiles/dwb_core.dir/src/trajectory_utils.cpp.o[0m
+[14.007s] [ 63%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[14.007s] [ 63%] Built target gtest_main
+[26.216s] [ 72%] [32m[1mLinking CXX static library libgtest.a[0m
+[26.440s] [ 72%] Built target gtest
+[31.923s] [ 81%] [32m[1mLinking CXX shared library libdwb_core.so[0m
+[32.334s] [ 81%] Built target dwb_core
+[32.359s] [35m[1mScanning dependencies of target utils_test[0m
+[32.435s] [ 90%] [32mBuilding CXX object test/CMakeFiles/utils_test.dir/utils_test.cpp.o[0m
+[36.176s] [100%] [32m[1mLinking CXX executable utils_test[0m
+[36.507s] [100%] Built target utils_test
+[36.522s] Invoked command in '/home/ik/aws_ws/build/dwb_core' returned '0': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav_2d_utils:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/dwb_msgs:/home/ik/aws_ws/install/nav_2d_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav_2d_utils:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/dwb_msgs:/home/ik/aws_ws/install/nav_2d_msgs:/home/ik/aws_ws/install/nav2_common:/home/ik/aws_ws/install/turtlebot3_simulations:/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:/home/ik/aws_ws/install/slam_toolbox:/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_costmap_2d/lib:/home/ik/aws_ws/install/nav_2d_utils/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_msgs/lib:/home/ik/aws_ws/install/dwb_msgs/lib:/home/ik/aws_ws/install/nav_2d_msgs/lib:/home/ik/aws_ws/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/dwb_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ik/aws_ws/build/dwb_core -- -j8 -l8
+[36.572s] Invoking command in '/home/ik/aws_ws/build/dwb_core': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav_2d_utils:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/dwb_msgs:/home/ik/aws_ws/install/nav_2d_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav_2d_utils:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/dwb_msgs:/home/ik/aws_ws/install/nav_2d_msgs:/home/ik/aws_ws/install/nav2_common:/home/ik/aws_ws/install/turtlebot3_simulations:/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:/home/ik/aws_ws/install/slam_toolbox:/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_costmap_2d/lib:/home/ik/aws_ws/install/nav_2d_utils/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_msgs/lib:/home/ik/aws_ws/install/dwb_msgs/lib:/home/ik/aws_ws/install/nav_2d_msgs/lib:/home/ik/aws_ws/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/dwb_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ik/aws_ws/build/dwb_core
+[36.587s] -- Install configuration: "Release"
+[36.588s] -- Execute custom install script
+[36.588s] -- Symlinking: /home/ik/aws_ws/install/dwb_core/lib/libdwb_core.so
+[36.606s] -- Symlinking: /home/ik/aws_ws/install/dwb_core/include//dwb_core/dwb_local_planner.hpp
+[36.617s] -- Symlinking: /home/ik/aws_ws/install/dwb_core/include//dwb_core/exceptions.hpp
+[36.629s] -- Symlinking: /home/ik/aws_ws/install/dwb_core/include//dwb_core/illegal_trajectory_tracker.hpp
+[36.640s] -- Symlinking: /home/ik/aws_ws/install/dwb_core/include//dwb_core/publisher.hpp
+[36.652s] -- Symlinking: /home/ik/aws_ws/install/dwb_core/include//dwb_core/trajectory_critic.hpp
+[36.663s] -- Symlinking: /home/ik/aws_ws/install/dwb_core/include//dwb_core/trajectory_generator.hpp
+[36.675s] -- Symlinking: /home/ik/aws_ws/install/dwb_core/include//dwb_core/trajectory_utils.hpp
+[36.687s] -- Symlinking: /home/ik/aws_ws/install/dwb_core/share/dwb_core/environment/library_path.sh
+[36.699s] -- Symlinking: /home/ik/aws_ws/install/dwb_core/share/dwb_core/environment/library_path.dsv
+[36.711s] -- Symlinking: /home/ik/aws_ws/install/dwb_core/share/dwb_core//local_planner_plugin.xml
+[36.723s] -- Symlinking: /home/ik/aws_ws/install/dwb_core/share/ament_index/resource_index/package_run_dependencies/dwb_core
+[36.735s] -- Symlinking: /home/ik/aws_ws/install/dwb_core/share/ament_index/resource_index/parent_prefix_path/dwb_core
+[36.746s] -- Symlinking: /home/ik/aws_ws/install/dwb_core/share/dwb_core/environment/ament_prefix_path.sh
+[36.758s] -- Symlinking: /home/ik/aws_ws/install/dwb_core/share/dwb_core/environment/ament_prefix_path.dsv
+[36.770s] -- Symlinking: /home/ik/aws_ws/install/dwb_core/share/dwb_core/environment/path.sh
+[36.788s] -- Symlinking: /home/ik/aws_ws/install/dwb_core/share/dwb_core/environment/path.dsv
+[36.799s] -- Symlinking: /home/ik/aws_ws/install/dwb_core/share/dwb_core/local_setup.bash
+[36.811s] -- Symlinking: /home/ik/aws_ws/install/dwb_core/share/dwb_core/local_setup.sh
+[36.823s] -- Symlinking: /home/ik/aws_ws/install/dwb_core/share/dwb_core/local_setup.zsh
+[36.834s] -- Symlinking: /home/ik/aws_ws/install/dwb_core/share/dwb_core/local_setup.dsv
+[36.846s] -- Symlinking: /home/ik/aws_ws/install/dwb_core/share/dwb_core/package.dsv
+[36.858s] -- Symlinking: /home/ik/aws_ws/install/dwb_core/share/ament_index/resource_index/packages/dwb_core
+[36.870s] -- Symlinking: /home/ik/aws_ws/install/dwb_core/share/ament_index/resource_index/nav2_core__pluginlib__plugin/dwb_core
+[36.882s] -- Symlinking: /home/ik/aws_ws/install/dwb_core/share/dwb_core/cmake/ament_cmake_export_include_directories-extras.cmake
+[36.899s] -- Symlinking: /home/ik/aws_ws/install/dwb_core/share/dwb_core/cmake/ament_cmake_export_libraries-extras.cmake
+[36.911s] -- Symlinking: /home/ik/aws_ws/install/dwb_core/share/dwb_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[36.923s] -- Symlinking: /home/ik/aws_ws/install/dwb_core/share/dwb_core/cmake/ament_cmake_export_definitions-extras.cmake
+[36.934s] -- Symlinking: /home/ik/aws_ws/install/dwb_core/share/dwb_core/cmake/dwb_coreConfig.cmake
+[36.946s] -- Symlinking: /home/ik/aws_ws/install/dwb_core/share/dwb_core/cmake/dwb_coreConfig-version.cmake
+[36.958s] -- Symlinking: /home/ik/aws_ws/install/dwb_core/share/dwb_core/package.xml
+[36.978s] Invoked command in '/home/ik/aws_ws/build/dwb_core' returned '0': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav_2d_utils:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/dwb_msgs:/home/ik/aws_ws/install/nav_2d_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav_2d_utils:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/dwb_msgs:/home/ik/aws_ws/install/nav_2d_msgs:/home/ik/aws_ws/install/nav2_common:/home/ik/aws_ws/install/turtlebot3_simulations:/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:/home/ik/aws_ws/install/slam_toolbox:/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_costmap_2d/lib:/home/ik/aws_ws/install/nav_2d_utils/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_msgs/lib:/home/ik/aws_ws/install/dwb_msgs/lib:/home/ik/aws_ws/install/nav_2d_msgs/lib:/home/ik/aws_ws/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/dwb_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ik/aws_ws/build/dwb_core
