@@ -1,0 +1,624 @@
+[0.199s] Invoking command in '/home/ik/aws_ws/build/slam_toolbox': CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_map_server:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/home/ik/aws_ws/install/turtlebot3_simulations:/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:/home/ik/aws_ws/install/nav2_system_tests:/home/ik/aws_ws/install/nav2_bringup:/home/ik/aws_ws/install/navigation2:/home/ik/aws_ws/install/smac_planner:/home/ik/aws_ws/install/slam_toolbox:/home/ik/aws_ws/install/rtabmap_ros:/home/ik/aws_ws/install/rtabmap:/home/ik/aws_ws/install/nav2_dwb_controller:/home/ik/aws_ws/install/nav2_controller:/home/ik/aws_ws/install/dwb_plugins:/home/ik/aws_ws/install/dwb_critics:/home/ik/aws_ws/install/dwb_core:/home/ik/aws_ws/install/nav_2d_utils:/home/ik/aws_ws/install/dwb_msgs:/home/ik/aws_ws/install/nav_2d_msgs:/home/ik/aws_ws/install/nav2_waypoint_follower:/home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller:/home/ik/aws_ws/install/nav2_recoveries:/home/ik/aws_ws/install/nav2_planner:/home/ik/aws_ws/install/nav2_navfn_planner:/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/costmap_queue:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_rviz_plugins:/home/ik/aws_ws/install/nav2_lifecycle_manager:/home/ik/aws_ws/install/nav2_bt_navigator:/home/ik/aws_ws/install/nav2_behavior_tree:/home/ik/aws_ws/install/nav2_amcl:/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world:/home/ik/aws_ws/install/nav2_gazebo_spawner:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_map_server/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_msgs/lib:/home/ik/aws_ws/install/smac_planner/lib:/home/ik/aws_ws/install/slam_toolbox/lib:/home/ik/aws_ws/install/rtabmap_ros/lib:/home/ik/aws_ws/install/rtabmap/lib:/home/ik/aws_ws/install/nav2_controller/lib:/home/ik/aws_ws/install/dwb_plugins/lib:/home/ik/aws_ws/install/dwb_critics/lib:/home/ik/aws_ws/install/dwb_core/lib:/home/ik/aws_ws/install/nav_2d_utils/lib:/home/ik/aws_ws/install/dwb_msgs/lib:/home/ik/aws_ws/install/nav_2d_msgs/lib:/home/ik/aws_ws/install/nav2_waypoint_follower/lib:/home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/ik/aws_ws/install/nav2_recoveries/lib:/home/ik/aws_ws/install/nav2_planner/lib:/home/ik/aws_ws/install/nav2_navfn_planner/lib:/home/ik/aws_ws/install/costmap_queue/lib:/home/ik/aws_ws/install/nav2_costmap_2d/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_rviz_plugins/lib:/home/ik/aws_ws/install/nav2_lifecycle_manager/lib:/home/ik/aws_ws/install/nav2_bt_navigator/lib:/home/ik/aws_ws/install/nav2_behavior_tree/lib:/home/ik/aws_ws/install/nav2_amcl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:/home/ik/aws_ws/install/slam_toolbox/lib/python3.8/site-packages:/home/ik/aws_ws/install/rtabmap_ros/lib/python3.8/site-packages:/home/ik/aws_ws/install/dwb_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/build/nav2_gazebo_spawner:/home/ik/aws_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/ik/aws_ws/src/slam_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ik/aws_ws/install/slam_toolbox
+[0.335s] -- The C compiler identification is GNU 9.4.0
+[0.453s] -- The CXX compiler identification is GNU 9.4.0
+[0.461s] -- Check for working C compiler: /usr/bin/cc
+[0.694s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.695s] -- Detecting C compiler ABI info
+[0.990s] -- Detecting C compiler ABI info - done
+[1.007s] -- Detecting C compile features
+[1.007s] -- Detecting C compile features - done
+[1.010s] -- Check for working CXX compiler: /usr/bin/c++
+[1.374s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.375s] -- Detecting CXX compiler ABI info
+[1.686s] -- Detecting CXX compiler ABI info - done
+[1.710s] -- Detecting CXX compile features
+[1.711s] -- Detecting CXX compile features - done
+[1.715s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.806s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.806s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.137s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.195s] -- Found message_filters: 3.2.5 (/opt/ros/foxy/share/message_filters/cmake)
+[2.204s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[2.266s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.286s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.727s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.827s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.053s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.528s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.669s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.678s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.679s] -- Looking for pthread.h
+[4.038s] -- Looking for pthread.h - found
+[4.039s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.414s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.415s] -- Looking for pthread_create in pthreads
+[4.680s] -- Looking for pthread_create in pthreads - not found
+[4.685s] -- Looking for pthread_create in pthread
+[4.894s] -- Looking for pthread_create in pthread - found
+[4.895s] -- Found Threads: TRUE  
+[5.156s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[5.273s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[5.292s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[5.921s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[6.117s] -- Found pluginlib: 2.5.4 (/opt/ros/foxy/share/pluginlib/cmake)
+[6.178s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[6.200s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[6.213s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[6.296s] -- Found tf2_sensor_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_sensor_msgs/cmake)
+[6.320s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[6.336s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[6.358s] -- Found nav2_map_server: 0.4.7 (/home/ik/aws_ws/install/nav2_map_server/share/nav2_map_server/cmake)
+[6.363s] -- Found rviz_common: 8.2.8 (/opt/ros/foxy/share/rviz_common/cmake)
+[6.387s] -- Setting OGRE_DIR to: '/opt/ros/foxy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[6.390s] -- Found OGRE
+[6.390s] --   static     : OFF
+[6.391s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[6.391s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[6.391s] --   media      : /opt/ros/foxy/opt/rviz_ogre_vendor/share/OGRE/Media
+[6.391s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[6.391s] -- OGRE_LIBRARY_DIRS: /opt/ros/foxy/opt/rviz_ogre_vendor/lib
+[6.391s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[6.391s] -- OGRE_PLUGIN_DIR: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/OGRE
+[6.391s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[6.391s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[6.392s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[6.392s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[6.430s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[6.442s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[6.918s] -- Found X11: /usr/include   
+[6.918s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[7.260s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[7.266s] -- Looking for gethostbyname
+[7.565s] -- Looking for gethostbyname - found
+[7.565s] -- Looking for connect
+[7.929s] -- Looking for connect - found
+[7.929s] -- Looking for remove
+[8.278s] -- Looking for remove - found
+[8.278s] -- Looking for shmat
+[8.658s] -- Looking for shmat - found
+[8.659s] -- Looking for IceConnectionNumber in ICE
+[8.993s] -- Looking for IceConnectionNumber in ICE - found
+[8.998s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[8.998s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[9.016s] -- library: libassimp.so.5
+[9.439s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[9.667s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[9.682s] -- Found rviz_default_plugins: 8.2.8 (/opt/ros/foxy/share/rviz_default_plugins/cmake)
+[10.298s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system serialization filesystem thread 
+[10.535s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[10.542s] -- Found CSPARSE: /usr/include/suitesparse  
+[10.709s] -- Found CHOLMOD: /usr/include/suitesparse  
+[10.712s] -- Looking for sgemm_
+[11.040s] -- Looking for sgemm_ - not found
+[11.206s] -- Looking for sgemm_
+[11.595s] -- Looking for sgemm_ - found
+[11.595s] -- Found BLAS: /usr/lib/x86_64-linux-gnu/libblas.so  
+[11.597s] -- Looking for cheev_
+[11.858s] -- Looking for cheev_ - not found
+[11.896s] -- Looking for cheev_
+[12.340s] -- Looking for cheev_ - found
+[12.340s] -- A library with LAPACK API found.
+[12.346s] -- Found installed version of Eigen: /usr/lib/cmake/eigen3
+[12.348s] -- Found required Ceres dependency: Eigen version 3.3.7 in /usr/include/eigen3
+[12.355s] -- Found required Ceres dependency: glog
+[12.367s] -- Found installed version of gflags: /usr/lib/x86_64-linux-gnu/cmake/gflags
+[12.367s] -- Detected gflags version: 2.2.2
+[12.368s] -- Found required Ceres dependency: gflags
+[12.369s] -- Found Ceres version: 1.14.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, OpenMP, Multithreading]
+[12.524s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[13.098s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[14.090s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[14.448s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[14.562s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[14.565s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[14.668s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[14.668s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[14.669s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[14.669s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[14.758s] -- Found PythonExtra: .so  
+[15.353s] -- Configuring done
+[15.934s] -- Generating done
+[15.960s] -- Build files have been written to: /home/ik/aws_ws/build/slam_toolbox
+[15.999s] Invoked command in '/home/ik/aws_ws/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_map_server:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/home/ik/aws_ws/install/turtlebot3_simulations:/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:/home/ik/aws_ws/install/nav2_system_tests:/home/ik/aws_ws/install/nav2_bringup:/home/ik/aws_ws/install/navigation2:/home/ik/aws_ws/install/smac_planner:/home/ik/aws_ws/install/slam_toolbox:/home/ik/aws_ws/install/rtabmap_ros:/home/ik/aws_ws/install/rtabmap:/home/ik/aws_ws/install/nav2_dwb_controller:/home/ik/aws_ws/install/nav2_controller:/home/ik/aws_ws/install/dwb_plugins:/home/ik/aws_ws/install/dwb_critics:/home/ik/aws_ws/install/dwb_core:/home/ik/aws_ws/install/nav_2d_utils:/home/ik/aws_ws/install/dwb_msgs:/home/ik/aws_ws/install/nav_2d_msgs:/home/ik/aws_ws/install/nav2_waypoint_follower:/home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller:/home/ik/aws_ws/install/nav2_recoveries:/home/ik/aws_ws/install/nav2_planner:/home/ik/aws_ws/install/nav2_navfn_planner:/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/costmap_queue:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_rviz_plugins:/home/ik/aws_ws/install/nav2_lifecycle_manager:/home/ik/aws_ws/install/nav2_bt_navigator:/home/ik/aws_ws/install/nav2_behavior_tree:/home/ik/aws_ws/install/nav2_amcl:/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world:/home/ik/aws_ws/install/nav2_gazebo_spawner:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_map_server/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_msgs/lib:/home/ik/aws_ws/install/smac_planner/lib:/home/ik/aws_ws/install/slam_toolbox/lib:/home/ik/aws_ws/install/rtabmap_ros/lib:/home/ik/aws_ws/install/rtabmap/lib:/home/ik/aws_ws/install/nav2_controller/lib:/home/ik/aws_ws/install/dwb_plugins/lib:/home/ik/aws_ws/install/dwb_critics/lib:/home/ik/aws_ws/install/dwb_core/lib:/home/ik/aws_ws/install/nav_2d_utils/lib:/home/ik/aws_ws/install/dwb_msgs/lib:/home/ik/aws_ws/install/nav_2d_msgs/lib:/home/ik/aws_ws/install/nav2_waypoint_follower/lib:/home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/ik/aws_ws/install/nav2_recoveries/lib:/home/ik/aws_ws/install/nav2_planner/lib:/home/ik/aws_ws/install/nav2_navfn_planner/lib:/home/ik/aws_ws/install/costmap_queue/lib:/home/ik/aws_ws/install/nav2_costmap_2d/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_rviz_plugins/lib:/home/ik/aws_ws/install/nav2_lifecycle_manager/lib:/home/ik/aws_ws/install/nav2_bt_navigator/lib:/home/ik/aws_ws/install/nav2_behavior_tree/lib:/home/ik/aws_ws/install/nav2_amcl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:/home/ik/aws_ws/install/slam_toolbox/lib/python3.8/site-packages:/home/ik/aws_ws/install/rtabmap_ros/lib/python3.8/site-packages:/home/ik/aws_ws/install/dwb_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/build/nav2_gazebo_spawner:/home/ik/aws_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/ik/aws_ws/src/slam_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ik/aws_ws/install/slam_toolbox
+[16.000s] Invoking command in '/home/ik/aws_ws/build/slam_toolbox': CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_map_server:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/home/ik/aws_ws/install/turtlebot3_simulations:/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:/home/ik/aws_ws/install/nav2_system_tests:/home/ik/aws_ws/install/nav2_bringup:/home/ik/aws_ws/install/navigation2:/home/ik/aws_ws/install/smac_planner:/home/ik/aws_ws/install/slam_toolbox:/home/ik/aws_ws/install/rtabmap_ros:/home/ik/aws_ws/install/rtabmap:/home/ik/aws_ws/install/nav2_dwb_controller:/home/ik/aws_ws/install/nav2_controller:/home/ik/aws_ws/install/dwb_plugins:/home/ik/aws_ws/install/dwb_critics:/home/ik/aws_ws/install/dwb_core:/home/ik/aws_ws/install/nav_2d_utils:/home/ik/aws_ws/install/dwb_msgs:/home/ik/aws_ws/install/nav_2d_msgs:/home/ik/aws_ws/install/nav2_waypoint_follower:/home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller:/home/ik/aws_ws/install/nav2_recoveries:/home/ik/aws_ws/install/nav2_planner:/home/ik/aws_ws/install/nav2_navfn_planner:/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/costmap_queue:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_rviz_plugins:/home/ik/aws_ws/install/nav2_lifecycle_manager:/home/ik/aws_ws/install/nav2_bt_navigator:/home/ik/aws_ws/install/nav2_behavior_tree:/home/ik/aws_ws/install/nav2_amcl:/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world:/home/ik/aws_ws/install/nav2_gazebo_spawner:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_map_server/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_msgs/lib:/home/ik/aws_ws/install/smac_planner/lib:/home/ik/aws_ws/install/slam_toolbox/lib:/home/ik/aws_ws/install/rtabmap_ros/lib:/home/ik/aws_ws/install/rtabmap/lib:/home/ik/aws_ws/install/nav2_controller/lib:/home/ik/aws_ws/install/dwb_plugins/lib:/home/ik/aws_ws/install/dwb_critics/lib:/home/ik/aws_ws/install/dwb_core/lib:/home/ik/aws_ws/install/nav_2d_utils/lib:/home/ik/aws_ws/install/dwb_msgs/lib:/home/ik/aws_ws/install/nav_2d_msgs/lib:/home/ik/aws_ws/install/nav2_waypoint_follower/lib:/home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/ik/aws_ws/install/nav2_recoveries/lib:/home/ik/aws_ws/install/nav2_planner/lib:/home/ik/aws_ws/install/nav2_navfn_planner/lib:/home/ik/aws_ws/install/costmap_queue/lib:/home/ik/aws_ws/install/nav2_costmap_2d/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_rviz_plugins/lib:/home/ik/aws_ws/install/nav2_lifecycle_manager/lib:/home/ik/aws_ws/install/nav2_bt_navigator/lib:/home/ik/aws_ws/install/nav2_behavior_tree/lib:/home/ik/aws_ws/install/nav2_amcl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:/home/ik/aws_ws/install/slam_toolbox/lib/python3.8/site-packages:/home/ik/aws_ws/install/rtabmap_ros/lib/python3.8/site-packages:/home/ik/aws_ws/install/dwb_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/build/nav2_gazebo_spawner:/home/ik/aws_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/ik/aws_ws/build/slam_toolbox
+[16.158s] [35m[1mScanning dependencies of target kartoSlamToolbox[0m
+[16.174s] [35m[1mScanning dependencies of target slam_toolbox__cpp[0m
+[16.190s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[16.251s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[16.304s] [  3%] [32mBuilding CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Karto.cpp.o[0m
+[16.341s] [  3%] [32mBuilding CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o[0m
+[18.543s] [  3%] Built target slam_toolbox__cpp
+[18.606s] [  4%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[18.658s] [  5%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[19.308s] [  6%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[19.321s] [35m[1mScanning dependencies of target slam_toolbox__rosidl_generator_c[0m
+[19.461s] [  6%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/pause__functions.c.o[0m
+[19.848s] [  7%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/clear_queue__functions.c.o[0m
+[20.033s] [35m[1mScanning dependencies of target slam_toolbox__rosidl_typesupport_cpp[0m
+[20.223s] [  8%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/pause__type_support.cpp.o[0m
+[20.316s] [  9%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/toggle_interactive__functions.c.o[0m
+[20.719s] [ 10%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/clear__functions.c.o[0m
+[21.112s] [ 10%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/clear_queue__type_support.cpp.o[0m
+[21.157s] [ 10%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/save_map__functions.c.o[0m
+[21.402s] [35m[1mScanning dependencies of target slam_toolbox__rosidl_typesupport_introspection_cpp[0m
+[21.484s] [ 11%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/pause__type_support.cpp.o[0m
+[21.654s] [ 12%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/loop_closure__functions.c.o[0m
+[21.682s] [35m[1mScanning dependencies of target slam_toolbox__rosidl_typesupport_fastrtps_cpp[0m
+[21.809s] [ 13%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/pause__type_support.cpp.o[0m
+[21.996s] [ 14%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/toggle_interactive__type_support.cpp.o[0m
+[22.186s] [ 15%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/merge_maps__functions.c.o[0m
+[22.381s] [ 16%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/clear_queue__type_support.cpp.o[0m
+[22.569s] [ 17%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/add_submap__functions.c.o[0m
+[22.808s] [ 18%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/clear__type_support.cpp.o[0m
+[22.963s] [ 18%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/deserialize_pose_graph__functions.c.o[0m
+[23.156s] [ 18%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/clear_queue__type_support.cpp.o[0m
+[23.350s] [ 19%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/save_map__type_support.cpp.o[0m
+[23.366s] [ 19%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/toggle_interactive__type_support.cpp.o[0m
+[23.370s] [ 20%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/serialize_pose_graph__functions.c.o[0m
+[23.862s] [ 21%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/clear__type_support.cpp.o[0m
+[23.878s] [ 22%] [32m[1mLinking C shared library libslam_toolbox__rosidl_generator_c.so[0m
+[24.057s] [ 22%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/loop_closure__type_support.cpp.o[0m
+[24.081s] [ 22%] Built target slam_toolbox__rosidl_generator_c
+[24.175s] [ 23%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/merge_maps__type_support.cpp.o[0m
+[24.198s] [ 24%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/toggle_interactive__type_support.cpp.o[0m
+[24.864s] [ 25%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/save_map__type_support.cpp.o[0m
+[24.912s] [ 26%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/clear__type_support.cpp.o[0m
+[25.057s] [ 27%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/add_submap__type_support.cpp.o[0m
+[25.480s] [ 28%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/save_map__type_support.cpp.o[0m
+[25.776s] [ 28%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/loop_closure__type_support.cpp.o[0m
+[25.859s] [ 28%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/deserialize_pose_graph__type_support.cpp.o[0m
+[25.959s] [ 29%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/merge_maps__type_support.cpp.o[0m
+[26.613s] [ 29%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/loop_closure__type_support.cpp.o[0m
+[26.698s] [ 30%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/serialize_pose_graph__type_support.cpp.o[0m
+[26.749s] [ 31%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/add_submap__type_support.cpp.o[0m
+[26.759s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[27.538s] [ 33%] [32m[1mLinking CXX shared library libslam_toolbox__rosidl_typesupport_cpp.so[0m
+[27.757s] [ 33%] Built target slam_toolbox__rosidl_typesupport_cpp
+[27.814s] [ 34%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/merge_maps__type_support.cpp.o[0m
+[27.848s] [ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[27.933s] [ 36%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.cpp.o[0m
+[28.807s] [ 36%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/serialize_pose_graph__type_support.cpp.o[0m
+[29.048s] [ 37%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/add_submap__type_support.cpp.o[0m
+[29.138s] [35m[1mScanning dependencies of target slam_toolbox__rosidl_typesupport_introspection_c[0m
+[29.184s] [35m[1mScanning dependencies of target slam_toolbox__rosidl_typesupport_c[0m
+[29.211s] [ 38%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/pause__type_support.c.o[0m
+[29.269s] [ 38%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/pause__type_support.cpp.o[0m
+[29.382s] [ 38%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/clear_queue__type_support.c.o[0m
+[29.424s] [ 39%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/clear_queue__type_support.cpp.o[0m
+[29.427s] [ 40%] [32m[1mLinking CXX shared library libslam_toolbox__rosidl_typesupport_introspection_cpp.so[0m
+[29.540s] [ 41%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/toggle_interactive__type_support.cpp.o[0m
+[29.562s] [ 42%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/toggle_interactive__type_support.c.o[0m
+[29.660s] [ 42%] Built target slam_toolbox__rosidl_typesupport_introspection_cpp
+[29.660s] [ 42%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/clear__type_support.cpp.o[0m
+[29.675s] [ 43%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/clear__type_support.c.o[0m
+[29.686s] [ 43%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/save_map__type_support.c.o[0m
+[29.750s] [ 44%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/loop_closure__type_support.c.o[0m
+[29.771s] [ 45%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/save_map__type_support.cpp.o[0m
+[29.788s] [ 46%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/merge_maps__type_support.c.o[0m
+[29.808s] [ 47%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/deserialize_pose_graph__type_support.cpp.o[0m
+[29.821s] [ 48%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/add_submap__type_support.c.o[0m
+[29.847s] [ 49%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/loop_closure__type_support.cpp.o[0m
+[29.867s] [ 49%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.c.o[0m
+[29.884s] [ 50%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/merge_maps__type_support.cpp.o[0m
+[29.934s] [ 50%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/add_submap__type_support.cpp.o[0m
+[29.951s] [ 51%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/serialize_pose_graph__type_support.c.o[0m
+[29.966s] [ 52%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/deserialize_pose_graph__type_support.cpp.o[0m
+[30.001s] [ 53%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/serialize_pose_graph__type_support.cpp.o[0m
+[30.050s] [ 54%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/serialize_pose_graph__type_support.cpp.o[0m
+[30.051s] [ 54%] [32m[1mLinking C shared library libslam_toolbox__rosidl_typesupport_introspection_c.so[0m
+[30.074s] [ 55%] [32m[1mLinking CXX shared library libslam_toolbox__rosidl_typesupport_c.so[0m
+[30.151s] [ 55%] Built target slam_toolbox__rosidl_typesupport_introspection_c
+[30.164s] [ 55%] Built target slam_toolbox__rosidl_typesupport_c
+[30.692s] [ 56%] [32m[1mLinking CXX shared library libslam_toolbox__rosidl_typesupport_fastrtps_cpp.so[0m
+[30.886s] [ 56%] Built target slam_toolbox__rosidl_typesupport_fastrtps_cpp
+[30.906s] [ 57%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[32.133s] [35m[1mScanning dependencies of target slam_toolbox__rosidl_typesupport_fastrtps_c[0m
+[32.261s] [ 57%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/pause__type_support_c.cpp.o[0m
+[32.274s] [ 58%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/clear__type_support_c.cpp.o[0m
+[32.291s] [ 59%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/toggle_interactive__type_support_c.cpp.o[0m
+[32.292s] [ 60%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/clear_queue__type_support_c.cpp.o[0m
+[32.956s] [ 60%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/save_map__type_support_c.cpp.o[0m
+[33.128s] [ 61%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/loop_closure__type_support_c.cpp.o[0m
+[33.254s] [ 62%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/merge_maps__type_support_c.cpp.o[0m
+[33.321s] [ 63%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/add_submap__type_support_c.cpp.o[0m
+[33.813s] [ 63%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/deserialize_pose_graph__type_support_c.cpp.o[0m
+[33.913s] [ 64%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/serialize_pose_graph__type_support_c.cpp.o[0m
+[34.761s] [ 65%] [32m[1mLinking CXX shared library libslam_toolbox__rosidl_typesupport_fastrtps_c.so[0m
+[35.140s] [ 65%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c
+[35.200s] [35m[1mScanning dependencies of target slam_toolbox[0m
+[35.275s] [ 65%] Built target slam_toolbox
+[35.340s] [35m[1mScanning dependencies of target slam_toolbox__py[0m
+[35.347s] [ 65%] [34m[1mGenerating rviz_plugin/moc_slam_toolbox_rviz_plugin.cpp[0m
+[35.408s] [ 66%] [34m[1mGenerating Python code for ROS interfaces[0m
+[35.434s] [35m[1mScanning dependencies of target SlamToolboxPlugin[0m
+[35.681s] [ 67%] [32mBuilding CXX object CMakeFiles/SlamToolboxPlugin.dir/rviz_plugin/slam_toolbox_rviz_plugin.cpp.o[0m
+[35.699s] [ 68%] [32mBuilding CXX object CMakeFiles/SlamToolboxPlugin.dir/rviz_plugin/moc_slam_toolbox_rviz_plugin.cpp.o[0m
+[38.630s] [ 68%] Built target slam_toolbox__py
+[38.684s] [35m[1mScanning dependencies of target slam_toolbox__python[0m
+[38.864s] [ 69%] [32mBuilding C object CMakeFiles/slam_toolbox__python.dir/rosidl_generator_py/slam_toolbox/srv/_pause_s.c.o[0m
+[38.876s] [ 69%] [32mBuilding C object CMakeFiles/slam_toolbox__python.dir/rosidl_generator_py/slam_toolbox/srv/_clear_queue_s.c.o[0m
+[39.232s] [ 70%] [32mBuilding C object CMakeFiles/slam_toolbox__python.dir/rosidl_generator_py/slam_toolbox/srv/_toggle_interactive_s.c.o[0m
+[39.237s] [ 71%] [32mBuilding C object CMakeFiles/slam_toolbox__python.dir/rosidl_generator_py/slam_toolbox/srv/_clear_s.c.o[0m
+[39.580s] [ 72%] [32mBuilding C object CMakeFiles/slam_toolbox__python.dir/rosidl_generator_py/slam_toolbox/srv/_save_map_s.c.o[0m
+[39.622s] [ 72%] [32mBuilding C object CMakeFiles/slam_toolbox__python.dir/rosidl_generator_py/slam_toolbox/srv/_loop_closure_s.c.o[0m
+[39.928s] [ 73%] [32mBuilding C object CMakeFiles/slam_toolbox__python.dir/rosidl_generator_py/slam_toolbox/srv/_merge_maps_s.c.o[0m
+[39.967s] [ 74%] [32mBuilding C object CMakeFiles/slam_toolbox__python.dir/rosidl_generator_py/slam_toolbox/srv/_add_submap_s.c.o[0m
+[40.309s] [ 75%] [32mBuilding C object CMakeFiles/slam_toolbox__python.dir/rosidl_generator_py/slam_toolbox/srv/_deserialize_pose_graph_s.c.o[0m
+[40.342s] [ 75%] [32mBuilding C object CMakeFiles/slam_toolbox__python.dir/rosidl_generator_py/slam_toolbox/srv/_serialize_pose_graph_s.c.o[0m
+[40.697s] [ 76%] [32m[1mLinking C shared library rosidl_generator_py/slam_toolbox/libslam_toolbox__python.so[0m
+[40.905s] [ 76%] Built target slam_toolbox__python
+[40.965s] [35m[1mScanning dependencies of target slam_toolbox__rosidl_typesupport_fastrtps_c__pyext[0m
+[40.989s] [35m[1mScanning dependencies of target slam_toolbox__rosidl_typesupport_introspection_c__pyext[0m
+[41.096s] [ 76%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[41.108s] [ 77%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[42.100s] [ 77%] [32m[1mLinking C shared library rosidl_generator_py/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[42.113s] [ 78%] [32m[1mLinking CXX shared library rosidl_generator_py/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[42.294s] [ 78%] Built target slam_toolbox__rosidl_typesupport_introspection_c__pyext
+[42.363s] [35m[1mScanning dependencies of target slam_toolbox__rosidl_typesupport_c__pyext[0m
+[42.385s] [ 78%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c__pyext
+[42.484s] [ 78%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_c.c.o[0m
+[43.192s] [ 79%] [32m[1mLinking C shared library rosidl_generator_py/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[43.373s] [ 79%] Built target slam_toolbox__rosidl_typesupport_c__pyext
+[66.348s] [ 80%] [32m[1mLinking CXX shared library libkartoSlamToolbox.so[0m
+[67.719s] [ 80%] Built target kartoSlamToolbox
+[67.792s] [35m[1mScanning dependencies of target toolbox_common[0m
+[67.808s] [35m[1mScanning dependencies of target ceres_solver_plugin[0m
+[68.035s] [ 81%] [32mBuilding CXX object CMakeFiles/ceres_solver_plugin.dir/solvers/ceres_solver.cpp.o[0m
+[68.194s] [ 82%] [32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/slam_toolbox_common.cpp.o[0m
+[68.255s] [ 83%] [32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/map_saver.cpp.o[0m
+[68.278s] [ 83%] [32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/loop_closure_assistant.cpp.o[0m
+[68.313s] [ 84%] [32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/laser_utils.cpp.o[0m
+[73.236s] [ 84%] [32m[1mLinking CXX shared library libSlamToolboxPlugin.so[0m
+[77.737s] [ 84%] Built target SlamToolboxPlugin
+[77.813s] [ 85%] [32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/slam_mapper.cpp.o[0m
+[94.909s] [ 86%] [32m[1mLinking CXX shared library libceres_solver_plugin.so[0m
+[95.948s] [ 86%] Built target ceres_solver_plugin
+[116.817s] [ 87%] [32m[1mLinking CXX shared library libtoolbox_common.so[0m
+[118.747s] [ 87%] Built target toolbox_common
+[118.763s] [35m[1mScanning dependencies of target lifelong_slam_toolbox[0m
+[118.813s] [35m[1mScanning dependencies of target sync_slam_toolbox[0m
+[118.826s] [35m[1mScanning dependencies of target localization_slam_toolbox[0m
+[118.828s] [35m[1mScanning dependencies of target async_slam_toolbox[0m
+[118.869s] [35m[1mScanning dependencies of target merge_maps_kinematic[0m
+[119.012s] [ 88%] [32mBuilding CXX object CMakeFiles/localization_slam_toolbox.dir/src/slam_toolbox_localization.cpp.o[0m
+[119.040s] [ 89%] [32mBuilding CXX object CMakeFiles/sync_slam_toolbox.dir/src/slam_toolbox_sync.cpp.o[0m
+[119.041s] [ 90%] [32mBuilding CXX object CMakeFiles/lifelong_slam_toolbox.dir/src/experimental/slam_toolbox_lifelong.cpp.o[0m
+[119.088s] [ 91%] [32mBuilding CXX object CMakeFiles/merge_maps_kinematic.dir/src/merge_maps_kinematic.cpp.o[0m
+[119.152s] [ 92%] [32mBuilding CXX object CMakeFiles/async_slam_toolbox.dir/src/slam_toolbox_async.cpp.o[0m
+[147.065s] [ 93%] [32m[1mLinking CXX shared library libasync_slam_toolbox.so[0m
+[148.840s] [ 93%] Built target async_slam_toolbox
+[148.907s] [35m[1mScanning dependencies of target async_slam_toolbox_node[0m
+[149.196s] [ 94%] [32mBuilding CXX object CMakeFiles/async_slam_toolbox_node.dir/src/slam_toolbox_async_node.cpp.o[0m
+[149.931s] [ 95%] [32m[1mLinking CXX shared library liblifelong_slam_toolbox.so[0m
+[151.743s] [ 95%] Built target lifelong_slam_toolbox
+[151.812s] [35m[1mScanning dependencies of target lifelong_slam_toolbox_node[0m
+[152.116s] [ 95%] [32mBuilding CXX object CMakeFiles/lifelong_slam_toolbox_node.dir/src/experimental/slam_toolbox_lifelong_node.cpp.o[0m
+[154.033s] [ 96%] [32m[1mLinking CXX shared library libsync_slam_toolbox.so[0m
+[156.729s] [ 96%] [32m[1mLinking CXX executable merge_maps_kinematic[0m
+[156.751s] [ 96%] Built target sync_slam_toolbox
+[156.851s] [35m[1mScanning dependencies of target sync_slam_toolbox_node[0m
+[157.223s] [ 96%] [32mBuilding CXX object CMakeFiles/sync_slam_toolbox_node.dir/src/slam_toolbox_sync_node.cpp.o[0m
+[157.806s] [ 96%] [32m[1mLinking CXX shared library liblocalization_slam_toolbox.so[0m
+[160.150s] [ 96%] Built target localization_slam_toolbox
+[160.193s] [35m[1mScanning dependencies of target localization_slam_toolbox_node[0m
+[160.585s] [ 97%] [32mBuilding CXX object CMakeFiles/localization_slam_toolbox_node.dir/src/slam_toolbox_localization_node.cpp.o[0m
+[160.856s] [ 97%] Built target merge_maps_kinematic
+[180.378s] [ 97%] [32m[1mLinking CXX executable async_slam_toolbox_node[0m
+[182.070s] [ 97%] Built target async_slam_toolbox_node
+[183.232s] [ 98%] [32m[1mLinking CXX executable sync_slam_toolbox_node[0m
+[184.600s] [ 98%] Built target sync_slam_toolbox_node
+[184.786s] [ 99%] [32m[1mLinking CXX executable lifelong_slam_toolbox_node[0m
+[186.138s] [ 99%] Built target lifelong_slam_toolbox_node
+[187.916s] [100%] [32m[1mLinking CXX executable localization_slam_toolbox_node[0m
+[189.274s] [100%] Built target localization_slam_toolbox_node
+[189.342s] Invoked command in '/home/ik/aws_ws/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_map_server:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/home/ik/aws_ws/install/turtlebot3_simulations:/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:/home/ik/aws_ws/install/nav2_system_tests:/home/ik/aws_ws/install/nav2_bringup:/home/ik/aws_ws/install/navigation2:/home/ik/aws_ws/install/smac_planner:/home/ik/aws_ws/install/slam_toolbox:/home/ik/aws_ws/install/rtabmap_ros:/home/ik/aws_ws/install/rtabmap:/home/ik/aws_ws/install/nav2_dwb_controller:/home/ik/aws_ws/install/nav2_controller:/home/ik/aws_ws/install/dwb_plugins:/home/ik/aws_ws/install/dwb_critics:/home/ik/aws_ws/install/dwb_core:/home/ik/aws_ws/install/nav_2d_utils:/home/ik/aws_ws/install/dwb_msgs:/home/ik/aws_ws/install/nav_2d_msgs:/home/ik/aws_ws/install/nav2_waypoint_follower:/home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller:/home/ik/aws_ws/install/nav2_recoveries:/home/ik/aws_ws/install/nav2_planner:/home/ik/aws_ws/install/nav2_navfn_planner:/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/costmap_queue:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_rviz_plugins:/home/ik/aws_ws/install/nav2_lifecycle_manager:/home/ik/aws_ws/install/nav2_bt_navigator:/home/ik/aws_ws/install/nav2_behavior_tree:/home/ik/aws_ws/install/nav2_amcl:/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world:/home/ik/aws_ws/install/nav2_gazebo_spawner:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_map_server/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_msgs/lib:/home/ik/aws_ws/install/smac_planner/lib:/home/ik/aws_ws/install/slam_toolbox/lib:/home/ik/aws_ws/install/rtabmap_ros/lib:/home/ik/aws_ws/install/rtabmap/lib:/home/ik/aws_ws/install/nav2_controller/lib:/home/ik/aws_ws/install/dwb_plugins/lib:/home/ik/aws_ws/install/dwb_critics/lib:/home/ik/aws_ws/install/dwb_core/lib:/home/ik/aws_ws/install/nav_2d_utils/lib:/home/ik/aws_ws/install/dwb_msgs/lib:/home/ik/aws_ws/install/nav_2d_msgs/lib:/home/ik/aws_ws/install/nav2_waypoint_follower/lib:/home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/ik/aws_ws/install/nav2_recoveries/lib:/home/ik/aws_ws/install/nav2_planner/lib:/home/ik/aws_ws/install/nav2_navfn_planner/lib:/home/ik/aws_ws/install/costmap_queue/lib:/home/ik/aws_ws/install/nav2_costmap_2d/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_rviz_plugins/lib:/home/ik/aws_ws/install/nav2_lifecycle_manager/lib:/home/ik/aws_ws/install/nav2_bt_navigator/lib:/home/ik/aws_ws/install/nav2_behavior_tree/lib:/home/ik/aws_ws/install/nav2_amcl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:/home/ik/aws_ws/install/slam_toolbox/lib/python3.8/site-packages:/home/ik/aws_ws/install/rtabmap_ros/lib/python3.8/site-packages:/home/ik/aws_ws/install/dwb_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/build/nav2_gazebo_spawner:/home/ik/aws_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/ik/aws_ws/build/slam_toolbox
+[195.619s] Invoking command in '/home/ik/aws_ws/build/slam_toolbox': CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_map_server:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/home/ik/aws_ws/install/turtlebot3_simulations:/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:/home/ik/aws_ws/install/nav2_system_tests:/home/ik/aws_ws/install/nav2_bringup:/home/ik/aws_ws/install/navigation2:/home/ik/aws_ws/install/smac_planner:/home/ik/aws_ws/install/slam_toolbox:/home/ik/aws_ws/install/rtabmap_ros:/home/ik/aws_ws/install/rtabmap:/home/ik/aws_ws/install/nav2_dwb_controller:/home/ik/aws_ws/install/nav2_controller:/home/ik/aws_ws/install/dwb_plugins:/home/ik/aws_ws/install/dwb_critics:/home/ik/aws_ws/install/dwb_core:/home/ik/aws_ws/install/nav_2d_utils:/home/ik/aws_ws/install/dwb_msgs:/home/ik/aws_ws/install/nav_2d_msgs:/home/ik/aws_ws/install/nav2_waypoint_follower:/home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller:/home/ik/aws_ws/install/nav2_recoveries:/home/ik/aws_ws/install/nav2_planner:/home/ik/aws_ws/install/nav2_navfn_planner:/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/costmap_queue:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_rviz_plugins:/home/ik/aws_ws/install/nav2_lifecycle_manager:/home/ik/aws_ws/install/nav2_bt_navigator:/home/ik/aws_ws/install/nav2_behavior_tree:/home/ik/aws_ws/install/nav2_amcl:/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world:/home/ik/aws_ws/install/nav2_gazebo_spawner:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_map_server/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_msgs/lib:/home/ik/aws_ws/install/smac_planner/lib:/home/ik/aws_ws/install/slam_toolbox/lib:/home/ik/aws_ws/install/rtabmap_ros/lib:/home/ik/aws_ws/install/rtabmap/lib:/home/ik/aws_ws/install/nav2_controller/lib:/home/ik/aws_ws/install/dwb_plugins/lib:/home/ik/aws_ws/install/dwb_critics/lib:/home/ik/aws_ws/install/dwb_core/lib:/home/ik/aws_ws/install/nav_2d_utils/lib:/home/ik/aws_ws/install/dwb_msgs/lib:/home/ik/aws_ws/install/nav_2d_msgs/lib:/home/ik/aws_ws/install/nav2_waypoint_follower/lib:/home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/ik/aws_ws/install/nav2_recoveries/lib:/home/ik/aws_ws/install/nav2_planner/lib:/home/ik/aws_ws/install/nav2_navfn_planner/lib:/home/ik/aws_ws/install/costmap_queue/lib:/home/ik/aws_ws/install/nav2_costmap_2d/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_rviz_plugins/lib:/home/ik/aws_ws/install/nav2_lifecycle_manager/lib:/home/ik/aws_ws/install/nav2_bt_navigator/lib:/home/ik/aws_ws/install/nav2_behavior_tree/lib:/home/ik/aws_ws/install/nav2_amcl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:/home/ik/aws_ws/install/slam_toolbox/lib/python3.8/site-packages:/home/ik/aws_ws/install/rtabmap_ros/lib/python3.8/site-packages:/home/ik/aws_ws/install/dwb_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/build/nav2_gazebo_spawner:/home/ik/aws_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/ik/aws_ws/build/slam_toolbox
+[195.663s] -- Install configuration: "Release"
+[195.663s] -- Execute custom install script
+[195.663s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include//karto_sdk/Karto.h
+[195.719s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include//karto_sdk/Macros.h
+[195.760s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include//karto_sdk/Mapper.h
+[195.775s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include//karto_sdk/Math.h
+[195.820s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include//karto_sdk/Types.h
+[195.861s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include//karto_sdk/nanoflann.hpp
+[195.901s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include//karto_sdk/nanoflann_adaptors.h
+[195.944s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/lib/libkartoSlamToolbox.so
+[195.987s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/karto_sdk/environment/library_path.sh
+[196.025s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/karto_sdk/environment/library_path.dsv
+[196.067s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/ament_index/resource_index/package_run_dependencies/karto_sdk
+[196.111s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/ament_index/resource_index/parent_prefix_path/karto_sdk
+[196.127s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/karto_sdk/environment/ament_prefix_path.sh
+[196.142s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/karto_sdk/environment/ament_prefix_path.dsv
+[196.157s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/karto_sdk/environment/path.sh
+[196.173s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/karto_sdk/environment/path.dsv
+[196.194s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/karto_sdk/local_setup.bash
+[196.239s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/karto_sdk/local_setup.sh
+[196.281s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/karto_sdk/local_setup.zsh
+[196.322s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/karto_sdk/local_setup.dsv
+[196.380s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/karto_sdk/package.dsv
+[196.420s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/ament_index/resource_index/packages/karto_sdk
+[196.460s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/karto_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[196.495s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/karto_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[196.538s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/karto_sdk/cmake/ament_cmake_export_dependencies-extras.cmake
+[196.578s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/karto_sdk/cmake/karto_sdkConfig.cmake
+[196.619s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/karto_sdk/cmake/karto_sdkConfig-version.cmake
+[196.669s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/karto_sdk/package.xml
+[196.706s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/ament_index/resource_index/rosidl_interfaces/slam_toolbox
+[196.748s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/msg/rosidl_generator_c__visibility_control.h
+[196.788s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/add_submap.h
+[196.834s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/clear.h
+[196.874s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/clear_queue.h
+[196.909s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/deserialize_pose_graph.h
+[196.960s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__functions.h
+[196.996s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__struct.h
+[197.034s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__type_support.h
+[197.076s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__functions.h
+[197.111s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__struct.h
+[197.135s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__type_support.h
+[197.148s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__functions.h
+[197.176s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__struct.h
+[197.200s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__type_support.h
+[197.217s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__functions.h
+[197.236s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__struct.h
+[197.276s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.h
+[197.310s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__functions.h
+[197.327s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__struct.h
+[197.345s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__type_support.h
+[197.364s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__functions.h
+[197.381s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__struct.h
+[197.411s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__type_support.h
+[197.450s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__functions.h
+[197.493s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__struct.h
+[197.536s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__type_support.h
+[197.573s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__functions.h
+[197.612s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__struct.h
+[197.644s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__type_support.h
+[197.689s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__functions.h
+[197.720s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__struct.h
+[197.736s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__type_support.h
+[197.752s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__functions.h
+[197.768s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__struct.h
+[197.784s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__type_support.h
+[197.801s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/loop_closure.h
+[197.817s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/merge_maps.h
+[197.833s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/pause.h
+[197.850s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/save_map.h
+[197.866s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/serialize_pose_graph.h
+[197.883s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/toggle_interactive.h
+[197.900s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/environment/library_path.sh
+[197.917s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/environment/library_path.dsv
+[197.935s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[197.951s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_fastrtps_c.h
+[197.968s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__rosidl_typesupport_fastrtps_c.h
+[197.985s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_fastrtps_c.h
+[198.005s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_fastrtps_c.h
+[198.022s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_fastrtps_c.h
+[198.038s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_fastrtps_c.h
+[198.055s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__rosidl_typesupport_fastrtps_c.h
+[198.072s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+[198.094s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_fastrtps_c.h
+[198.114s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_fastrtps_c.h
+[198.131s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_c.so
+[198.148s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[198.165s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_fastrtps_cpp.hpp
+[198.182s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__rosidl_typesupport_fastrtps_cpp.hpp
+[198.201s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_fastrtps_cpp.hpp
+[198.254s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_fastrtps_cpp.hpp
+[198.295s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_fastrtps_cpp.hpp
+[198.333s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_fastrtps_cpp.hpp
+[198.372s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__rosidl_typesupport_fastrtps_cpp.hpp
+[198.424s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+[198.464s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_fastrtps_cpp.hpp
+[198.496s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_fastrtps_cpp.hpp
+[198.532s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_cpp.so
+[198.569s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[198.608s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_introspection_c.h
+[198.648s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__rosidl_typesupport_introspection_c.h
+[198.682s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_introspection_c.h
+[198.735s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_introspection_c.h
+[198.776s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_introspection_c.h
+[198.795s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_introspection_c.h
+[198.816s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_c.h
+[198.847s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+[198.884s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_introspection_c.h
+[198.922s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_introspection_c.h
+[198.977s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/add_submap.hpp
+[199.018s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/clear.hpp
+[199.060s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/clear_queue.hpp
+[199.103s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/deserialize_pose_graph.hpp
+[199.139s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__builder.hpp
+[199.181s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__struct.hpp
+[199.220s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__traits.hpp
+[199.267s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__builder.hpp
+[199.296s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__struct.hpp
+[199.320s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__traits.hpp
+[199.336s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__builder.hpp
+[199.351s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__struct.hpp
+[199.368s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__traits.hpp
+[199.384s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__builder.hpp
+[199.400s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__struct.hpp
+[199.415s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__traits.hpp
+[199.432s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__builder.hpp
+[199.468s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__struct.hpp
+[199.509s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__traits.hpp
+[199.555s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__builder.hpp
+[199.595s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__struct.hpp
+[199.622s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__traits.hpp
+[199.638s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__builder.hpp
+[199.653s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__struct.hpp
+[199.668s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__traits.hpp
+[199.684s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__builder.hpp
+[199.701s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__struct.hpp
+[199.717s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__traits.hpp
+[199.734s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__builder.hpp
+[199.749s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__struct.hpp
+[199.766s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__traits.hpp
+[199.782s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__builder.hpp
+[199.798s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__struct.hpp
+[199.813s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__traits.hpp
+[199.830s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/loop_closure.hpp
+[199.845s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/merge_maps.hpp
+[199.862s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/pause.hpp
+[199.877s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/save_map.hpp
+[199.893s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/serialize_pose_graph.hpp
+[199.909s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/toggle_interactive.hpp
+[199.926s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_introspection_cpp.hpp
+[199.941s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/clear__rosidl_typesupport_introspection_cpp.hpp
+[199.957s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_introspection_cpp.hpp
+[199.989s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_introspection_cpp.hpp
+[200.020s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_introspection_cpp.hpp
+[200.053s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_introspection_cpp.hpp
+[200.086s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_cpp.hpp
+[200.116s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+[200.156s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_introspection_cpp.hpp
+[200.192s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_introspection_cpp.hpp
+[200.224s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/environment/pythonpath.sh
+[200.268s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/environment/pythonpath.dsv
+[200.291s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/__init__.py
+[200.337s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/__init__.py
+[200.376s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_add_submap.py
+[200.400s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_clear.py
+[200.416s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_clear_queue.py
+[200.433s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_deserialize_pose_graph.py
+[200.448s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_loop_closure.py
+[200.464s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_merge_maps.py
+[200.482s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_pause.py
+[200.499s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_save_map.py
+[200.516s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_serialize_pose_graph.py
+[200.532s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/srv/_toggle_interactive.py
+[200.558s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[200.579s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[200.607s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[200.657s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/lib/libslam_toolbox__python.so
+[200.698s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/srv/Pause.idl
+[200.750s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/srv/ClearQueue.idl
+[200.784s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/srv/ToggleInteractive.idl
+[200.799s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/srv/Clear.idl
+[200.815s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/srv/SaveMap.idl
+[200.831s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/srv/LoopClosure.idl
+[200.848s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/srv/MergeMaps.idl
+[200.893s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/srv/AddSubmap.idl
+[200.933s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/srv/DeserializePoseGraph.idl
+[200.973s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/srv/SerializePoseGraph.idl
+[201.023s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/srvs/Pause.srv
+[201.061s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/srvs/Pause_Request.msg
+[201.098s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/srvs/Pause_Response.msg
+[201.148s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/srvs/ClearQueue.srv
+[201.192s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/srvs/ClearQueue_Request.msg
+[201.230s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/srvs/ClearQueue_Response.msg
+[201.268s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/srvs/ToggleInteractive.srv
+[201.298s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/srvs/ToggleInteractive_Request.msg
+[201.331s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/srvs/ToggleInteractive_Response.msg
+[201.384s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/srvs/Clear.srv
+[201.425s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/srvs/Clear_Request.msg
+[201.466s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/srvs/Clear_Response.msg
+[201.510s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/srvs/SaveMap.srv
+[201.562s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/srvs/SaveMap_Request.msg
+[201.606s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/srvs/SaveMap_Response.msg
+[201.649s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/srvs/LoopClosure.srv
+[201.687s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/srvs/LoopClosure_Request.msg
+[201.714s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/srvs/LoopClosure_Response.msg
+[201.744s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/srvs/MergeMaps.srv
+[201.780s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/srvs/MergeMaps_Request.msg
+[201.820s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/srvs/MergeMaps_Response.msg
+[201.859s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/srvs/AddSubmap.srv
+[201.900s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/srvs/AddSubmap_Request.msg
+[201.946s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/srvs/AddSubmap_Response.msg
+[201.993s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/srvs/DeserializePoseGraph.srv
+[202.036s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/srvs/DeserializePoseGraph_Request.msg
+[202.076s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/srvs/DeserializePoseGraph_Response.msg
+[202.120s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/srvs/SerializePoseGraph.srv
+[202.152s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/srvs/SerializePoseGraph_Request.msg
+[202.194s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/srvs/SerializePoseGraph_Response.msg
+[202.242s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox//rviz_plugins.xml
+[202.286s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox//solver_plugins.xml
+[202.327s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/lib/slam_toolbox/async_slam_toolbox_node
+[202.367s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/lib/slam_toolbox/sync_slam_toolbox_node
+[202.408s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/lib/slam_toolbox/localization_slam_toolbox_node
+[202.446s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/lib/slam_toolbox/lifelong_slam_toolbox_node
+[202.490s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/lib/slam_toolbox/merge_maps_kinematic
+[202.549s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/lib/libtoolbox_common.so
+[202.594s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/lib/libSlamToolboxPlugin.so
+[202.650s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/lib/libceres_solver_plugin.so
+[202.694s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/lib/libasync_slam_toolbox.so
+[202.737s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/lib/libsync_slam_toolbox.so
+[202.782s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/lib/liblocalization_slam_toolbox.so
+[202.820s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/lib/liblifelong_slam_toolbox.so
+[202.865s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/experimental/slam_toolbox_lifelong.hpp
+[202.900s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/get_pose_helper.hpp
+[202.939s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/laser_utils.hpp
+[202.990s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/loop_closure_assistant.hpp
+[203.043s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/map_saver.hpp
+[203.076s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/merge_maps_kinematic.hpp
+[203.092s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/serialization.hpp
+[203.108s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/slam_mapper.hpp
+[203.127s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox_async.hpp
+[203.155s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox_common.hpp
+[203.185s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox_localization.hpp
+[203.202s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox_sync.hpp
+[203.219s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/snap_utils.hpp
+[203.236s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/toolbox_msgs.hpp
+[203.253s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/toolbox_types.hpp
+[203.269s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/include/slam_toolbox/visualization_utils.hpp
+[203.287s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/launch/lifelong_launch.py
+[203.303s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/launch/localization_launch.py
+[203.320s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/launch/merge_maps_kinematic_launch.py
+[203.337s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/launch/offline_launch.py
+[203.377s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/launch/online_async_launch.py
+[203.433s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/launch/online_sync_launch.py
+[203.446s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/config/mapper_params_lifelong.yaml
+[203.485s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/config/mapper_params_localization.yaml
+[203.526s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/config/mapper_params_offline.yaml
+[203.566s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/config/mapper_params_online_async.yaml
+[203.611s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/config/mapper_params_online_sync.yaml
+[203.650s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/solver_plugins.xml
+[203.685s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/rviz_plugins.xml
+[203.704s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/ament_index/resource_index/package_run_dependencies/slam_toolbox
+[203.720s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/ament_index/resource_index/parent_prefix_path/slam_toolbox
+[203.738s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/environment/ament_prefix_path.sh
+[203.768s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/environment/ament_prefix_path.dsv
+[203.787s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/environment/path.sh
+[203.817s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/environment/path.dsv
+[203.840s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/local_setup.bash
+[203.859s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/local_setup.sh
+[203.875s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/local_setup.zsh
+[203.894s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/local_setup.dsv
+[203.912s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/package.dsv
+[203.944s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/ament_index/resource_index/packages/slam_toolbox
+[203.987s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/ament_index/resource_index/rviz_common__pluginlib__plugin/slam_toolbox
+[204.009s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/ament_index/resource_index/slam_toolbox__pluginlib__plugin/slam_toolbox
+[204.038s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake-extras.cmake
+[204.085s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake
+[204.125s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_libraries-extras.cmake
+[204.165s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_targets-extras.cmake
+[204.200s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake
+[204.234s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[204.264s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[204.291s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolboxConfig.cmake
+[204.329s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolboxConfig-version.cmake
+[204.360s] -- Symlinking: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/package.xml
+[204.420s] -- Installing: /home/ik/aws_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_generator_c.so
+[204.420s] -- Set runtime path of "/home/ik/aws_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_generator_c.so" to ""
+[204.420s] -- Installing: /home/ik/aws_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_c.so
+[204.421s] -- Set runtime path of "/home/ik/aws_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_c.so" to ""
+[204.421s] -- Installing: /home/ik/aws_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_c.so
+[204.425s] -- Set runtime path of "/home/ik/aws_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_c.so" to ""
+[204.425s] -- Installing: /home/ik/aws_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_cpp.so
+[204.425s] -- Set runtime path of "/home/ik/aws_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_cpp.so" to ""
+[204.425s] -- Installing: /home/ik/aws_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_cpp.so
+[204.425s] -- Set runtime path of "/home/ik/aws_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_cpp.so" to ""
+[204.504s] Compiling '/home/ik/aws_ws/install/slam_toolbox/lib/python3.8/site-packages/slam_toolbox/__init__.py'...
+[204.511s] -- Installing: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_generator_cExport.cmake
+[204.511s] -- Installing: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_generator_cExport-release.cmake
+[204.511s] -- Installing: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cExport.cmake
+[204.512s] -- Installing: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cExport-release.cmake
+[204.513s] -- Installing: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cExport.cmake
+[204.513s] -- Installing: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cExport-release.cmake
+[204.513s] -- Installing: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_generator_cppExport.cmake
+[204.513s] -- Installing: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cppExport.cmake
+[204.513s] -- Installing: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cppExport-release.cmake
+[204.514s] -- Installing: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cppExport.cmake
+[204.514s] -- Installing: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cppExport-release.cmake
+[204.514s] -- Installing: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/cmake/SlamToolboxPluginExport.cmake
+[204.514s] -- Installing: /home/ik/aws_ws/install/slam_toolbox/share/slam_toolbox/cmake/SlamToolboxPluginExport-release.cmake
+[204.521s] Invoked command in '/home/ik/aws_ws/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_map_server:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/home/ik/aws_ws/install/turtlebot3_simulations:/home/ik/aws_ws/install/turtlebot3_gazebo:/home/ik/aws_ws/install/turtlebot3_fake_node:/home/ik/aws_ws/install/nav2_system_tests:/home/ik/aws_ws/install/nav2_bringup:/home/ik/aws_ws/install/navigation2:/home/ik/aws_ws/install/smac_planner:/home/ik/aws_ws/install/slam_toolbox:/home/ik/aws_ws/install/rtabmap_ros:/home/ik/aws_ws/install/rtabmap:/home/ik/aws_ws/install/nav2_dwb_controller:/home/ik/aws_ws/install/nav2_controller:/home/ik/aws_ws/install/dwb_plugins:/home/ik/aws_ws/install/dwb_critics:/home/ik/aws_ws/install/dwb_core:/home/ik/aws_ws/install/nav_2d_utils:/home/ik/aws_ws/install/dwb_msgs:/home/ik/aws_ws/install/nav_2d_msgs:/home/ik/aws_ws/install/nav2_waypoint_follower:/home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller:/home/ik/aws_ws/install/nav2_recoveries:/home/ik/aws_ws/install/nav2_planner:/home/ik/aws_ws/install/nav2_navfn_planner:/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/costmap_queue:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_rviz_plugins:/home/ik/aws_ws/install/nav2_lifecycle_manager:/home/ik/aws_ws/install/nav2_bt_navigator:/home/ik/aws_ws/install/nav2_behavior_tree:/home/ik/aws_ws/install/nav2_amcl:/home/ik/aws_ws/install/aws_robomaker_small_warehouse_world:/home/ik/aws_ws/install/nav2_gazebo_spawner:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_map_server/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_msgs/lib:/home/ik/aws_ws/install/smac_planner/lib:/home/ik/aws_ws/install/slam_toolbox/lib:/home/ik/aws_ws/install/rtabmap_ros/lib:/home/ik/aws_ws/install/rtabmap/lib:/home/ik/aws_ws/install/nav2_controller/lib:/home/ik/aws_ws/install/dwb_plugins/lib:/home/ik/aws_ws/install/dwb_critics/lib:/home/ik/aws_ws/install/dwb_core/lib:/home/ik/aws_ws/install/nav_2d_utils/lib:/home/ik/aws_ws/install/dwb_msgs/lib:/home/ik/aws_ws/install/nav_2d_msgs/lib:/home/ik/aws_ws/install/nav2_waypoint_follower/lib:/home/ik/aws_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/ik/aws_ws/install/nav2_recoveries/lib:/home/ik/aws_ws/install/nav2_planner/lib:/home/ik/aws_ws/install/nav2_navfn_planner/lib:/home/ik/aws_ws/install/costmap_queue/lib:/home/ik/aws_ws/install/nav2_costmap_2d/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_rviz_plugins/lib:/home/ik/aws_ws/install/nav2_lifecycle_manager/lib:/home/ik/aws_ws/install/nav2_bt_navigator/lib:/home/ik/aws_ws/install/nav2_behavior_tree/lib:/home/ik/aws_ws/install/nav2_amcl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:/home/ik/aws_ws/install/slam_toolbox/lib/python3.8/site-packages:/home/ik/aws_ws/install/rtabmap_ros/lib/python3.8/site-packages:/home/ik/aws_ws/install/dwb_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/build/nav2_gazebo_spawner:/home/ik/aws_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/ik/aws_ws/build/slam_toolbox

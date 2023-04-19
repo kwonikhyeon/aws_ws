@@ -1,0 +1,95 @@
+[0.075s] Invoking command in '/home/ik/aws_ws/build/nav2_controller': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav_2d_utils:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav_2d_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav_2d_utils:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav_2d_msgs:/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_costmap_2d/lib:/home/ik/aws_ws/install/nav_2d_utils/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_msgs/lib:/home/ik/aws_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ik/aws_ws/src/navigation2/nav2_controller -DCMAKE_INSTALL_PREFIX=/home/ik/aws_ws/install/nav2_controller
+[0.115s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.119s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.315s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.325s] -- Found nav2_core: 0.4.7 (/home/ik/aws_ws/install/nav2_core/share/nav2_core/cmake)
+[0.370s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.374s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.536s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.596s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.598s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.638s] -- Found nav2_common: 0.4.7 (/home/ik/aws_ws/install/nav2_common/share/nav2_common/cmake)
+[3.640s] -- Found nav_2d_utils: 0.4.7 (/home/ik/aws_ws/install/nav_2d_utils/share/nav_2d_utils/cmake)
+[12.473s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[12.567s] -- Found ament_cmake_gtest: 0.9.11 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[12.571s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[14.665s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.666s] -- Configured cppcheck include dirs: /home/ik/aws_ws/src/navigation2/nav2_controller/include
+[14.667s] -- Configured cppcheck exclude dirs and/or files: 
+[14.668s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[14.668s] -- Configured cpplint exclude dirs and/or files: 
+[14.669s] -- Added test 'lint_cmake' to check CMake code style
+[14.670s] -- Added test 'uncrustify' to check C / C++ code style
+[14.670s] -- Configured uncrustify additional arguments: 
+[14.671s] -- Added test 'xmllint' to check XML markup files
+[14.680s] -- Configuring done
+[15.049s] -- Generating done
+[15.053s] -- Build files have been written to: /home/ik/aws_ws/build/nav2_controller
+[15.075s] Invoked command in '/home/ik/aws_ws/build/nav2_controller' returned '0': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav_2d_utils:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav_2d_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav_2d_utils:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav_2d_msgs:/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_costmap_2d/lib:/home/ik/aws_ws/install/nav_2d_utils/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_msgs/lib:/home/ik/aws_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ik/aws_ws/src/navigation2/nav2_controller -DCMAKE_INSTALL_PREFIX=/home/ik/aws_ws/install/nav2_controller
+[15.076s] Invoking command in '/home/ik/aws_ws/build/nav2_controller': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav_2d_utils:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav_2d_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav_2d_utils:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav_2d_msgs:/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_costmap_2d/lib:/home/ik/aws_ws/install/nav_2d_utils/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_msgs/lib:/home/ik/aws_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ik/aws_ws/build/nav2_controller -- -j8 -l8
+[22.742s] [35m[1mScanning dependencies of target simple_goal_checker[0m
+[22.742s] [35m[1mScanning dependencies of target controller_server_core[0m
+[22.742s] [35m[1mScanning dependencies of target simple_progress_checker[0m
+[22.742s] [  5%] [32mBuilding CXX object CMakeFiles/controller_server_core.dir/src/nav2_controller.cpp.o[0m
+[22.742s] [ 11%] [32mBuilding CXX object CMakeFiles/simple_goal_checker.dir/plugins/simple_goal_checker.cpp.o[0m
+[22.742s] [ 22%] Built target gtest_main
+[22.742s] [ 27%] [32mBuilding CXX object CMakeFiles/simple_progress_checker.dir/plugins/simple_progress_checker.cpp.o[0m
+[22.743s] [ 38%] Built target gtest
+[22.743s] [ 44%] [32m[1mLinking CXX shared library libsimple_progress_checker.so[0m
+[22.743s] [ 50%] [32m[1mLinking CXX shared library libsimple_goal_checker.so[0m
+[22.743s] [ 50%] Built target simple_progress_checker
+[22.743s] [35m[1mScanning dependencies of target pctest[0m
+[22.743s] [ 55%] [32mBuilding CXX object plugins/test/CMakeFiles/pctest.dir/progress_checker.cpp.o[0m
+[22.743s] [ 55%] Built target simple_goal_checker
+[22.743s] [35m[1mScanning dependencies of target stopped_goal_checker[0m
+[22.743s] [ 61%] [32mBuilding CXX object CMakeFiles/stopped_goal_checker.dir/plugins/stopped_goal_checker.cpp.o[0m
+[24.230s] [ 66%] [32m[1mLinking CXX shared library libstopped_goal_checker.so[0m
+[24.510s] [ 66%] Built target stopped_goal_checker
+[25.170s] [ 72%] [32m[1mLinking CXX executable pctest[0m
+[25.528s] [ 72%] Built target pctest
+[41.738s] [ 77%] [32m[1mLinking CXX static library libcontroller_server_core.a[0m
+[41.814s] [ 77%] Built target controller_server_core
+[41.834s] [35m[1mScanning dependencies of target gctest[0m
+[41.864s] [ 83%] [32mBuilding CXX object plugins/test/CMakeFiles/gctest.dir/goal_checker.cpp.o[0m
+[44.887s] [ 88%] [32m[1mLinking CXX executable gctest[0m
+[45.204s] [ 88%] Built target gctest
+[45.231s] [35m[1mScanning dependencies of target controller_server[0m
+[45.267s] [ 94%] [32mBuilding CXX object CMakeFiles/controller_server.dir/src/main.cpp.o[0m
+[51.264s] [100%] [32m[1mLinking CXX executable controller_server[0m
+[52.014s] [100%] Built target controller_server
+[52.049s] Invoked command in '/home/ik/aws_ws/build/nav2_controller' returned '0': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav_2d_utils:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav_2d_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav_2d_utils:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav_2d_msgs:/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_costmap_2d/lib:/home/ik/aws_ws/install/nav_2d_utils/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_msgs/lib:/home/ik/aws_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ik/aws_ws/build/nav2_controller -- -j8 -l8
+[52.623s] Invoking command in '/home/ik/aws_ws/build/nav2_controller': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav_2d_utils:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav_2d_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav_2d_utils:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav_2d_msgs:/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_costmap_2d/lib:/home/ik/aws_ws/install/nav_2d_utils/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_msgs/lib:/home/ik/aws_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ik/aws_ws/build/nav2_controller
+[52.653s] -- Install configuration: "Release"
+[52.654s] -- Execute custom install script
+[52.661s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_controller/lib/libsimple_progress_checker.so
+[52.661s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_controller/lib/libsimple_goal_checker.so
+[52.662s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_controller/lib/libstopped_goal_checker.so
+[52.662s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_controller/lib/libcontroller_server_core.a
+[52.663s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_controller/lib/nav2_controller/controller_server
+[52.669s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_controller/include//nav2_controller/nav2_controller.hpp
+[52.670s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_controller/include//nav2_controller/plugins/simple_goal_checker.hpp
+[52.670s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_controller/include//nav2_controller/plugins/simple_progress_checker.hpp
+[52.670s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_controller/include//nav2_controller/plugins/stopped_goal_checker.hpp
+[52.671s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_controller/share/nav2_controller/environment/library_path.sh
+[52.671s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_controller/share/nav2_controller/environment/library_path.dsv
+[52.671s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_controller/share/nav2_controller//plugins.xml
+[52.672s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_controller/share/ament_index/resource_index/package_run_dependencies/nav2_controller
+[52.672s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_controller/share/ament_index/resource_index/parent_prefix_path/nav2_controller
+[52.677s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_controller/share/nav2_controller/environment/ament_prefix_path.sh
+[52.678s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_controller/share/nav2_controller/environment/ament_prefix_path.dsv
+[52.678s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_controller/share/nav2_controller/environment/path.sh
+[52.678s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_controller/share/nav2_controller/environment/path.dsv
+[52.678s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_controller/share/nav2_controller/local_setup.bash
+[52.678s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_controller/share/nav2_controller/local_setup.sh
+[52.678s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_controller/share/nav2_controller/local_setup.zsh
+[52.679s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_controller/share/nav2_controller/local_setup.dsv
+[52.682s] -- Symlinking: /home/ik/aws_ws/install/nav2_controller/share/nav2_controller/package.dsv
+[52.715s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_controller/share/ament_index/resource_index/packages/nav2_controller
+[52.715s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_controller
+[52.716s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_controller/share/nav2_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[52.716s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_controller/share/nav2_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[52.716s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_controller/share/nav2_controller/cmake/ament_cmake_export_definitions-extras.cmake
+[52.717s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_controller/share/nav2_controller/cmake/nav2_controllerConfig.cmake
+[52.717s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_controller/share/nav2_controller/cmake/nav2_controllerConfig-version.cmake
+[52.717s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_controller/share/nav2_controller/package.xml
+[52.724s] Invoked command in '/home/ik/aws_ws/build/nav2_controller' returned '0': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav_2d_utils:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav_2d_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav_2d_utils:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav_2d_msgs:/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_costmap_2d/lib:/home/ik/aws_ws/install/nav_2d_utils/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_msgs/lib:/home/ik/aws_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ik/aws_ws/build/nav2_controller

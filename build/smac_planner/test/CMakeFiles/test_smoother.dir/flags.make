@@ -6,5 +6,5 @@ CXX_FLAGS =  -fopenmp -O3 -DNDEBUG   -O3 -Wextra -Wdeprecated -fPIC -pthread -st
 
 CXX_DEFINES = -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DGFLAGS_IS_A_DLL=0 -DPLUGINLIB__DISABLE_BOOST_FUNCTIONS -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB
 
-CXX_INCLUDES = -I/opt/ros/foxy/src/gtest_vendor/include -I/home/ik/aws_ws/src/navigation2/smac_planner/include -I/opt/ros/foxy/include/ompl-1.5 -I/home/ik/aws_ws/install/nav2_core/include -I/home/ik/aws_ws/install/nav2_costmap_2d/include -I/home/ik/aws_ws/install/nav2_voxel_grid/include -I/home/ik/aws_ws/install/nav2_util/include -isystem /usr/include/eigen3 -isystem /home/ik/aws_ws/install/nav2_msgs/include -isystem /opt/ros/foxy/include 
+CXX_INCLUDES = -I/opt/ros/foxy/src/gtest_vendor/include -I/home/ik/aws_ws/src/navigation2/smac_planner/include -I/opt/ros/foxy/include/ompl-1.5 -I/home/ik/aws_ws/install/nav2_core/include -I/home/ik/aws_ws/install/nav2_costmap_2d/include -I/home/ik/aws_ws/install/nav2_util/include -I/home/ik/aws_ws/install/nav2_voxel_grid/include -isystem /usr/include/eigen3 -isystem /home/ik/aws_ws/install/nav2_msgs/include -isystem /opt/ros/foxy/include 
 

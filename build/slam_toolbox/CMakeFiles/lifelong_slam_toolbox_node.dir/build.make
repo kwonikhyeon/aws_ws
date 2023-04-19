@@ -135,8 +135,8 @@ lifelong_slam_toolbox_node: /opt/ros/foxy/lib/libtf2_ros.so
 lifelong_slam_toolbox_node: /opt/ros/foxy/lib/libmessage_filters.so
 lifelong_slam_toolbox_node: /opt/ros/foxy/lib/libtf2.so
 lifelong_slam_toolbox_node: /opt/ros/foxy/lib/liborocos-kdl.so.1.4.0
-lifelong_slam_toolbox_node: /opt/ros/foxy/lib/libmap_server_core.so
-lifelong_slam_toolbox_node: /opt/ros/foxy/lib/libmap_io.so
+lifelong_slam_toolbox_node: /home/ik/aws_ws/install/nav2_map_server/lib/libmap_server_core.so
+lifelong_slam_toolbox_node: /home/ik/aws_ws/install/nav2_map_server/lib/libmap_io.so
 lifelong_slam_toolbox_node: /opt/ros/foxy/lib/libsensor_msgs__rosidl_generator_c.so
 lifelong_slam_toolbox_node: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
 lifelong_slam_toolbox_node: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_c.so

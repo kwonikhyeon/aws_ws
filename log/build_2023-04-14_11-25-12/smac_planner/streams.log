@@ -1,0 +1,58 @@
+[0.033s] Invoking command in '/home/ik/aws_ws/build/smac_planner': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_costmap_2d/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ik/aws_ws/build/smac_planner -- -j8 -l8
+[0.104s] [  5%] Built target gtest
+[0.107s] [ 11%] Built target gtest_main
+[0.133s] [ 29%] Built target smac_planner
+[0.140s] [ 47%] Built target smac_planner_2d
+[0.200s] [ 52%] Built target test_nodebasic
+[0.200s] [ 64%] Built target test_node2d
+[0.200s] [ 61%] Built target test_costmap_downsampler
+[0.208s] [ 70%] Built target test_smac_se2
+[0.208s] [ 82%] Built target test_a_star
+[0.208s] [ 82%] Built target test_nodese2
+[0.208s] [ 88%] Built target test_collision_checker
+[0.212s] [ 94%] Built target test_smac_2d
+[0.246s] [100%] Built target test_smoother
+[0.310s] Invoked command in '/home/ik/aws_ws/build/smac_planner' returned '0': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_costmap_2d/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ik/aws_ws/build/smac_planner -- -j8 -l8
+[0.372s] Invoking command in '/home/ik/aws_ws/build/smac_planner': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_costmap_2d/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ik/aws_ws/build/smac_planner
+[0.383s] -- Install configuration: "Release"
+[0.384s] -- Execute custom install script
+[0.384s] -- Up-to-date symlink: /home/ik/aws_ws/install/smac_planner/share/smac_planner//smac_plugin.xml
+[0.384s] -- Up-to-date symlink: /home/ik/aws_ws/install/smac_planner/share/smac_planner//smac_plugin_2d.xml
+[0.385s] -- Up-to-date symlink: /home/ik/aws_ws/install/smac_planner/lib/libsmac_planner.so
+[0.385s] -- Up-to-date symlink: /home/ik/aws_ws/install/smac_planner/lib/libsmac_planner_2d.so
+[0.387s] -- Up-to-date symlink: /home/ik/aws_ws/install/smac_planner/include//smac_planner/a_star.hpp
+[0.387s] -- Up-to-date symlink: /home/ik/aws_ws/install/smac_planner/include//smac_planner/collision_checker.hpp
+[0.387s] -- Up-to-date symlink: /home/ik/aws_ws/install/smac_planner/include//smac_planner/constants.hpp
+[0.387s] -- Up-to-date symlink: /home/ik/aws_ws/install/smac_planner/include//smac_planner/costmap_downsampler.hpp
+[0.387s] -- Up-to-date symlink: /home/ik/aws_ws/install/smac_planner/include//smac_planner/node_2d.hpp
+[0.387s] -- Up-to-date symlink: /home/ik/aws_ws/install/smac_planner/include//smac_planner/node_basic.hpp
+[0.387s] -- Up-to-date symlink: /home/ik/aws_ws/install/smac_planner/include//smac_planner/node_se2.hpp
+[0.387s] -- Up-to-date symlink: /home/ik/aws_ws/install/smac_planner/include//smac_planner/options.hpp
+[0.388s] -- Up-to-date symlink: /home/ik/aws_ws/install/smac_planner/include//smac_planner/smac_planner.hpp
+[0.388s] -- Up-to-date symlink: /home/ik/aws_ws/install/smac_planner/include//smac_planner/smac_planner_2d.hpp
+[0.388s] -- Up-to-date symlink: /home/ik/aws_ws/install/smac_planner/include//smac_planner/smoother.hpp
+[0.388s] -- Up-to-date symlink: /home/ik/aws_ws/install/smac_planner/include//smac_planner/smoother_cost_function.hpp
+[0.388s] -- Up-to-date symlink: /home/ik/aws_ws/install/smac_planner/include//smac_planner/types.hpp
+[0.388s] -- Up-to-date symlink: /home/ik/aws_ws/install/smac_planner/share/smac_planner/environment/library_path.sh
+[0.388s] -- Up-to-date symlink: /home/ik/aws_ws/install/smac_planner/share/smac_planner/environment/library_path.dsv
+[0.389s] -- Up-to-date symlink: /home/ik/aws_ws/install/smac_planner/share/ament_index/resource_index/package_run_dependencies/smac_planner
+[0.389s] -- Up-to-date symlink: /home/ik/aws_ws/install/smac_planner/share/ament_index/resource_index/parent_prefix_path/smac_planner
+[0.389s] -- Up-to-date symlink: /home/ik/aws_ws/install/smac_planner/share/smac_planner/environment/ament_prefix_path.sh
+[0.389s] -- Up-to-date symlink: /home/ik/aws_ws/install/smac_planner/share/smac_planner/environment/ament_prefix_path.dsv
+[0.389s] -- Up-to-date symlink: /home/ik/aws_ws/install/smac_planner/share/smac_planner/environment/path.sh
+[0.390s] -- Up-to-date symlink: /home/ik/aws_ws/install/smac_planner/share/smac_planner/environment/path.dsv
+[0.390s] -- Up-to-date symlink: /home/ik/aws_ws/install/smac_planner/share/smac_planner/local_setup.bash
+[0.390s] -- Up-to-date symlink: /home/ik/aws_ws/install/smac_planner/share/smac_planner/local_setup.sh
+[0.390s] -- Up-to-date symlink: /home/ik/aws_ws/install/smac_planner/share/smac_planner/local_setup.zsh
+[0.392s] -- Up-to-date symlink: /home/ik/aws_ws/install/smac_planner/share/smac_planner/local_setup.dsv
+[0.392s] -- Symlinking: /home/ik/aws_ws/install/smac_planner/share/smac_planner/package.dsv
+[0.403s] -- Up-to-date symlink: /home/ik/aws_ws/install/smac_planner/share/ament_index/resource_index/packages/smac_planner
+[0.403s] -- Up-to-date symlink: /home/ik/aws_ws/install/smac_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/smac_planner
+[0.404s] -- Up-to-date symlink: /home/ik/aws_ws/install/smac_planner/share/smac_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.404s] -- Up-to-date symlink: /home/ik/aws_ws/install/smac_planner/share/smac_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[0.404s] -- Up-to-date symlink: /home/ik/aws_ws/install/smac_planner/share/smac_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.405s] -- Up-to-date symlink: /home/ik/aws_ws/install/smac_planner/share/smac_planner/cmake/ament_cmake_export_definitions-extras.cmake
+[0.405s] -- Up-to-date symlink: /home/ik/aws_ws/install/smac_planner/share/smac_planner/cmake/smac_plannerConfig.cmake
+[0.405s] -- Up-to-date symlink: /home/ik/aws_ws/install/smac_planner/share/smac_planner/cmake/smac_plannerConfig-version.cmake
+[0.405s] -- Up-to-date symlink: /home/ik/aws_ws/install/smac_planner/share/smac_planner/package.xml
+[0.408s] Invoked command in '/home/ik/aws_ws/build/smac_planner' returned '0': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_core:/home/ik/aws_ws/install/nav2_costmap_2d:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_costmap_2d/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ik/aws_ws/build/smac_planner

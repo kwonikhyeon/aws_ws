@@ -1,0 +1,139 @@
+[0.022s] Invoking command in '/home/ik/aws_ws/build/nav2_util': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ik/aws_ws/src/navigation2/nav2_util -DCMAKE_INSTALL_PREFIX=/home/ik/aws_ws/install/nav2_util
+[0.039s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.066s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.066s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.206s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.220s] -- Found nav2_common: 0.4.7 (/home/ik/aws_ws/install/nav2_common/share/nav2_common/cmake)
+[0.221s] -- Found nav2_msgs: 0.4.7 (/home/ik/aws_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[0.238s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.241s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.352s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.710s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[0.754s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.755s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.117s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[1.123s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.146s] -- Found lifecycle_msgs: 1.0.0 (/opt/ros/foxy/share/lifecycle_msgs/cmake)
+[1.156s] -- Found test_msgs: 1.0.0 (/opt/ros/foxy/share/test_msgs/cmake)
+[1.208s] -- Found rclcpp_lifecycle: 2.4.2 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[1.232s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.232s] -- Found ament_cmake_pytest: 0.9.11 (/opt/ros/foxy/share/ament_cmake_pytest/cmake)
+[1.233s] -- Found launch_testing_ament_cmake: 0.10.10 (/opt/ros/foxy/share/launch_testing_ament_cmake/cmake)
+[1.233s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.258s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.263s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.263s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.263s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.349s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.376s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.379s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.379s] -- Configured cppcheck include dirs: /home/ik/aws_ws/src/navigation2/nav2_util/include
+[1.379s] -- Configured cppcheck exclude dirs and/or files: 
+[1.380s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.380s] -- Configured cpplint exclude dirs and/or files: 
+[1.380s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.380s] -- Added test 'lint_cmake' to check CMake code style
+[1.381s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.382s] -- Added test 'uncrustify' to check C / C++ code style
+[1.382s] -- Configured uncrustify additional arguments: 
+[1.382s] -- Added test 'xmllint' to check XML markup files
+[1.388s] -- Configuring done
+[1.490s] -- Generating done
+[1.493s] -- Build files have been written to: /home/ik/aws_ws/build/nav2_util
+[1.505s] Invoked command in '/home/ik/aws_ws/build/nav2_util' returned '0': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ik/aws_ws/src/navigation2/nav2_util -DCMAKE_INSTALL_PREFIX=/home/ik/aws_ws/install/nav2_util
+[1.510s] Invoking command in '/home/ik/aws_ws/build/nav2_util': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ik/aws_ws/build/nav2_util -- -j8 -l8
+[1.584s] [ 10%] Built target gtest
+[1.584s] [ 10%] Built target gtest_main
+[1.593s] [ 12%] [32mBuilding CXX object src/CMakeFiles/dump_params.dir/dump_params.cpp.o[0m
+[1.601s] [ 17%] [32mBuilding CXX object test/CMakeFiles/test_execution_timer.dir/test_execution_timer.cpp.o[0m
+[1.602s] [ 17%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/costmap.cpp.o[0m
+[1.603s] [ 20%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/node_utils.cpp.o[0m
+[1.605s] [ 22%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_service_client.cpp.o[0m
+[1.606s] [ 25%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/string_utils.cpp.o[0m
+[1.607s] [ 27%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_utils.cpp.o[0m
+[1.613s] [ 30%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_node.cpp.o[0m
+[1.956s] [ 32%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/robot_utils.cpp.o[0m
+[2.884s] [ 35%] [32m[1mLinking CXX executable test_execution_timer[0m
+[3.124s] [ 35%] Built target test_execution_timer
+[3.144s] [ 37%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/node_thread.cpp.o[0m
+[3.598s] [ 40%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/odometry_utils.cpp.o[0m
+[8.091s] [ 42%] [32m[1mLinking CXX executable dump_params[0m
+[8.231s] [ 42%] Built target dump_params
+[8.818s] [ 45%] [32m[1mLinking CXX shared library libnav2_util_core.so[0m
+[9.032s] [ 45%] Built target nav2_util_core
+[9.058s] [ 47%] [32mBuilding CXX object test/CMakeFiles/test_string_utils.dir/test_string_utils.cpp.o[0m
+[9.060s] [ 50%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_cli_node.dir/test_lifecycle_cli_node.cpp.o[0m
+[9.066s] [ 55%] [32mBuilding CXX object src/CMakeFiles/lifecycle_bringup.dir/lifecycle_bringup_commandline.cpp.o[0m
+[9.067s] [ 55%] [32mBuilding CXX object test/CMakeFiles/test_actions.dir/test_actions.cpp.o[0m
+[9.067s] [ 57%] [32mBuilding CXX object test/CMakeFiles/test_service_client.dir/test_service_client.cpp.o[0m
+[9.070s] [ 62%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_node.dir/test_lifecycle_node.cpp.o[0m
+[9.070s] [ 62%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_utils.dir/test_lifecycle_utils.cpp.o[0m
+[9.074s] [ 65%] [32mBuilding CXX object test/CMakeFiles/test_node_utils.dir/test_node_utils.cpp.o[0m
+[10.266s] [ 67%] [32m[1mLinking CXX executable test_string_utils[0m
+[10.443s] [ 67%] Built target test_string_utils
+[10.489s] [ 70%] [32mBuilding CXX object test/CMakeFiles/test_geometry_utils.dir/test_geometry_utils.cpp.o[0m
+[10.963s] [ 72%] [32m[1mLinking CXX executable lifecycle_bringup[0m
+[11.145s] [ 72%] Built target lifecycle_bringup
+[11.179s] [ 75%] [32mBuilding CXX object test/CMakeFiles/test_odometry_utils.dir/test_odometry_utils.cpp.o[0m
+[11.989s] [ 77%] [32m[1mLinking CXX executable test_lifecycle_node[0m
+[12.078s] [ 80%] [32m[1mLinking CXX executable test_lifecycle_cli_node[0m
+[12.082s] [ 82%] [32m[1mLinking CXX executable test_lifecycle_utils[0m
+[12.268s] [ 82%] Built target test_lifecycle_node
+[12.318s] [ 85%] [32mBuilding CXX object test/CMakeFiles/test_robot_utils.dir/test_robot_utils.cpp.o[0m
+[12.357s] [ 85%] Built target test_lifecycle_cli_node
+[12.358s] [ 85%] Built target test_lifecycle_utils
+[12.816s] [ 87%] [32m[1mLinking CXX executable test_service_client[0m
+[13.009s] [ 87%] Built target test_service_client
+[13.047s] [ 90%] [32m[1mLinking CXX executable test_node_utils[0m
+[13.154s] [ 92%] [32m[1mLinking CXX executable test_geometry_utils[0m
+[13.244s] [ 92%] Built target test_node_utils
+[13.300s] [ 92%] Built target test_geometry_utils
+[14.818s] [ 95%] [32m[1mLinking CXX executable test_robot_utils[0m
+[14.998s] [ 95%] Built target test_robot_utils
+[15.564s] [ 97%] [32m[1mLinking CXX executable test_odometry_utils[0m
+[15.741s] [ 97%] Built target test_odometry_utils
+[20.680s] [100%] [32m[1mLinking CXX executable test_actions[0m
+[20.894s] [100%] Built target test_actions
+[20.913s] Invoked command in '/home/ik/aws_ws/build/nav2_util' returned '0': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ik/aws_ws/build/nav2_util -- -j8 -l8
+[20.958s] Invoking command in '/home/ik/aws_ws/build/nav2_util': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ik/aws_ws/build/nav2_util
+[20.968s] -- Install configuration: "Release"
+[20.969s] -- Execute custom install script
+[20.969s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_util/lib/libnav2_util_core.so
+[20.970s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_util/lib/nav2_util/lifecycle_bringup
+[20.970s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_util/lib/nav2_util/dump_params
+[20.970s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_util/include//nav2_util/clear_entirely_costmap_service_client.hpp
+[20.971s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_util/include//nav2_util/costmap.hpp
+[20.971s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_util/include//nav2_util/execution_timer.hpp
+[20.971s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_util/include//nav2_util/geometry_utils.hpp
+[20.971s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_util/include//nav2_util/lifecycle_node.hpp
+[20.971s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_util/include//nav2_util/lifecycle_service_client.hpp
+[20.972s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_util/include//nav2_util/lifecycle_utils.hpp
+[20.972s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_util/include//nav2_util/line_iterator.hpp
+[20.972s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_util/include//nav2_util/node_thread.hpp
+[20.972s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_util/include//nav2_util/node_utils.hpp
+[20.972s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_util/include//nav2_util/odometry_utils.hpp
+[20.973s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_util/include//nav2_util/robot_utils.hpp
+[20.973s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_util/include//nav2_util/service_client.hpp
+[20.973s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_util/include//nav2_util/simple_action_server.hpp
+[20.973s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_util/include//nav2_util/string_utils.hpp
+[20.974s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_util/share/nav2_util/environment/library_path.sh
+[20.974s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_util/share/nav2_util/environment/library_path.dsv
+[20.974s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_util/share/ament_index/resource_index/package_run_dependencies/nav2_util
+[20.975s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_util/share/ament_index/resource_index/parent_prefix_path/nav2_util
+[20.975s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_util/share/nav2_util/environment/ament_prefix_path.sh
+[20.975s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_util/share/nav2_util/environment/ament_prefix_path.dsv
+[20.975s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_util/share/nav2_util/environment/path.sh
+[20.976s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_util/share/nav2_util/environment/path.dsv
+[20.976s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_util/share/nav2_util/local_setup.bash
+[20.976s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_util/share/nav2_util/local_setup.sh
+[20.976s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_util/share/nav2_util/local_setup.zsh
+[20.976s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_util/share/nav2_util/local_setup.dsv
+[20.977s] -- Symlinking: /home/ik/aws_ws/install/nav2_util/share/nav2_util/package.dsv
+[20.991s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_util/share/ament_index/resource_index/packages/nav2_util
+[20.991s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.991s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_libraries-extras.cmake
+[20.992s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.993s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig.cmake
+[20.993s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig-version.cmake
+[20.993s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_util/share/nav2_util/package.xml
+[21.002s] Invoked command in '/home/ik/aws_ws/build/nav2_util' returned '0': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ik/aws_ws/build/nav2_util

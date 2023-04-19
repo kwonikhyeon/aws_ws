@@ -120,8 +120,8 @@ libobstacle2.so: /usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.9.
 libobstacle2.so: /usr/lib/x86_64-linux-gnu/libccd.so
 libobstacle2.so: /usr/lib/x86_64-linux-gnu/libfcl.so
 libobstacle2.so: /usr/lib/x86_64-linux-gnu/libassimp.so
-libobstacle2.so: /usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.3
-libobstacle2.so: /usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.3
+libobstacle2.so: /opt/ros/foxy/lib/liboctomap.so.1.9.8
+libobstacle2.so: /opt/ros/foxy/lib/liboctomath.so.1.9.8
 libobstacle2.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so.1.71.0
 libobstacle2.so: /usr/lib/x86_64-linux-gnu/libignition-transport8.so.8.4.0
 libobstacle2.so: /usr/lib/x86_64-linux-gnu/libignition-fuel_tools4.so.4.8.3

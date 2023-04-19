@@ -104,8 +104,8 @@ libSlamToolboxPlugin.so: /opt/ros/foxy/lib/libstd_srvs__rosidl_typesupport_intro
 libSlamToolboxPlugin.so: /opt/ros/foxy/lib/libstd_srvs__rosidl_typesupport_cpp.so
 libSlamToolboxPlugin.so: /opt/ros/foxy/lib/librviz_default_plugins.so
 libSlamToolboxPlugin.so: /opt/ros/foxy/lib/libinteractive_markers.so
-libSlamToolboxPlugin.so: /opt/ros/foxy/lib/libmap_server_core.so
-libSlamToolboxPlugin.so: /opt/ros/foxy/lib/libmap_io.so
+libSlamToolboxPlugin.so: /home/ik/aws_ws/install/nav2_map_server/lib/libmap_server_core.so
+libSlamToolboxPlugin.so: /home/ik/aws_ws/install/nav2_map_server/lib/libmap_io.so
 libSlamToolboxPlugin.so: /opt/ros/foxy/lib/libsensor_msgs__rosidl_generator_c.so
 libSlamToolboxPlugin.so: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
 libSlamToolboxPlugin.so: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_c.so

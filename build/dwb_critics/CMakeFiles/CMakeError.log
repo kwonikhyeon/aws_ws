@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/ik/aws_ws/build/dwb_critics/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_63ea1/fast && /usr/bin/make -f CMakeFiles/cmTC_63ea1.dir/build.make CMakeFiles/cmTC_63ea1.dir/build
+Run Build Command(s):/usr/bin/make cmTC_2bd33/fast && /usr/bin/make -f CMakeFiles/cmTC_2bd33.dir/build.make CMakeFiles/cmTC_2bd33.dir/build
 make[1]: Entering directory '/home/ik/aws_ws/build/dwb_critics/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_63ea1.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_63ea1.dir/src.c.o   -c /home/ik/aws_ws/build/dwb_critics/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_63ea1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63ea1.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_63ea1.dir/src.c.o  -o cmTC_63ea1 
-/usr/bin/ld: CMakeFiles/cmTC_63ea1.dir/src.c.o: in function `main':
+Building C object CMakeFiles/cmTC_2bd33.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_2bd33.dir/src.c.o   -c /home/ik/aws_ws/build/dwb_critics/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2bd33
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2bd33.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_2bd33.dir/src.c.o  -o cmTC_2bd33 
+/usr/bin/ld: CMakeFiles/cmTC_2bd33.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_63ea1.dir/build.make:87: cmTC_63ea1] Error 1
+make[1]: *** [CMakeFiles/cmTC_2bd33.dir/build.make:87: cmTC_2bd33] Error 1
 make[1]: Leaving directory '/home/ik/aws_ws/build/dwb_critics/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_63ea1/fast] Error 2
+make: *** [Makefile:121: cmTC_2bd33/fast] Error 2
 
 
 Source file was:
@@ -41,18 +41,18 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/ik/aws_ws/build/dwb_critics/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_5171e/fast && /usr/bin/make -f CMakeFiles/cmTC_5171e.dir/build.make CMakeFiles/cmTC_5171e.dir/build
+Run Build Command(s):/usr/bin/make cmTC_4450b/fast && /usr/bin/make -f CMakeFiles/cmTC_4450b.dir/build.make CMakeFiles/cmTC_4450b.dir/build
 make[1]: Entering directory '/home/ik/aws_ws/build/dwb_critics/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5171e.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_5171e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_5171e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5171e.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_5171e.dir/CheckFunctionExists.c.o  -o cmTC_5171e  -lpthreads 
+Building C object CMakeFiles/cmTC_4450b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_4450b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4450b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4450b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_4450b.dir/CheckFunctionExists.c.o  -o cmTC_4450b  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_5171e.dir/build.make:87: cmTC_5171e] Error 1
+make[1]: *** [CMakeFiles/cmTC_4450b.dir/build.make:87: cmTC_4450b] Error 1
 make[1]: Leaving directory '/home/ik/aws_ws/build/dwb_critics/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_5171e/fast] Error 2
+make: *** [Makefile:121: cmTC_4450b/fast] Error 2
 
 
 

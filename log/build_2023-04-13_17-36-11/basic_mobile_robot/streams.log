@@ -1,0 +1,48 @@
+[0.073s] Invoking command in '/home/ik/aws_ws/build/basic_mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ik/aws_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/ik/aws_ws/build/basic_mobile_robot -- -j8 -l8
+[0.306s] Invoked command in '/home/ik/aws_ws/build/basic_mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ik/aws_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/ik/aws_ws/build/basic_mobile_robot -- -j8 -l8
+[0.349s] Invoking command in '/home/ik/aws_ws/build/basic_mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ik/aws_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/ik/aws_ws/build/basic_mobile_robot
+[0.362s] -- Install configuration: ""
+[0.362s] -- Up-to-date: /home/ik/aws_ws/install/basic_mobile_robot/share/basic_mobile_robot/config
+[0.362s] -- Up-to-date: /home/ik/aws_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch
+[0.362s] -- Up-to-date: /home/ik/aws_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/basic_mobile_bot_v1.launch.py
+[0.363s] -- Up-to-date: /home/ik/aws_ws/install/basic_mobile_robot/share/basic_mobile_robot/maps
+[0.363s] -- Up-to-date: /home/ik/aws_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes
+[0.363s] -- Up-to-date: /home/ik/aws_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/wrist.stl
+[0.363s] -- Up-to-date: /home/ik/aws_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/bicep.stl
+[0.363s] -- Up-to-date: /home/ik/aws_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/arm_base.stl
+[0.363s] -- Up-to-date: /home/ik/aws_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/robot_base.stl
+[0.363s] -- Up-to-date: /home/ik/aws_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/elbow.stl
+[0.363s] -- Up-to-date: /home/ik/aws_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/wheel.stl
+[0.363s] -- Up-to-date: /home/ik/aws_ws/install/basic_mobile_robot/share/basic_mobile_robot/models
+[0.363s] -- Installing: /home/ik/aws_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description
+[0.364s] -- Installing: /home/ik/aws_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/mesh
+[0.365s] -- Installing: /home/ik/aws_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/mesh/wrist.stl
+[0.365s] -- Installing: /home/ik/aws_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/mesh/bicep.stl
+[0.365s] -- Installing: /home/ik/aws_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/mesh/arm_base.stl
+[0.365s] -- Installing: /home/ik/aws_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/mesh/robot_base.stl
+[0.365s] -- Installing: /home/ik/aws_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/mesh/elbow.stl
+[0.365s] -- Installing: /home/ik/aws_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/mesh/wheel.stl
+[0.365s] -- Installing: /home/ik/aws_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/model.sdf
+[0.368s] -- Installing: /home/ik/aws_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/model.config
+[0.369s] -- Up-to-date: /home/ik/aws_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_v1.urdf
+[0.369s] -- Up-to-date: /home/ik/aws_ws/install/basic_mobile_robot/share/basic_mobile_robot/params
+[0.369s] -- Up-to-date: /home/ik/aws_ws/install/basic_mobile_robot/share/basic_mobile_robot/rviz
+[0.369s] -- Up-to-date: /home/ik/aws_ws/install/basic_mobile_robot/share/basic_mobile_robot/rviz/urdf_config.rviz
+[0.369s] -- Up-to-date: /home/ik/aws_ws/install/basic_mobile_robot/share/basic_mobile_robot/src
+[0.369s] -- Up-to-date: /home/ik/aws_ws/install/basic_mobile_robot/share/basic_mobile_robot/worlds
+[0.369s] -- Up-to-date: /home/ik/aws_ws/install/basic_mobile_robot/share/ament_index/resource_index/package_run_dependencies/basic_mobile_robot
+[0.369s] -- Up-to-date: /home/ik/aws_ws/install/basic_mobile_robot/share/ament_index/resource_index/parent_prefix_path/basic_mobile_robot
+[0.369s] -- Up-to-date: /home/ik/aws_ws/install/basic_mobile_robot/share/basic_mobile_robot/environment/ament_prefix_path.sh
+[0.369s] -- Up-to-date: /home/ik/aws_ws/install/basic_mobile_robot/share/basic_mobile_robot/environment/ament_prefix_path.dsv
+[0.369s] -- Up-to-date: /home/ik/aws_ws/install/basic_mobile_robot/share/basic_mobile_robot/environment/path.sh
+[0.369s] -- Up-to-date: /home/ik/aws_ws/install/basic_mobile_robot/share/basic_mobile_robot/environment/path.dsv
+[0.369s] -- Up-to-date: /home/ik/aws_ws/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.bash
+[0.370s] -- Up-to-date: /home/ik/aws_ws/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.sh
+[0.370s] -- Up-to-date: /home/ik/aws_ws/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.zsh
+[0.370s] -- Up-to-date: /home/ik/aws_ws/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.dsv
+[0.370s] -- Up-to-date: /home/ik/aws_ws/install/basic_mobile_robot/share/basic_mobile_robot/package.dsv
+[0.370s] -- Up-to-date: /home/ik/aws_ws/install/basic_mobile_robot/share/ament_index/resource_index/packages/basic_mobile_robot
+[0.370s] -- Up-to-date: /home/ik/aws_ws/install/basic_mobile_robot/share/basic_mobile_robot/cmake/basic_mobile_robotConfig.cmake
+[0.370s] -- Up-to-date: /home/ik/aws_ws/install/basic_mobile_robot/share/basic_mobile_robot/cmake/basic_mobile_robotConfig-version.cmake
+[0.370s] -- Up-to-date: /home/ik/aws_ws/install/basic_mobile_robot/share/basic_mobile_robot/package.xml
+[0.371s] Invoked command in '/home/ik/aws_ws/build/basic_mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ik/aws_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/ik/aws_ws/build/basic_mobile_robot

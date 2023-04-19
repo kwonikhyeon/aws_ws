@@ -145,8 +145,8 @@ libtoolbox_common.so: /opt/ros/foxy/lib/libstd_srvs__rosidl_typesupport_introspe
 libtoolbox_common.so: /opt/ros/foxy/lib/libstd_srvs__rosidl_typesupport_cpp.so
 libtoolbox_common.so: /opt/ros/foxy/lib/librviz_default_plugins.so
 libtoolbox_common.so: /opt/ros/foxy/lib/libinteractive_markers.so
-libtoolbox_common.so: /opt/ros/foxy/lib/libmap_server_core.so
-libtoolbox_common.so: /opt/ros/foxy/lib/libmap_io.so
+libtoolbox_common.so: /home/ik/aws_ws/install/nav2_map_server/lib/libmap_server_core.so
+libtoolbox_common.so: /home/ik/aws_ws/install/nav2_map_server/lib/libmap_io.so
 libtoolbox_common.so: /opt/ros/foxy/lib/libsensor_msgs__rosidl_generator_c.so
 libtoolbox_common.so: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
 libtoolbox_common.so: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_c.so

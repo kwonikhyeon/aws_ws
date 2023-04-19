@@ -1,0 +1,165 @@
+[0.088s] Invoking command in '/home/ik/aws_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ik/aws_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/ik/aws_ws/build/nav_2d_msgs -- -j8 -l8
+[0.175s] [  1%] Built target nav_2d_msgs__cpp
+[0.179s] [ 12%] Built target nav_2d_msgs__rosidl_generator_c
+[0.207s] [ 23%] Built target nav_2d_msgs__rosidl_typesupport_cpp
+[0.212s] [ 35%] Built target nav_2d_msgs__rosidl_typesupport_introspection_cpp
+[0.216s] [ 46%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_cpp
+[0.240s] [ 57%] Built target nav_2d_msgs__rosidl_typesupport_c
+[0.243s] [ 69%] Built target nav_2d_msgs__rosidl_typesupport_introspection_c
+[0.262s] [ 80%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_c
+[0.301s] [ 80%] Built target nav_2d_msgs
+[0.347s] [ 81%] Built target nav_2d_msgs__py
+[0.394s] [ 91%] Built target nav_2d_msgs__python
+[0.429s] [ 94%] Built target nav_2d_msgs__rosidl_typesupport_introspection_c__pyext
+[0.445s] [ 97%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.445s] [100%] Built target nav_2d_msgs__rosidl_typesupport_c__pyext
+[0.483s] Invoked command in '/home/ik/aws_ws/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ik/aws_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/ik/aws_ws/build/nav_2d_msgs -- -j8 -l8
+[0.699s] Invoking command in '/home/ik/aws_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ik/aws_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/ik/aws_ws/build/nav_2d_msgs
+[0.715s] -- Install configuration: ""
+[0.715s] -- Execute custom install script
+[0.716s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/share/ament_index/resource_index/rosidl_interfaces/nav_2d_msgs
+[0.716s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__functions.h
+[0.717s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__struct.h
+[0.717s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__type_support.h
+[0.719s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__functions.h
+[0.720s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__struct.h
+[0.720s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__type_support.h
+[0.720s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__functions.h
+[0.720s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__struct.h
+[0.721s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.h
+[0.721s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__functions.h
+[0.721s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__struct.h
+[0.721s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__type_support.h
+[0.722s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__functions.h
+[0.722s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__struct.h
+[0.723s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__type_support.h
+[0.723s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__functions.h
+[0.724s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__struct.h
+[0.724s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.h
+[0.725s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/path2_d.h
+[0.731s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/pose2_d32.h
+[0.733s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/pose2_d_stamped.h
+[0.733s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.733s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/twist2_d.h
+[0.733s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/twist2_d32.h
+[0.733s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/twist2_d_stamped.h
+[0.733s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/library_path.sh
+[0.734s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/library_path.dsv
+[0.734s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_fastrtps_c.h
+[0.734s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_fastrtps_c.h
+[0.734s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_fastrtps_c.h
+[0.734s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_fastrtps_c.h
+[0.734s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_fastrtps_c.h
+[0.734s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_fastrtps_c.h
+[0.734s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.734s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_c.so
+[0.734s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[0.735s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_fastrtps_cpp.hpp
+[0.735s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[0.735s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_fastrtps_cpp.hpp
+[0.735s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[0.735s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[0.735s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.736s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.736s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_introspection_c.h
+[0.738s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_introspection_c.h
+[0.739s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_introspection_c.h
+[0.739s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_introspection_c.h
+[0.739s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_introspection_c.h
+[0.739s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_introspection_c.h
+[0.739s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.739s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__builder.hpp
+[0.739s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__struct.hpp
+[0.739s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__traits.hpp
+[0.739s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__builder.hpp
+[0.740s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__struct.hpp
+[0.740s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__traits.hpp
+[0.740s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__builder.hpp
+[0.740s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__struct.hpp
+[0.740s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__traits.hpp
+[0.740s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__builder.hpp
+[0.740s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__struct.hpp
+[0.740s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__traits.hpp
+[0.740s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__builder.hpp
+[0.740s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__struct.hpp
+[0.740s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__traits.hpp
+[0.740s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__builder.hpp
+[0.741s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__struct.hpp
+[0.741s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__traits.hpp
+[0.741s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/path2_d.hpp
+[0.741s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/pose2_d32.hpp
+[0.741s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/pose2_d_stamped.hpp
+[0.741s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/twist2_d.hpp
+[0.741s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/twist2_d32.hpp
+[0.741s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/twist2_d_stamped.hpp
+[0.741s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_introspection_cpp.hpp
+[0.741s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_introspection_cpp.hpp
+[0.743s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_introspection_cpp.hpp
+[0.743s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_introspection_cpp.hpp
+[0.743s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_introspection_cpp.hpp
+[0.743s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_introspection_cpp.hpp
+[0.743s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/pythonpath.sh
+[0.743s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/pythonpath.dsv
+[0.743s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/__init__.py
+[0.743s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/__init__.py
+[0.743s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_path2_d.py
+[0.743s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_pose2_d32.py
+[0.743s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_pose2_d_stamped.py
+[0.743s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_twist2_d.py
+[0.743s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_twist2_d32.py
+[0.743s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_twist2_d_stamped.py
+[0.743s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.743s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.743s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.743s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__python.so
+[0.743s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Path2D.idl
+[0.743s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2D32.idl
+[0.744s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2DStamped.idl
+[0.744s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D.idl
+[0.744s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D32.idl
+[0.744s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2DStamped.idl
+[0.744s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Path2D.msg
+[0.744s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2D32.msg
+[0.744s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2DStamped.msg
+[0.744s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D.msg
+[0.744s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D32.msg
+[0.744s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2DStamped.msg
+[0.744s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/share/ament_index/resource_index/package_run_dependencies/nav_2d_msgs
+[0.744s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/share/ament_index/resource_index/parent_prefix_path/nav_2d_msgs
+[0.744s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/ament_prefix_path.sh
+[0.744s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/ament_prefix_path.dsv
+[0.744s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/path.sh
+[0.744s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/path.dsv
+[0.744s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.bash
+[0.744s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.sh
+[0.744s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.zsh
+[0.744s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.dsv
+[0.744s] -- Symlinking: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/package.dsv
+[0.751s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/share/ament_index/resource_index/packages/nav_2d_msgs
+[0.752s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake-extras.cmake
+[0.752s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.752s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.753s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.753s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.753s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.754s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.754s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgsConfig.cmake
+[0.754s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgsConfig-version.cmake
+[0.755s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/package.xml
+[0.755s] -- Up-to-date: /home/ik/aws_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_c.so
+[0.756s] -- Up-to-date: /home/ik/aws_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_c.so
+[0.756s] -- Up-to-date: /home/ik/aws_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_c.so
+[0.757s] -- Up-to-date: /home/ik/aws_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_cpp.so
+[0.758s] -- Up-to-date: /home/ik/aws_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_cpp.so
+[0.810s] -- Up-to-date: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_generator_cExport.cmake
+[0.810s] -- Up-to-date: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.810s] -- Up-to-date: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.810s] -- Up-to-date: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.810s] -- Up-to-date: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cExport.cmake
+[0.811s] -- Up-to-date: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.811s] -- Up-to-date: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_generator_cppExport.cmake
+[0.811s] -- Up-to-date: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.811s] -- Up-to-date: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.811s] -- Up-to-date: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cppExport.cmake
+[0.811s] -- Up-to-date: /home/ik/aws_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.817s] Invoked command in '/home/ik/aws_ws/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ik/aws_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/ik/aws_ws/build/nav_2d_msgs

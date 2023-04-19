@@ -141,8 +141,8 @@ merge_maps_kinematic: /opt/ros/foxy/lib/libtf2_ros.so
 merge_maps_kinematic: /opt/ros/foxy/lib/libmessage_filters.so
 merge_maps_kinematic: /opt/ros/foxy/lib/libtf2.so
 merge_maps_kinematic: /opt/ros/foxy/lib/liborocos-kdl.so.1.4.0
-merge_maps_kinematic: /opt/ros/foxy/lib/libmap_server_core.so
-merge_maps_kinematic: /opt/ros/foxy/lib/libmap_io.so
+merge_maps_kinematic: /home/ik/aws_ws/install/nav2_map_server/lib/libmap_server_core.so
+merge_maps_kinematic: /home/ik/aws_ws/install/nav2_map_server/lib/libmap_io.so
 merge_maps_kinematic: /opt/ros/foxy/lib/libsensor_msgs__rosidl_generator_c.so
 merge_maps_kinematic: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
 merge_maps_kinematic: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_c.so

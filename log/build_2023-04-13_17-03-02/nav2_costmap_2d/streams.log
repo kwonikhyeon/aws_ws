@@ -1,0 +1,74 @@
+[0.026s] Invoking command in '/home/ik/aws_ws/build/nav2_costmap_2d': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_map_server:/home/ik/aws_ws/install/nav2_lifecycle_manager:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_map_server:/home/ik/aws_ws/install/nav2_lifecycle_manager:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_map_server/lib:/home/ik/aws_ws/install/nav2_lifecycle_manager/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ik/aws_ws/build/nav2_costmap_2d -- -j8 -l8
+[0.098s] [  4%] Built target gtest_main
+[0.101s] [  8%] Built target gtest
+[0.129s] [ 35%] Built target nav2_costmap_2d_core
+[0.167s] [ 39%] Built target array_parser_test
+[0.173s] [ 43%] Built target nav2_costmap_2d_cloud
+[0.176s] [ 52%] Built target nav2_costmap_2d_client
+[0.182s] [ 60%] Built target collision_footprint_test
+[0.183s] [ 60%] Built target nav2_costmap_2d_markers
+[0.188s] [ 75%] Built target layers
+[0.225s] [ 79%] Built target nav2_costmap_2d
+[0.234s] [ 83%] Built target inflation_tests_exec
+[0.235s] [ 87%] Built target test_collision_checker_exec
+[0.235s] [ 91%] Built target footprint_tests_exec
+[0.238s] [ 95%] Built target obstacle_tests_exec
+[0.247s] [100%] Built target range_tests_exec
+[0.256s] Invoked command in '/home/ik/aws_ws/build/nav2_costmap_2d' returned '0': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_map_server:/home/ik/aws_ws/install/nav2_lifecycle_manager:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_map_server:/home/ik/aws_ws/install/nav2_lifecycle_manager:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_map_server/lib:/home/ik/aws_ws/install/nav2_lifecycle_manager/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ik/aws_ws/build/nav2_costmap_2d -- -j8 -l8
+[0.346s] Invoking command in '/home/ik/aws_ws/build/nav2_costmap_2d': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_map_server:/home/ik/aws_ws/install/nav2_lifecycle_manager:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_map_server:/home/ik/aws_ws/install/nav2_lifecycle_manager:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_map_server/lib:/home/ik/aws_ws/install/nav2_lifecycle_manager/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ik/aws_ws/build/nav2_costmap_2d
+[0.358s] -- Install configuration: "Release"
+[0.358s] -- Execute custom install script
+[0.359s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so
+[0.359s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/lib/liblayers.so
+[0.360s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so
+[0.360s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d
+[0.360s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_markers
+[0.361s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_cloud
+[0.361s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/costmap_plugins.xml
+[0.361s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/array_parser.hpp
+[0.361s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/clear_costmap_service.hpp
+[0.362s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/cost_values.hpp
+[0.362s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d.hpp
+[0.362s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d_publisher.hpp
+[0.362s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d_ros.hpp
+[0.362s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_layer.hpp
+[0.362s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_math.hpp
+[0.362s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_subscriber.hpp
+[0.362s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_topic_collision_checker.hpp
+[0.363s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/exceptions.hpp
+[0.363s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint.hpp
+[0.363s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint_collision_checker.hpp
+[0.363s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint_subscriber.hpp
+[0.363s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/inflation_layer.hpp
+[0.363s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/layer.hpp
+[0.363s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/layered_costmap.hpp
+[0.363s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/observation.hpp
+[0.364s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/observation_buffer.hpp
+[0.364s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/obstacle_layer.hpp
+[0.364s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/range_sensor_layer.hpp
+[0.364s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/static_layer.hpp
+[0.364s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/voxel_layer.hpp
+[0.364s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.sh
+[0.365s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.dsv
+[0.365s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d//costmap_plugins.xml
+[0.365s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/share/ament_index/resource_index/package_run_dependencies/nav2_costmap_2d
+[0.365s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/share/ament_index/resource_index/parent_prefix_path/nav2_costmap_2d
+[0.365s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.sh
+[0.366s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.dsv
+[0.366s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.sh
+[0.366s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.dsv
+[0.366s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.bash
+[0.366s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.sh
+[0.367s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.zsh
+[0.367s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.dsv
+[0.367s] -- Symlinking: /home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/package.dsv
+[0.380s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/share/ament_index/resource_index/packages/nav2_costmap_2d
+[0.380s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/nav2_costmap_2d
+[0.381s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.381s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_libraries-extras.cmake
+[0.381s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.382s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_definitions-extras.cmake
+[0.382s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig.cmake
+[0.382s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig-version.cmake
+[0.383s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/package.xml
+[0.390s] Invoked command in '/home/ik/aws_ws/build/nav2_costmap_2d' returned '0': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_map_server:/home/ik/aws_ws/install/nav2_lifecycle_manager:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_map_server:/home/ik/aws_ws/install/nav2_lifecycle_manager:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_voxel_grid:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_map_server/lib:/home/ik/aws_ws/install/nav2_lifecycle_manager/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_voxel_grid/lib:/home/ik/aws_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ik/aws_ws/build/nav2_costmap_2d

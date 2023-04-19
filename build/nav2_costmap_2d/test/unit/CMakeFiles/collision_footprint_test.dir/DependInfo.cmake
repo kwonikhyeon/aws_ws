@@ -20,8 +20,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/opt/ros/foxy/src/gtest_vendor/include"
   "/home/ik/aws_ws/src/navigation2/nav2_costmap_2d/include"
-  "/home/ik/aws_ws/install/nav2_voxel_grid/include"
   "/home/ik/aws_ws/install/nav2_util/include"
+  "/home/ik/aws_ws/install/nav2_voxel_grid/include"
   "/usr/include/eigen3"
   "/home/ik/aws_ws/install/nav2_msgs/include"
   "/opt/ros/foxy/include"

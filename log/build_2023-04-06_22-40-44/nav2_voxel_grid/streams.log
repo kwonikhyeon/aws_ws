@@ -1,0 +1,62 @@
+[0.019s] Invoking command in '/home/ik/aws_ws/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy PYTHONPATH=/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ik/aws_ws/src/navigation2/nav2_voxel_grid -DCMAKE_INSTALL_PREFIX=/home/ik/aws_ws/install/nav2_voxel_grid
+[0.042s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.070s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.237s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.243s] -- Found nav2_common: 0.4.7 (/home/ik/aws_ws/install/nav2_common/share/nav2_common/cmake)
+[0.244s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.276s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.279s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.407s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.456s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.457s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.595s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.673s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.682s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.682s] -- Configured cppcheck include dirs: /home/ik/aws_ws/src/navigation2/nav2_voxel_grid/include
+[0.682s] -- Configured cppcheck exclude dirs and/or files: 
+[0.682s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.682s] -- Configured cpplint exclude dirs and/or files: 
+[0.682s] -- Added test 'lint_cmake' to check CMake code style
+[0.682s] -- Added test 'uncrustify' to check C / C++ code style
+[0.683s] -- Configured uncrustify additional arguments: 
+[0.683s] -- Added test 'xmllint' to check XML markup files
+[0.688s] -- Configuring done
+[0.707s] -- Generating done
+[0.711s] -- Build files have been written to: /home/ik/aws_ws/build/nav2_voxel_grid
+[0.723s] Invoked command in '/home/ik/aws_ws/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy PYTHONPATH=/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ik/aws_ws/src/navigation2/nav2_voxel_grid -DCMAKE_INSTALL_PREFIX=/home/ik/aws_ws/install/nav2_voxel_grid
+[0.724s] Invoking command in '/home/ik/aws_ws/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy PYTHONPATH=/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ik/aws_ws/build/nav2_voxel_grid -- -j8 -l8
+[0.785s] [ 25%] Built target gtest
+[0.794s] [ 37%] [32mBuilding CXX object CMakeFiles/voxel_grid.dir/src/voxel_grid.cpp.o[0m
+[0.802s] [ 62%] Built target gtest_main
+[2.711s] [ 75%] [32m[1mLinking CXX shared library libvoxel_grid.so[0m
+[2.868s] [ 75%] Built target voxel_grid
+[2.900s] [ 87%] [32mBuilding CXX object test/CMakeFiles/voxel_grid_tests.dir/voxel_grid_tests.cpp.o[0m
+[5.525s] [100%] [32m[1mLinking CXX executable voxel_grid_tests[0m
+[5.809s] [100%] Built target voxel_grid_tests
+[5.844s] Invoked command in '/home/ik/aws_ws/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy PYTHONPATH=/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ik/aws_ws/build/nav2_voxel_grid -- -j8 -l8
+[5.920s] Invoking command in '/home/ik/aws_ws/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy PYTHONPATH=/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ik/aws_ws/build/nav2_voxel_grid
+[5.943s] -- Install configuration: "Release"
+[5.943s] -- Execute custom install script
+[5.943s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_voxel_grid/lib/libvoxel_grid.so
+[5.943s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_voxel_grid/include/nav2_voxel_grid/voxel_grid.hpp
+[5.944s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.sh
+[5.944s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.dsv
+[5.944s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_voxel_grid/share/ament_index/resource_index/package_run_dependencies/nav2_voxel_grid
+[5.944s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_voxel_grid/share/ament_index/resource_index/parent_prefix_path/nav2_voxel_grid
+[5.944s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.sh
+[5.944s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.dsv
+[5.944s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.sh
+[5.944s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.dsv
+[5.944s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.bash
+[5.944s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.sh
+[5.944s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.zsh
+[5.944s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.dsv
+[5.944s] -- Symlinking: /home/ik/aws_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/package.dsv
+[5.955s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_voxel_grid/share/ament_index/resource_index/packages/nav2_voxel_grid
+[5.955s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.955s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.956s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_libraries-extras.cmake
+[5.956s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig.cmake
+[5.956s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig-version.cmake
+[5.957s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/package.xml
+[5.962s] Invoked command in '/home/ik/aws_ws/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy PYTHONPATH=/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ik/aws_ws/build/nav2_voxel_grid

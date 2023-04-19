@@ -1,0 +1,47 @@
+[0.067s] Invoking command in '/home/ik/aws_ws/build/nav2_map_server': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ik/aws_ws/build/nav2_map_server -- -j8 -l8
+[0.177s] [  6%] Built target gtest_main
+[0.189s] [ 12%] Built target gtest
+[0.191s] [ 22%] Built target map_io
+[0.246s] [ 32%] Built target map_server_core
+[0.256s] [ 41%] Built target test_map_saver_cli
+[0.268s] [ 51%] Built target test_map_saver_publisher
+[0.272s] [ 61%] Built target test_map_io
+[0.299s] [ 67%] Built target map_saver_cli
+[0.313s] [ 74%] Built target map_server
+[0.328s] [ 87%] Built target map_saver_server
+[0.328s] [ 90%] Built target test_map_server_node
+[0.335s] [100%] Built target test_map_saver_node
+[0.349s] Invoked command in '/home/ik/aws_ws/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ik/aws_ws/build/nav2_map_server -- -j8 -l8
+[0.452s] Invoking command in '/home/ik/aws_ws/build/nav2_map_server': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ik/aws_ws/build/nav2_map_server
+[0.469s] -- Install configuration: "Release"
+[0.469s] -- Execute custom install script
+[0.470s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_map_server/lib/libmap_server_core.so
+[0.471s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_map_server/lib/libmap_io.so
+[0.471s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_map_server/lib/nav2_map_server/map_server
+[0.471s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_map_server/lib/nav2_map_server/map_saver_cli
+[0.471s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_map_server/lib/nav2_map_server/map_saver_server
+[0.472s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_map_server/include//nav2_map_server/map_io.hpp
+[0.472s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_map_server/include//nav2_map_server/map_mode.hpp
+[0.472s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_map_server/include//nav2_map_server/map_saver.hpp
+[0.474s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_map_server/include//nav2_map_server/map_server.hpp
+[0.474s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_map_server/share/nav2_map_server/launch/map_saver_server.launch.py
+[0.475s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_map_server/share/nav2_map_server/environment/library_path.sh
+[0.475s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_map_server/share/nav2_map_server/environment/library_path.dsv
+[0.475s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_map_server/share/ament_index/resource_index/package_run_dependencies/nav2_map_server
+[0.475s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_map_server/share/ament_index/resource_index/parent_prefix_path/nav2_map_server
+[0.475s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.sh
+[0.476s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.dsv
+[0.476s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_map_server/share/nav2_map_server/environment/path.sh
+[0.477s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_map_server/share/nav2_map_server/environment/path.dsv
+[0.477s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_map_server/share/nav2_map_server/local_setup.bash
+[0.477s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_map_server/share/nav2_map_server/local_setup.sh
+[0.477s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_map_server/share/nav2_map_server/local_setup.zsh
+[0.477s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_map_server/share/nav2_map_server/local_setup.dsv
+[0.477s] -- Symlinking: /home/ik/aws_ws/install/nav2_map_server/share/nav2_map_server/package.dsv
+[0.498s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_map_server/share/ament_index/resource_index/packages/nav2_map_server
+[0.498s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.498s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_libraries-extras.cmake
+[0.498s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig.cmake
+[0.498s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig-version.cmake
+[0.498s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_map_server/share/nav2_map_server/package.xml
+[0.519s] Invoked command in '/home/ik/aws_ws/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ik/aws_ws/build/nav2_map_server

@@ -1,0 +1,38 @@
+[0.028s] Invoking command in '/home/ik/aws_ws/build/nav2_bt_navigator': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_behavior_tree:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_behavior_tree:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_behavior_tree/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ik/aws_ws/build/nav2_bt_navigator -- -j8 -l8
+[0.123s] [ 60%] Built target bt_navigator_core
+[0.167s] [100%] Built target bt_navigator
+[0.183s] Invoked command in '/home/ik/aws_ws/build/nav2_bt_navigator' returned '0': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_behavior_tree:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_behavior_tree:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_behavior_tree/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ik/aws_ws/build/nav2_bt_navigator -- -j8 -l8
+[0.236s] Invoking command in '/home/ik/aws_ws/build/nav2_bt_navigator': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_behavior_tree:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_behavior_tree:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_behavior_tree/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ik/aws_ws/build/nav2_bt_navigator
+[0.246s] -- Install configuration: "Release"
+[0.246s] -- Execute custom install script
+[0.246s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_bt_navigator/lib/libbt_navigator_core.so
+[0.246s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_bt_navigator/lib/nav2_bt_navigator/bt_navigator
+[0.246s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_bt_navigator/include//nav2_bt_navigator/bt_navigator.hpp
+[0.246s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_bt_navigator/include//nav2_bt_navigator/ros_topic_logger.hpp
+[0.246s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/follow_point.xml
+[0.246s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_and_recovery.xml
+[0.246s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_and_round_robin_recovery.xml
+[0.246s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_distance.xml
+[0.247s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_speed.xml
+[0.247s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_time.xml
+[0.247s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/library_path.sh
+[0.247s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/library_path.dsv
+[0.248s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_bt_navigator/share/ament_index/resource_index/package_run_dependencies/nav2_bt_navigator
+[0.249s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_bt_navigator/share/ament_index/resource_index/parent_prefix_path/nav2_bt_navigator
+[0.249s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/ament_prefix_path.sh
+[0.249s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/ament_prefix_path.dsv
+[0.249s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/path.sh
+[0.251s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/path.dsv
+[0.252s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/local_setup.bash
+[0.252s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/local_setup.sh
+[0.253s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/local_setup.zsh
+[0.253s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/local_setup.dsv
+[0.253s] -- Symlinking: /home/ik/aws_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/package.dsv
+[0.259s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_bt_navigator/share/ament_index/resource_index/packages/nav2_bt_navigator
+[0.259s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.259s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/ament_cmake_export_libraries-extras.cmake
+[0.259s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.260s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/nav2_bt_navigatorConfig.cmake
+[0.260s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/nav2_bt_navigatorConfig-version.cmake
+[0.260s] -- Up-to-date symlink: /home/ik/aws_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/package.xml
+[0.264s] Invoked command in '/home/ik/aws_ws/build/nav2_bt_navigator' returned '0': AMENT_PREFIX_PATH=/home/ik/aws_ws/install/nav2_behavior_tree:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ik/aws_ws/install/nav2_behavior_tree:/home/ik/aws_ws/install/nav2_util:/home/ik/aws_ws/install/nav2_msgs:/home/ik/aws_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/ik/aws_ws/install/nav2_behavior_tree/lib:/home/ik/aws_ws/install/nav2_util/lib:/home/ik/aws_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ik/aws_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/ik/aws_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ik/aws_ws/build/nav2_bt_navigator

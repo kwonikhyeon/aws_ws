@@ -1,0 +1,1 @@
+/home/ik/aws_ws/build/basic_mobile_robot/ament_cmake_core/basic_mobile_robotConfig.cmake

@@ -85,8 +85,8 @@ libceres_solver_plugin.so: /opt/ros/foxy/lib/libstd_srvs__rosidl_typesupport_int
 libceres_solver_plugin.so: /opt/ros/foxy/lib/libstd_srvs__rosidl_typesupport_cpp.so
 libceres_solver_plugin.so: /opt/ros/foxy/lib/librviz_default_plugins.so
 libceres_solver_plugin.so: /opt/ros/foxy/lib/libinteractive_markers.so
-libceres_solver_plugin.so: /opt/ros/foxy/lib/libmap_server_core.so
-libceres_solver_plugin.so: /opt/ros/foxy/lib/libmap_io.so
+libceres_solver_plugin.so: /home/ik/aws_ws/install/nav2_map_server/lib/libmap_server_core.so
+libceres_solver_plugin.so: /home/ik/aws_ws/install/nav2_map_server/lib/libmap_io.so
 libceres_solver_plugin.so: /opt/ros/foxy/lib/libsensor_msgs__rosidl_generator_c.so
 libceres_solver_plugin.so: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
 libceres_solver_plugin.so: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_c.so

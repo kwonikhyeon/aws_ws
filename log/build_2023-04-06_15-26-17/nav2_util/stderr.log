@@ -1,3 +1,0 @@
-make[2]: *** [test/CMakeFiles/test_actions.dir/build.make:63: test/CMakeFiles/test_actions.dir/test_actions.cpp.o] Interrupt
-make[1]: *** [CMakeFiles/Makefile2:443: test/CMakeFiles/test_actions.dir/all] Interrupt
-make: *** [Makefile:141: all] Interrupt

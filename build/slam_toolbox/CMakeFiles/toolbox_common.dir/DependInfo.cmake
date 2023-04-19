@@ -39,6 +39,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/ik/aws_ws/src/slam_toolbox"
   "/home/ik/aws_ws/src/slam_toolbox/include"
   "/usr/include/suitesparse"
+  "/home/ik/aws_ws/install/nav2_map_server/include"
   "rosidl_generator_cpp"
   "/usr/include/eigen3"
   "/opt/ros/foxy/include"

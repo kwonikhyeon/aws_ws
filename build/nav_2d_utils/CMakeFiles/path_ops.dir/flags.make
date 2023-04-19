@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wpedantic -Werror -Wdeprecated -
 
 CXX_DEFINES = -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -Dpath_ops_EXPORTS
 
-CXX_INCLUDES = -I/home/ik/aws_ws/src/navigation2/nav2_dwb_controller/nav_2d_utils/include -I/home/ik/aws_ws/install/nav2_util/include -isystem /home/ik/aws_ws/install/nav_2d_msgs/include -isystem /home/ik/aws_ws/install/nav2_msgs/include -isystem /opt/ros/foxy/include -isystem /usr/include/eigen3 
+CXX_INCLUDES = -I/home/ik/aws_ws/src/navigation2/nav2_dwb_controller/nav_2d_utils/include -I/home/ik/aws_ws/install/nav2_util/include -isystem /home/ik/aws_ws/install/nav2_msgs/include -isystem /home/ik/aws_ws/install/nav_2d_msgs/include -isystem /opt/ros/foxy/include -isystem /usr/include/eigen3 
 

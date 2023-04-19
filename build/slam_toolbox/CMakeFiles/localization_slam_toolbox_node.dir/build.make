@@ -135,8 +135,8 @@ localization_slam_toolbox_node: /opt/ros/foxy/lib/libtf2_ros.so
 localization_slam_toolbox_node: /opt/ros/foxy/lib/libmessage_filters.so
 localization_slam_toolbox_node: /opt/ros/foxy/lib/libtf2.so
 localization_slam_toolbox_node: /opt/ros/foxy/lib/liborocos-kdl.so.1.4.0
-localization_slam_toolbox_node: /opt/ros/foxy/lib/libmap_server_core.so
-localization_slam_toolbox_node: /opt/ros/foxy/lib/libmap_io.so
+localization_slam_toolbox_node: /home/ik/aws_ws/install/nav2_map_server/lib/libmap_server_core.so
+localization_slam_toolbox_node: /home/ik/aws_ws/install/nav2_map_server/lib/libmap_io.so
 localization_slam_toolbox_node: /opt/ros/foxy/lib/libsensor_msgs__rosidl_generator_c.so
 localization_slam_toolbox_node: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
 localization_slam_toolbox_node: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_c.so
