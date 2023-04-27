@@ -322,6 +322,17 @@
   <!-- *********************** CASTER WHEEL ******************************  -->
   <link name='front_caster'>
     <pose>0.217 0 0 0 0 0</pose>
+    <inertial>
+      <inertia>
+        <ixx>0.001</ixx>
+        <ixy>0.000</ixy>
+        <ixz>0.000</ixz>
+        <iyy>0.001</iyy>
+        <iyz>0.000</iyz>
+        <izz>0.001</izz>
+      </inertia>
+      <mass>70.0</mass>
+    </inertial>
     <collision name='collision'>
       <geometry>
         <sphere>
